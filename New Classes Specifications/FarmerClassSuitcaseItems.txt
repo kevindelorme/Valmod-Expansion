@@ -1,34 +1,52 @@
-Items 4 the Binette class :
-id nom (prendre celui dans les .xml)
-452 Chapeau en fibres
-477 cigare
-585 Cowboy boots
-50 fusil de chasse
-118 pelle en fer
-107 hache de pompier en fer
-591 red flannel shirt
-122 Binette
-graines !!
-533		yuc 4
-259		pdt 4
-1413	kfe	4
-530		shrooms :D 4
-527		hop 4
-1325 fertilizer *4
-762mmBullet 32
-couteau
-657 bandage médicaux * 2
+#### Farmer Class Items : ####
+------------------------------
+itemId	|	itemName		|#
+------------------------------
+
+#01 - FarmerGear :
+452		|	plantFiberHat
+477		|	cigar
+591		|	flannelShirtRed
+493		|	brownDenimPants
+585		|	cowboyBootsBrown
+#Plus regular other gear items
+
+#02 - FarmerSuitcase :
+FarmerGear
+107		|	fireaxeIron
+118		|	shovelIron
+122		|	hoeIron
+21		|	huntingKnife
+50		|	gunHuntingRifle
+153		|	762mmBullet		|32
+1359	|	repairKit		|4
+#Fruits are designed to be transformed into seeds...
+701		|	foodYuccaFruit	|4
+750		|	potato			|4
+757		|	mushrooms		|8
+1320	|	dirtFragment	|4
+1314	|	hopsFlower		|4
+1413	|	coffeeBeans		|4
+1818	|	Wheat			|4
+1325	|	fertilizer		|4
+913		|	beerBook
 farmer_perks
 farmer_challenge1
 
-challenges :
-762mmBullet 32->72->152
-bandages médicaux *3->4->5
-graines !!
-533		yuc 4->7->10
-259		pdt 4->7->10
-1413	kfe	4->7->10
-530		shrooms :D 4->7->10
-527		hop 4->7->10
-1325 fertilizer *4->7->10
-challenge 3 : 913 bière !
+--------------------------------------------
+Farmer Class Challenges Rewards :
+Challenge1 :
+	153 762mmBullet 32
+	657 firstAidBandage 3
+	Plants->Seeds : 4
+	1325 fertilizer 4
+Challenge2 :
+	153 762mmBullet 72
+	657 firstAidBandage 4
+	Plants->Seeds : 7
+	1325 fertilizer 7
+Challenge3 :
+	153 762mmBullet 152
+	657 firstAidBandage 5
+	Plants->Seeds : 10
+	1325 fertilizer 10
