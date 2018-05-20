@@ -737,7 +737,6 @@
 		<reward type="Item" id="44MagBullet" value="75" />
 		<reward type="Quest" id="challenge_spy3" />
 	</quest>
-	
 	<quest id="challenge_spy3" group_name_key="quest_spy" name="Spy Quest 3/3" subtitle="Spy Challenge 3" description="Waste some zombies" icon="ui_game_symbol_rifle" 
 		repeatable="false" category_key="challenge" offer="The pistol, an American classic.  Everyone should own at least one.  Make sure to put yours to good use." difficulty="Hard">
 		<requirement type="Group" id="requirementGroupHandgun" value="OR">
@@ -749,7 +748,36 @@
 		<reward type="Skill" id="Pistols" value="5" />
 	</quest>
 	<!-- /Spy -->
-
+	<!-- MCO : added 20180520 kdelorme -->
+	<!-- Farmer -->
+	<quest id="challenge_farmer1" group_name_key="quest_farmer" name="Farmer Quest" subtitle="Farmer Challenge" description="You are a farmer" icon="ui_game_symbol_rifle" 
+		repeatable="false" category_key="challenge" offer="Farm some zombies !" difficulty="easy">
+		<requirement type="Holding" id="gunHuntingRifle" />
+		<objective type="ZombieKill" value="20" />
+		<reward type="Item" id="762mmBullet" value="32" />
+		<reward type="Skill" id="Rifles" value="1" />
+	</quest>
+	
+	<quest id="challenge_farmer2" group_name_key="quest_farmer" name="Farmer Quest 2/3" subtitle="Farmer Challenge 2" description="Plant some 762mm seeds :) / " icon="ui_game_symbol_rifle" 
+		repeatable="false" category_key="challenge" offer="Farm some zombies !" difficulty="Medium">
+		<requirement type="Holding" id="gunHuntingRifle" />
+		<objective type="ZombieKill" value="40" />
+		<reward type="Skill" id="Rifles" value="3" />
+		<reward type="Item" id="762mmBullet" value="72" />
+		<reward type="Quest" id="challenge_spy3" />
+	</quest>
+	<quest id="challenge_farmer3" group_name_key="quest_farmer" name="Farmer Quest 3/3" subtitle="Farmer Challenge 3" description="Farm them !" icon="ui_game_symbol_rifle" 
+		repeatable="false" category_key="challenge" offer="Farm some zombies !" difficulty="Hard">
+		<requirement type="Holding" id="gunHuntingRifle" />
+		<objective type="ZombieKill" value="80" />
+		<reward type="Item" id="762mmBullet" value="152" />
+		<reward type="Skill" id="Rifles" value="5" />
+		<reward type="Item" id="firstAidBandage" value="5" />
+		<reward type="Item" id="fertilizer" value="10" />
+		<reward type="Skill" id="Rifles" value="5" />
+	</quest>
+	<!-- /Farmer -->
+	
 <!-- New Various Quests -->
 <quest id="challenge_weddingring" name="Holy Matrimony" subtitle="Collectes" description="Hey survivor. This chick I've been trying to get with in our group for months now refuses to put out unless we get 'married' - as if thats even a thing anymore. To make matters worse she won't accept unless she has some fancy ring. Nothing I've tried has been enough her her highness. Find me a diamond ring and I'll make make it worth your while - it'll certaily be worth mine!" icon="ui_game_symbol_treasure" 
 	repeatable="true" category_key="challenge" offer="Hey survivor. This chick I've been trying to get with in our group for months now refuses to put out unless we get 'married' - as if thats even a thing anymore. To make matters worse she won't accept unless she has some fancy ring. Nothing I've tried has been enough her her highness. Find me a diamond ring and I'll make make it worth your while - it'll certaily be worth mine!" difficulty="easy">
@@ -1234,6 +1262,7 @@ repeatable="false" category_key="challenge" offer="The Wildcard class can be cus
 	<reward type="SkillPoints" value="50" />
 </quest>
 <!-- MCO : added 20180517 kdelorme | reviewed 20180519 kdelorme -->
+<!-- Spy -->
 <quest id="perkSpy" name="Spy Skills" subtitle="Spy Skills" description="This teaches you the skills of the class." icon="misc_crafting" 
 repeatable="false" category_key="challenge" offer="Spy have experience with silenced pistols and medecine." difficulty="easy">
 	<reward type="Skill" id="Gun Pistol" value="1" />
@@ -1244,5 +1273,16 @@ repeatable="false" category_key="challenge" offer="Spy have experience with sile
 	<reward type="Skill" id="Bartering" value="5" />
 	<reward type="Skill" id="First Aid Kit" value="1" />
 </quest>
-
+<!-- /Spy -->
+<!-- MCO : added 20180520 kdelorme -->
+<!-- Farmer -->
+<quest id="perkFarmer" name="Farmer Skills" subtitle="Farmer Skills" description="This teaches you the skills of the class." icon="misc_crafting" 
+repeatable="false" category_key="challenge" offer="Farmer have experience with havresting, rifles, tools and can create BEER ;)." difficulty="easy">
+	<reward type="Skill" id="Gun Hunting Rifle" value="1" />
+	<reward type="Skill" id="craftSkillGuns" value="1" />
+	<reward type="Skill" id="762mm Round Crafting" value="1" />
+	<reward type="Skill" id="Rifles" value="10" />
+	<reward type="Skill" id="Construction Tools" value="10" />
+</quest>
+<!-- /Farmer -->
 </quests>

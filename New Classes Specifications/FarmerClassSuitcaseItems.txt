@@ -9,7 +9,7 @@ itemId	|	itemName		|#
 591		|	flannelShirtRed
 493		|	brownDenimPants
 585		|	cowboyBootsBrown
-#Plus regular other gear items
+#Plus regular other gear items (canBeef, painkillers, bottledWater, bandage)
 
 #02 - FarmerSuitcase :
 FarmerGear

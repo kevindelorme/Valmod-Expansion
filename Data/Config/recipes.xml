@@ -3497,9 +3497,17 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
   <ingredient name="classSelection" count="1" />
 	</recipe>
 	<!-- MCO : added 20180517 kdelorme -->
+	<!-- Spy -->
 	<recipe name="Class - Spy (Locked)" count="1">
   <ingredient name="classSelection" count="1" />
 	</recipe>
+	<!-- /Spy -->
+	<!-- MCO : added 20180520 kdelorme -->
+	<!-- MFarmer -->
+	<recipe name="Class - Farmer (Locked)" count="1">
+  <ingredient name="classSelection" count="1" />
+	</recipe>
+	<!-- /Farmer -->
 
 		<!-- Workstations Mod -->
     <recipe name="workstationMerchant" count="1" craft_area="workbench" craft_time="3200">

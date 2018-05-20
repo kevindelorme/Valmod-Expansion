@@ -15766,13 +15766,16 @@ Mesh files no longer used:
 	</property>
 </item>
 <!-- MCO : added 20180517 kdelorme -->
+<!-- Spy -->
 <item id="3010" name="challengeClassSpy">
 	<property name="Extends" value="challengeQuestMaster" />
 	<property class="Action1">
 		<property name="QuestGiven" value="challenge_spy1" />
 	</property>
 </item>
+<!-- /Spy -->
 <!-- MCO : added 20180517 kedelorme -->
+<!-- Spy -->
 <item id="3011" name="perkSpy">
 	<property name="Extends" value="challengeQuestMaster" />
 	<property name="CustomIcon" value="expGain" />
@@ -15782,6 +15785,7 @@ Mesh files no longer used:
 	<property name="QuestGiven" value="perkSpy" />
 	</property>
 </item>
+<!-- /Spy -->
 <!-- MCO : added 20180519 kedelorme -->
 <item id="3012" name="ledShades">
 		<property name="Extends" value="shades" />
@@ -15791,5 +15795,25 @@ Mesh files no longer used:
 		<property name="LightSource" value="Entities/Lighting/miningHelmetLightSource" />
 		<property name="Meshfile" value="Items/Clothing/Head/MiningHelmetPrefab" />
 </item>
-
+<!-- MCO : added 20180520 kdelorme -->
+<!-- Farmer -->
+<item id="3013" name="challengeClassFarmer">
+	<property name="Extends" value="challengeQuestMaster" />
+	<property class="Action1">
+		<property name="QuestGiven" value="challenge_farmer1" />
+	</property>
+</item>
+<!-- /Farmer -->
+<!-- MCO : added 20180520 kedelorme -->
+<!-- Farmer -->
+<item id="3014" name="perkFarmer">
+	<property name="Extends" value="challengeQuestMaster" />
+	<property name="CustomIcon" value="expGain" />
+	<property name="DescriptionKey" value="perkClassDesc"/>
+	<property name="Stacknumber" value="1"/>
+	<property class="Action1">
+	<property name="QuestGiven" value="perkFarmer" />
+	</property>
+</item>
+<!-- /Farmer -->
 </items>

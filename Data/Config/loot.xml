@@ -3609,6 +3609,7 @@
 		<item name="perkWildcard" />
 		</lootgroup>
 	<!-- MCO : added 20180517 kdelorme -->
+	<!-- Spy -->
 	<lootgroup name="SpyGear" count="all">	
 		<item name="blackCowboyHat" quality="50,170" count="1"/>
 		<item name="ledShades" count="1" quality="180,180"/>
@@ -3622,7 +3623,9 @@
 		<item name="bottledWater" count="1"/>	
 		<item name="bandage" count="1"/>
 	</lootgroup>
+	<!-- /Spy -->
 	<!-- MCO : added 20180517 kdelorme -->
+	<!-- Spy -->
 	<lootgroup name="SpyClass" count="all">
 	    <item group="SpyGear"/>
 		<!-- <item name="flashlight02" quality="50,170" count="1"/> --> <!-- MCO : toggle to comment because ledShades are ok 2018051 kdelorme -->
@@ -3633,6 +3636,45 @@
 		<item name="challengeClassSpy" count="1"/>
 		<item name="perkSpy" count="1"/>
 	</lootgroup>
+	<!-- /Spy -->
+	<!-- MCO : added 20180520 kdelorme -->
+	<!-- Farmer -->
+	<lootgroup name="FarmerGear" count="all">	
+		<item name="plantFiberHat" quality="50,170" count="1"/>
+		<item name="cigar" count="1"/>
+		<item name="flannelShirtRed" quality="50,170" count="1"/>
+		<item name="brownDenimPants" quality="50,170" count="1"/>
+		<item name="cowboyBootsBrown" quality="50,170" count="1"/>
+		<item name="canBeef" count="1"/>
+		<item name="painkillers" count="1"/>
+		<item name="bottledWater" count="1"/>	
+		<item name="bandage" count="1"/>
+	</lootgroup>
+	<!-- /Farmer -->
+	<!-- MCO : added 20180520 kdelorme -->
+	<!-- Farmer -->
+	<lootgroup name="FarmerClass" count="all">
+	    <item group="FarmerGear"/>
+		<item name="fireaxeIron" count="1" quality="200,200"/>
+		<item name="shovelIron" count="1" quality="200,200"/>
+		<item name="hoeIron" count="1" quality="200,200"/>
+		<item name="huntingKnife" count="1" quality="200,200"/>
+        <item name="gunHuntingRifle" count="1" quality="180,180"/>
+        <item name="762mmBullet" count="32"/>
+        <item name="repairKit" count="4"/>
+        <item name="foodYuccaFruit" count="4"/>
+        <item name="potato" count="4"/>
+        <item name="mushrooms" count="8"/>
+        <item name="dirtFragment" count="4"/>
+        <item name="hopsFlower" count="4"/>
+        <item name="coffeeBeans" count="4"/>
+        <item name="Wheat" count="4"/>
+        <item name="fertilizer" count="4"/>
+		<item name="beerBook" count="1"/>
+		<item name="challengeClassFarmer" count="1"/>
+		<item name="perkFarmer" count="1"/>
+	</lootgroup>
+	<!-- /Farmer -->
 
 			<!-- Hunter Class -->	
 	<lootcontainer id="251" count="1" size="8,4" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="classTemplate">
@@ -3678,5 +3720,10 @@
 		<!-- Spy Class -->
 	<lootcontainer id="225" count="1" size="8,4" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="classTemplate">
 	    <item group="SpyClass"/>
+		</lootcontainer>
+		<!-- MCO : added 20180520 kdelorme -->
+		<!-- Farmer Class -->
+	<lootcontainer id="226" count="1" size="8,4" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="classTemplate">
+	    <item group="FarmerClass"/>
 		</lootcontainer>
 </lootcontainers>

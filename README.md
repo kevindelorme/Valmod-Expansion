@@ -3,8 +3,8 @@ Valmod Pack - Expansion Edition - French Frog MOD
 
 This is a fork of the Valmod Pack - Expansion Edition.
 1. My main goal is to add some new classes :
- - Spy (ok),
- - Farmer (in progress),
+ - Spy (ok, but the class perks may be adjusted),
+ - Farmer (ok, but the class perks may be adjusted),
  - Others if I find inspiration (example : Thug, Nudist, etc...).
 2. I also want to create and add new challenges to the Valmod mod :
  - New classes specifics challenges,
