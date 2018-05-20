@@ -1,6 +1,5 @@
 # Valmod-Expansion
 Valmod Pack - Expansion Edition - French Frog MOD
-Hi there.
 
 This is a fork of the Valmod Pack - Expansion Edition.
 1. My main goal is to add some new classes :
