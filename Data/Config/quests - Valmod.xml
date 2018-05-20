@@ -532,6 +532,7 @@
 			<requirement type="Holding" id="gunPistol" />
 		</requirement>
 		<objective type="ZombieKill" value="50" />
+		
 		<reward type="Skill" id="Pistols" value="3" />
 		<reward type="Item" id="44MagBullet" value="75" />
 		<reward type="Quest" id="challenge_gunman3" />
@@ -690,20 +691,29 @@
 	<!-- Medic -->
 <quest id="challenge_medic1" group_name_key="quest_medic" name="Medic Quest" subtitle="Medic Challenge" description="Medic!!!!!" icon="ui_game_symbol_medical" 
 		repeatable="false" category_key="challenge" offer="The apocalypse sucks, medicine is more valuable then gold.  Go craft some meds" difficulty="easy">
+
+
+
 		<objective type="Craft" id="bandage" value="10" />
 		<objective type="Craft" id="firstAidBandage" value="10" />
 		<objective type="Craft" id="firstAidKit" value="3" />
 		<objective type="Craft" id="disinfectantBandage" value="5" />
 		<reward type="Skill" id="Medicine" value="3" />
+
 	</quest>
 	
 	<quest id="challenge_medic2" group_name_key="quest_medic" name="Medic Quest 2/3" subtitle="Medic Challenge 2" description="Medic!!!!!" icon="ui_game_symbol_medical" 
 		repeatable="false" category_key="challenge" offer="Keeping your wound's clean is very important.  Make sure to disinfect." difficulty="Medium">
+
 		<objective type="Craft" id="firstAidKit" value="3" />
 		<objective type="Craft" id="disinfectantBandage" value="5" />
+		
 		<reward type="Skill" id="Science" value="3" />
 		<reward type="Skill" id="Medicine" value="3" />
 		<reward type="Item" id="painkillers" value="3" />
+
+
+
 		<reward type="Quest" id="challenge_medic3" />
 	</quest>
 	
@@ -713,42 +723,6 @@
 		<reward type="Skill" id="Science" value="5" />
 		<reward type="Skill" id="Medicine" value="5" />
 	</quest>
-	<!-- MCO : added 20180519 kdelorme -->
-	<!-- Spy -->
-	<quest id="challenge_spy1" group_name_key="quest_spy" name="Spy Quest" subtitle="Spy Challenge" description="Waste some zombies" icon="ui_game_symbol_rifle" 
-		repeatable="false" category_key="challenge" offer="A spy likes to destroy his target with silenced pistols. Prove your skills on some zombies." difficulty="easy">
-		<requirement type="Group" id="requirementGroupHandgun" value="OR">
-			<requirement type="Holding" id="gunPistolSilenced" />
-			<requirement type="Holding" id="gun44MagnumSilenced" />
-		</requirement>
-		<objective type="ZombieKill" value="30" />
-		<reward type="Item" id="44MagBullet" value="50" />
-		<reward type="Skill" id="Pistols" value="1" />
-	</quest>
-	
-	<quest id="challenge_spy2" group_name_key="quest_spy" name="Spy Quest 2/3" subtitle="Spy Challenge 2" description="Waste some zombies" icon="ui_game_symbol_rifle" 
-		repeatable="false" category_key="challenge" offer="A true spy lives for the smell of cordite, don't stop killing those Z's until I tell you.  " difficulty="Medium">
-		<requirement type="Group" id="requirementGroupHandgun" value="OR">
-			<requirement type="Holding" id="gunPistolSilenced" />
-			<requirement type="Holding" id="gun44MagnumSilenced" />
-		</requirement>
-		<objective type="ZombieKill" value="50" />
-		<reward type="Skill" id="Pistols" value="3" />
-		<reward type="Item" id="44MagBullet" value="75" />
-		<reward type="Quest" id="challenge_spy3" />
-	</quest>
-	
-	<quest id="challenge_spy3" group_name_key="quest_spy" name="Spy Quest 3/3" subtitle="Spy Challenge 3" description="Waste some zombies" icon="ui_game_symbol_rifle" 
-		repeatable="false" category_key="challenge" offer="The pistol, an American classic.  Everyone should own at least one.  Make sure to put yours to good use." difficulty="Hard">
-		<requirement type="Group" id="requirementGroupHandgun" value="OR">
-			<requirement type="Holding" id="gunPistolSilenced" />
-			<requirement type="Holding" id="gun44MagnumSilenced" />
-		</requirement>
-		<objective type="ZombieKill" value="100" />
-		<reward type="Item" id="44MagBullet" value="170" />
-		<reward type="Skill" id="Pistols" value="5" />
-	</quest>
-	<!-- /Spy -->
 
 <!-- New Various Quests -->
 <quest id="challenge_weddingring" name="Holy Matrimony" subtitle="Collectes" description="Hey survivor. This chick I've been trying to get with in our group for months now refuses to put out unless we get 'married' - as if thats even a thing anymore. To make matters worse she won't accept unless she has some fancy ring. Nothing I've tried has been enough her her highness. Find me a diamond ring and I'll make make it worth your while - it'll certaily be worth mine!" icon="ui_game_symbol_treasure" 
@@ -1233,16 +1207,6 @@ repeatable="false" category_key="challenge" offer="Miners are skilled with worki
 repeatable="false" category_key="challenge" offer="The Wildcard class can be custom tailored to match your preferences." difficulty="easy">
 	<reward type="SkillPoints" value="50" />
 </quest>
-<!-- MCO : added 20180517 kdelorme | reviewed 20180519 kdelorme -->
-<quest id="perkSpy" name="Spy Skills" subtitle="Spy Skills" description="This teaches you the skills of the class." icon="misc_crafting" 
-repeatable="false" category_key="challenge" offer="Spy have experience with silenced pistols and medecine." difficulty="easy">
-	<reward type="Skill" id="Gun Pistol" value="1" />
-	<reward type="Skill" id="craftSkillGuns" value="1" />
-	<reward type="Skill" id="9mm Round Crafting" value="1" />
-	<reward type="Skill" id="Pistols" value="15" />
-	<reward type="Skill" id="The Outlaw" value="1" />
-	<reward type="Skill" id="Bartering" value="5" />
-	<reward type="Skill" id="First Aid Kit" value="1" />
-</quest>
+
 
 </quests>

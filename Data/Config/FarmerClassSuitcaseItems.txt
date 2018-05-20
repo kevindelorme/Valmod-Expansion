@@ -1,0 +1,34 @@
+Items 4 the Binette class :
+id nom (prendre celui dans les .xml)
+452 Chapeau en fibres
+477 cigare
+585 Cowboy boots
+50 fusil de chasse
+118 pelle en fer
+107 hache de pompier en fer
+591 red flannel shirt
+122 Binette
+graines !!
+533		yuc 4
+259		pdt 4
+1413	kfe	4
+530		shrooms :D 4
+527		hop 4
+1325 fertilizer *4
+762mmBullet 32
+couteau
+657 bandage médicaux * 2
+farmer_perks
+farmer_challenge1
+
+challenges :
+762mmBullet 32->72->152
+bandages médicaux *3->4->5
+graines !!
+533		yuc 4->7->10
+259		pdt 4->7->10
+1413	kfe	4->7->10
+530		shrooms :D 4->7->10
+527		hop 4->7->10
+1325 fertilizer *4->7->10
+challenge 3 : 913 bière !

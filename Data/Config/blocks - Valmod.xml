@@ -13075,42 +13075,6 @@ kind of free
 		</property>
 </block>
 	<!-- x Free -->
-	<!-- MCO : added 20180518 kdelorme -->
-	<block id="1442" name="Class - Spy (Locked)">
-		<property name="DescriptionKey" value="classSpyDesc"/> <!-- MCO : 20180518 kdelorme : CREATE classSpyDesc !!!-->
-		<property name="Group" value="Class System" />
-		<property name="CustomIcon" value="Class - Spy" />
-		<!--		<property name="CustomIcon" value="suitcase" /> -->
-		<property name="Material" value="wood+wood" />
-		<property name="Shape" value="Ext3dModel" />
-		<property name="Mesh" value="models" />
-		<property name="Model" value="LootContainers/suitcase" param1="main_mesh" />
-		<property name="Place" value="TowardsPlacer" />
-		<drop event="Destroy" count="0" prob="1" />
-		<property name="CanPickup" value="true" />
-		<property name="DowngradeBlock" value="Class - Spy" />
-		<property class="UpgradeBlock">
-			<property name="ToBlock" value="Class - Spy" />
-			<property name="Item" value="classKey" />
-			<property name="ItemCount" value="1" />
-			<property name="UpgradeHitCount" value="1" />
-		</property>
-	</block>
-	<!-- MCO : added 20180518 kdelorme -->
-	<block id="1443" name="Class - Spy">
-		<property name="Class" value="Loot" />
-		<property name="Group" value="Survival" />
-		<property name="Material" value="wood+wood" />
-		<!--		<property name="CustomIcon" value="suitcase" /> -->
-		<property name="Shape" value="Ext3dModel" />
-		<property name="Mesh" value="models" />
-		<property name="Model" value="LootContainers/suitcase" param1="main_mesh" />
-		<property name="Place" value="TowardsPlacer" />
-		<property name="LootList" value="225" />
-		<drop event="Destroy" count="0" />
-		<drop event="Fall" name="woodDebris" count="1" prob="1.0"  stick_chance=".75" />
-		<property name="LPHardnessScale" value="8" />
-	</block>
 
 <block id="1448" name="spotlightNailedDownPOI">
 	<property name="Class" value="Light"/>

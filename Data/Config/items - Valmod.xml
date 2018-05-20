@@ -15765,31 +15765,5 @@ Mesh files no longer used:
 	<property name="QuestGiven" value="perkWildcard" />
 	</property>
 </item>
-<!-- MCO : added 20180517 kdelorme -->
-<item id="3010" name="challengeClassSpy">
-	<property name="Extends" value="challengeQuestMaster" />
-	<property class="Action1">
-		<property name="QuestGiven" value="challenge_spy1" />
-	</property>
-</item>
-<!-- MCO : added 20180517 kedelorme -->
-<item id="3011" name="perkSpy">
-	<property name="Extends" value="challengeQuestMaster" />
-	<property name="CustomIcon" value="expGain" />
-	<property name="DescriptionKey" value="perkClassDesc"/>
-	<property name="Stacknumber" value="1"/>
-	<property class="Action1">
-	<property name="QuestGiven" value="perkSpy" />
-	</property>
-</item>
-<!-- MCO : added 20180519 kedelorme -->
-<item id="3012" name="ledShades">
-		<property name="Extends" value="shades" />
-		<property name="DescriptionKey" value="LEDHelmetDesc"/>
-		<property name="Class" value="ItemClassToggle" />
-		<property name="ActivateObject" value="miningHelmetLightSource(Clone)" />
-		<property name="LightSource" value="Entities/Lighting/miningHelmetLightSource" />
-		<property name="Meshfile" value="Items/Clothing/Head/MiningHelmetPrefab" />
-</item>
 
 </items>
