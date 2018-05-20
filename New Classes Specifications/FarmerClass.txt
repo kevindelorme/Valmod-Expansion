@@ -1,17 +1,25 @@
-#### Template Class Items : ####
+#### Farmer Class Perks : ####
+#50 pts
+gunHuntingRifle 15
+Rifles 9
+Athletics 10
+Construction Tools 10
+craftSkillGuns 3
+762mm Round Crafting 3
+#### Farmer Class Items : ####
 ------------------------------
 itemId	|	itemName		|#
 ------------------------------
 
-#01 - TemplateGear :
+#01 - FarmerGear :
 452		|	plantFiberHat
 477		|	cigar
 591		|	flannelShirtRed
 493		|	brownDenimPants
 585		|	cowboyBootsBrown
-#Plus regular other gear items
+#Plus regular other gear items (canBeef, painkillers, bottledWater, bandage)
 
-#02 - TemplateSuitcase :
+#02 - FarmerSuitcase :
 FarmerGear
 107		|	fireaxeIron
 118		|	shovelIron
@@ -20,12 +28,18 @@ FarmerGear
 50		|	gunHuntingRifle
 153		|	762mmBullet		|32
 1359	|	repairKit		|4
-
-template_perks
-template_challenge1
+#Fruits are designed to be transformed into seeds...
+701		|	foodYuccaFruit	|4
+750		|	potato			|4
+1314	|	hopsFlower		|4
+1818	|	Wheat			|4
+1325	|	fertilizer		|4
+913		|	beerBook
+farmer_perks
+farmer_challenge1
 
 --------------------------------------------
-Template Class Challenges Rewards :
+Farmer Class Challenges Rewards :
 Challenge1 :
 	153 762mmBullet 32
 	657 firstAidBandage 3

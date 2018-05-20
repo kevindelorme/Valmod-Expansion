@@ -1,0 +1,54 @@
+### Template Class Perks : ###
+#50 skills points.
+
+------------------------------
+# Template Class Challenges : 
+#3 Challenges
+#4 to be added : 3 regular challenges (4->6), and the nude bloodmoon pvp challenge (activates rewards->+1armor/cloth challenge)...
+# Goals and rewards
+------------------------------
+##### Challenges Goals : #####
+challenge1 :
+	requirement itemName #
+	objective xp #
+challenge2 :
+	requirement itemName #
+	objective xp #
+challengeX... :
+	requirement itemName #
+	objective xp #
+------------------------------
+#### Challenges Rewards : ####
+challenge1 :
+	itemId itemName #
+	skillName xp #
+	ex : 1325 fertilizer 4
+challenge2 :
+	itemId itemName #
+	skillName xp #
+challengeX... :
+	itemId itemName #
+	skillName xp #
+------------------------------
+------------------------------
+### Template Class Items : ###
+------------------------------
+itemId	|	itemName		|#
+------------------------------
+
+#01 - TemplateGear :
+itemId	|	itemName		|#
+#Plus regular other gear items (canBeef, painkillers, bottledWater, bandage)
+#See "SurvuvalGear". May be edited x)
+
+#02 - TemplateSuitcase :
+TemplaterGear
+itemId	|	itemName		|#
+#Did not find seeds so fruits are designed to be transformed into seeds...
+#Add dirtFragment if you choose mushrooms.
+seedId	|	seedName		|#
+fruitId	|	fruitName		|#
+itemId	|	itemName		|#
+farmer_perks
+template_challenge1
+

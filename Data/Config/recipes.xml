@@ -3503,7 +3503,7 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	</recipe>
 	<!-- /Spy -->
 	<!-- MCO : added 20180520 kdelorme -->
-	<!-- MFarmer -->
+	<!-- /Farmer -->
 	<recipe name="Class - Farmer (Locked)" count="1">
   <ingredient name="classSelection" count="1" />
 	</recipe>

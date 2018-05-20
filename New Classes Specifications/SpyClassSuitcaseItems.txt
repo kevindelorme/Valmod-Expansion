@@ -1,7 +1,0 @@
-Items 4 the Spy class : 
-3012 LedShades
-598 Black Suit Pants
-599 Black Suit Jacket
-600 Black Dress Shoes
-514 Chemise noire
-1603 Silenced Pistol
