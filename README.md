@@ -2,14 +2,14 @@
 Valmod - French Frog Pack Edition MOD
 
 This is a fork of the Valmod Pack - Expansion Edition.
-1. Add new classes :
+1. New classes :
  - Spy (ok, but the class perks may be adjusted),
  - Farmer (ok, but the class perks may be adjusted),
  - Others (example : Thug, Nudist, etc...).
-2. New challenges :
+2. New challenges : (nok)
  - New classes specifics challenges,
  - PvP challenges.
-3. Loot more bullets to create a more PvP flavoured mod.
+3. Loot more bullets to create a more PvP flavoured mod. (nok)
 4. Misc : I may edit the blood moon mechanics in order to modify the 7 days delay to 30 days.
 5. Misc : I also may translate the mod to french.
 
