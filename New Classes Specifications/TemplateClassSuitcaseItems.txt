@@ -1,0 +1,43 @@
+#### Template Class Items : ####
+------------------------------
+itemId	|	itemName		|#
+------------------------------
+
+#01 - TemplateGear :
+452		|	plantFiberHat
+477		|	cigar
+591		|	flannelShirtRed
+493		|	brownDenimPants
+585		|	cowboyBootsBrown
+#Plus regular other gear items
+
+#02 - TemplateSuitcase :
+FarmerGear
+107		|	fireaxeIron
+118		|	shovelIron
+122		|	hoeIron
+21		|	huntingKnife
+50		|	gunHuntingRifle
+153		|	762mmBullet		|32
+1359	|	repairKit		|4
+
+template_perks
+template_challenge1
+
+--------------------------------------------
+Template Class Challenges Rewards :
+Challenge1 :
+	153 762mmBullet 32
+	657 firstAidBandage 3
+	Plants->Seeds : 4
+	1325 fertilizer 4
+Challenge2 :
+	153 762mmBullet 72
+	657 firstAidBandage 4
+	Plants->Seeds : 7
+	1325 fertilizer 7
+Challenge3 :
+	153 762mmBullet 152
+	657 firstAidBandage 5
+	Plants->Seeds : 10
+	1325 fertilizer 10
