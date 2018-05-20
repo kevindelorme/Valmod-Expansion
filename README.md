@@ -13,6 +13,8 @@ This is a fork of the Valmod Pack - Expansion Edition.
 4. Finally, I may edit the blood moon mechanics in order to modify the 7 days delay to 30 days.
 5. Misc : I also may translate the mod to french.
 
+I work with Notepad++, Gimp, Github Desktop and MobaXTerm on a MS Windows 10 x64 PC.
+
 Cheers, and thanks for reading.
 
 kevin
