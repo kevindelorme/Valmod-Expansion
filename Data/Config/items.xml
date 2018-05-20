@@ -15816,4 +15816,13 @@ Mesh files no longer used:
 	</property>
 </item>
 <!-- /Farmer -->
+<!-- MCO : added 20180520 kedelorme -->
+<!-- PVP -->
+<!-- <item id="3015" name="challengeClassPVP"> -->
+	<!-- <property name="Extends" value="challengeQuestMaster" /> -->
+	<!-- <property class="Action1"> -->
+		<!-- <property name="QuestGiven" value="challenge_pvp1" /> -->
+	<!-- </property> -->
+<!-- </item> -->
+<!-- /PVP -->
 </items>

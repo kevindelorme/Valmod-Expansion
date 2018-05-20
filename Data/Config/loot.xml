@@ -3634,6 +3634,7 @@
         <item name="9mmBullet" count="90"/>
         <item name="repairKit" count="5"/>
 		<item name="challengeClassSpy" count="1"/>
+		<!-- <item name="challengeClassPVP" count="1"/> -->
 		<item name="perkSpy" count="1"/>
 	</lootgroup>
 	<!-- /Spy -->
@@ -3655,10 +3656,10 @@
 	<!-- Farmer -->
 	<lootgroup name="FarmerClass" count="all">
 	    <item group="FarmerGear"/>
-		<item name="fireaxeIron" count="1" quality="200,200"/>
-		<item name="shovelIron" count="1" quality="200,200"/>
-		<item name="hoeIron" count="1" quality="200,200"/>
-		<item name="huntingKnife" count="1" quality="200,200"/>
+		<item name="fireaxeIron" count="1" quality="180,180"/>
+		<item name="shovelIron" count="1" quality="180,180"/>
+		<item name="hoeIron" count="1" quality="180,180"/>
+		<item name="huntingKnife" count="1" quality="180,180"/>
         <item name="gunHuntingRifle" count="1" quality="180,180"/>
         <item name="762mmBullet" count="32"/>
         <item name="repairKit" count="4"/>
@@ -3672,6 +3673,7 @@
         <item name="fertilizer" count="4"/>
 		<item name="beerBook" count="1"/>
 		<item name="challengeClassFarmer" count="1"/>
+		<!-- <item name="challengeClassPVP" count="1"/> -->
 		<item name="perkFarmer" count="1"/>
 	</lootgroup>
 	<!-- /Farmer -->

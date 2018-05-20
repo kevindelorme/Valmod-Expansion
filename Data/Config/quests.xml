@@ -776,7 +776,21 @@
 		<reward type="Item" id="fertilizer" value="10" />
 	</quest>
 	<!-- /Farmer -->
-	
+	<!-- MCO : added 20180520 kdelorme -->
+	<!-- Pvp Test. -->
+	<!-- Only with the spy and farmer class for the begining -->
+	<!-- <quest id="challenge_pvp1" group_name_key="quest_pvp" name="PvP Quest" subtitle="PvP Challenge" description="You are a farmer" icon="ui_game_symbol_rifle"  -->
+		<!-- repeatable="false" category_key="challenge" offer="Farm other players !" difficulty="easy"> -->
+		<!-- <requirement type="Group" id="requirementGroupHandgun" value="OR"> -->
+			<!-- <requirement type="Holding" id="gunPistolSilenced" /> -->
+			<!-- <requirement type="Holding" id="gun44MagnumSilenced" /> -->
+			<!-- <requirement type="Holding" id="gunHuntingRifle" /> -->
+		<!-- </requirement> -->
+		<!-- <objective type="PlayerKill" value="1" /> -->
+		<!-- <reward type="Item" id="Admin Machete" value="1" /> -->
+		<!-- <reward type="Skill" id="Rifles" value="50" /> -->
+	<!-- </quest> -->
+	<!-- /Pvp Test. -->
 <!-- New Various Quests -->
 <quest id="challenge_weddingring" name="Holy Matrimony" subtitle="Collectes" description="Hey survivor. This chick I've been trying to get with in our group for months now refuses to put out unless we get 'married' - as if thats even a thing anymore. To make matters worse she won't accept unless she has some fancy ring. Nothing I've tried has been enough her her highness. Find me a diamond ring and I'll make make it worth your while - it'll certaily be worth mine!" icon="ui_game_symbol_treasure" 
 	repeatable="true" category_key="challenge" offer="Hey survivor. This chick I've been trying to get with in our group for months now refuses to put out unless we get 'married' - as if thats even a thing anymore. To make matters worse she won't accept unless she has some fancy ring. Nothing I've tried has been enough her her highness. Find me a diamond ring and I'll make make it worth your while - it'll certaily be worth mine!" difficulty="easy">
