@@ -9,16 +9,16 @@ This is a fork of the Valmod Pack - Expansion Edition.
  - 3013 challengeClassFarmer (OK)
  - 3014 perkFarmer (OK)
  - 3015 challengeClassPVP (NOK)
- - 3016 ammoSupply9mmINC (in progress, edit image)
- - 3017 ammoSupply44MagINC (in progress, edit image)
- - 3018 ammoSupply762mmINC (in progress, edit image)
- - 3019 ammoSupplyShotgunINC (in progress, edit image)
- - 3020 genericAmmoBoxINC (in progress, edit image)
- - 3021 ammoSupply9mmHP (in progress, edit image)
- - 3022 ammoSupply44MagHP (in progress, edit image)
- - 3023 ammoSupply762mmHP (in progress, edit image)
- - 3024 ammoSupplyShotgunHP (in progress, edit image) (siege)
- - 3025 genericAmmoBoxHP (in progress, edit image)
+ - 3016 ammoSupply9mmINC (OK)
+ - 3017 ammoSupply44MagINC (OK)
+ - 3018 ammoSupply762mmINC (OK)
+ - 3019 ammoSupplyShotgunINC (OK)
+ - 3020 genericAmmoBoxINC (OK)
+ - 3021 ammoSupply9mmHP (OK)
+ - 3022 ammoSupply44MagHP (OK)
+ - 3023 ammoSupply762mmHP (OK)
+ - 3024 ammoSupplyShotgunHP (OK) (siege)
+ - 3025 genericAmmoBoxHP (OK)
  - 3026 genericExplBox (NOK) (molotov, mines, tnt)
  - 3027 genericDlxBox (NOK) (genericAmmoBoxINC + genericAmmoBoxHP + genericExplBox + firstAidKit)
  - 3028 genericWeap400Box (NOK) (you choose one firearm lvl 400-499)
@@ -37,13 +37,13 @@ This is a fork of the Valmod Pack - Expansion Edition.
  - New All classes \ Survivor challenges, after the classes challenges (in progress)
 	- stage 2, 3 steps : kill more zombies / all classes \ Survivor all weapons allowed / reward : INC bullets boxes
 		- allClasses_challengeINC1-3 (in progress)
-		- Ammo Box INC (in progress) : item, quest, loot and image
+		- genericAmmoBoxINC (in progress)
 	- stage 3, 3 steps : kill more zombies / all classes \ Survivor all weapons allowed / reward : HP bullets boxes
 		- allClasses_challengeHP1-3 (in progress)
-		- Ammo Box HP (in progress) : item, quest, loot and image
+		- genericAmmoBoxHP (in progress)
 	- stage 4, 3 steps : kill more zombies / all classes \ Survivor all weapons allowed / reward : EXPLOSIVES boxes
 		- allClasses_challengeEXPL1-3 (NOK)
-		- Ammo Box Explosives (in progress) : item, quest, loot and image
+		- Ammo Box Explosives (NOK) : item, quest, loot and image
 	- stage 5, 3 steps : kill more zombies / all classes \ Survivor all weapons allowed / reward : DELUXE boxes
 		- allClasses_challengeDLX1-3 (NOK)
 		- DELUXE Boxes Pack (NOK) : item, quest, loot and image, countains explosives, regular bullet boxes, INC and HP boxes + firstAidKit
