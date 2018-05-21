@@ -1,7 +1,10 @@
-### Template Class Perks : ###
+### Template Class Perks : ### DRAFT
 #50 skills points.
-
-------------------------------
+#----------------------------#
+#		skill			cost #
+# ex : 	gunHuntingRifle	15	 #
+#----------------------------#
+#----------------------------#
 # Template Class Challenges : 
 #3 Challenges
 #4 to be added : 3 regular challenges (4->6), and the nude bloodmoon pvp challenge (activates rewards->+1armor/cloth challenge)...
@@ -10,13 +13,13 @@
 ##### Challenges Goals : #####
 challenge1 :
 	requirement itemName #
-	objective xp #
+	objective
 challenge2 :
 	requirement itemName #
-	objective xp #
+	objective
 challengeX... :
 	requirement itemName #
-	objective xp #
+	objective
 ------------------------------
 #### Challenges Rewards : ####
 challenge1 :
@@ -49,6 +52,6 @@ itemId	|	itemName		|#
 seedId	|	seedName		|#
 fruitId	|	fruitName		|#
 itemId	|	itemName		|#
-farmer_perks
+template_perks
 template_challenge1
 

@@ -1,4 +1,4 @@
-#### Farmer Class Perks : ####
+#### Farmer Class Perks : #### DRAFT
 #50 pts
 gunHuntingRifle 15
 Rifles 9
@@ -43,15 +43,15 @@ Farmer Class Challenges Rewards :
 Challenge1 :
 	153 762mmBullet 32
 	657 firstAidBandage 3
-	Plants->Seeds : 4
+	#Plants->Seeds : 4
 	1325 fertilizer 4
 Challenge2 :
 	153 762mmBullet 72
 	657 firstAidBandage 4
-	Plants->Seeds : 7
+	#Plants->Seeds : 7
 	1325 fertilizer 7
 Challenge3 :
 	153 762mmBullet 152
 	657 firstAidBandage 5
-	Plants->Seeds : 10
+	#Plants->Seeds : 10
 	1325 fertilizer 10
