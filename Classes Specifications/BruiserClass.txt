@@ -1,11 +1,19 @@
-### Template Class Perks : ### DRAFT
-#50 skills points.
+### Bruiser Class Perks : ### DRAFT
+#50/50 skills points.
+#perkBruiser in quests.xml
+#skills in progression.xml
 #----------------------------#
 #		skill			cost #
-# ex : 	gunHuntingRifle	15	 #
+# ex : 	Rifles			10	 #
 #----------------------------#
+craftSkillGuns 3
+shotgun Shell Crafting 2
+Gun Shotgun 15
+Blunt Weapons 10
+Blade Weapons 10
+Shotguns 10
 #----------------------------#
-# Template Class Challenges : 
+# Bruiser Class Challenges : 
 #3 Challenges
 #4 to be added : 3 regular challenges (4->6), and the nude bloodmoon pvp challenge (activates rewards->+1armor/cloth challenge)...
 # Goals and rewards
@@ -34,24 +42,24 @@ challengeX... :
 	skillName xp #
 ------------------------------
 ------------------------------
-### Template Class Items : ###
+### Bruiser Class Items : ###
 ------------------------------
 itemId	|	itemName		|#
 ------------------------------
 
-#01 - TemplateGear :
+#01 - BruiserGear :
 itemId	|	itemName		|#
 #Plus regular other gear items (canBeef, painkillers, bottledWater, bandage)
 #See "SurvuvalGear". May be edited x)
 
-#02 - TemplateSuitcase :
-TemplaterGear
+#02 - BruiserSuitcase :
+BruiserrGear
 itemId	|	itemName		|#
 #Did not find seeds so fruits are designed to be transformed into seeds...
 #Add dirtFragment if you choose mushrooms.
 seedId	|	seedName		|#
 fruitId	|	fruitName		|#
 itemId	|	itemName		|#
-template_perks
-template_challenge1
+Bruiser_perks
+Bruiser_challenge1
 

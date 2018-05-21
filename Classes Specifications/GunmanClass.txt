@@ -1,11 +1,19 @@
-### Template Class Perks : ### DRAFT
-#50 skills points.
+### Gunman Class Perks : ### DRAFT
+#45/50 skills points.
+#perkGunman in quests.xml
+#skills in progression.xml
 #----------------------------#
 #		skill			cost #
-# ex : 	gunHuntingRifle	15	 #
+# ex : 	Rifles			10	 #
 #----------------------------#
+Gun Pistol 10
+craftSkillGuns 3
+9mm Round Crafting 2
+Pistols 20
+The Outlaw 5
+Bartering 5
 #----------------------------#
-# Template Class Challenges : 
+# Gunman Class Challenges : 
 #3 Challenges
 #4 to be added : 3 regular challenges (4->6), and the nude bloodmoon pvp challenge (activates rewards->+1armor/cloth challenge)...
 # Goals and rewards
@@ -34,24 +42,24 @@ challengeX... :
 	skillName xp #
 ------------------------------
 ------------------------------
-### Template Class Items : ###
+### Gunman Class Items : ###
 ------------------------------
 itemId	|	itemName		|#
 ------------------------------
 
-#01 - TemplateGear :
+#01 - GunmanGear :
 itemId	|	itemName		|#
 #Plus regular other gear items (canBeef, painkillers, bottledWater, bandage)
 #See "SurvuvalGear". May be edited x)
 
-#02 - TemplateSuitcase :
-TemplaterGear
+#02 - GunmanSuitcase :
+GunmanrGear
 itemId	|	itemName		|#
 #Did not find seeds so fruits are designed to be transformed into seeds...
 #Add dirtFragment if you choose mushrooms.
 seedId	|	seedName		|#
 fruitId	|	fruitName		|#
 itemId	|	itemName		|#
-template_perks
-template_challenge1
+Gunman_perks
+Gunman_challenge1
 

@@ -1,11 +1,19 @@
-### Template Class Perks : ### DRAFT
-#50 skills points.
+### Survivor Class Perks : ### DRAFT
+#46/50 skills points.
+#perkSurvivor in quests.xml
+#skills in progression.xml
 #----------------------------#
 #		skill			cost #
-# ex : 	gunHuntingRifle	15	 #
+# ex : 	Rifles			10	 #
 #----------------------------#
+Crossbow 10
+The Survivor 3
+Lockpicks 10
+Archery 10
+Scavenging 10
+craftSkillTools 3
 #----------------------------#
-# Template Class Challenges : 
+# Survivor Class Challenges : 
 #3 Challenges
 #4 to be added : 3 regular challenges (4->6), and the nude bloodmoon pvp challenge (activates rewards->+1armor/cloth challenge)...
 # Goals and rewards
@@ -34,24 +42,24 @@ challengeX... :
 	skillName xp #
 ------------------------------
 ------------------------------
-### Template Class Items : ###
+### Survivor Class Items : ###
 ------------------------------
 itemId	|	itemName		|#
 ------------------------------
 
-#01 - TemplateGear :
+#01 - SurvivorGear :
 itemId	|	itemName		|#
 #Plus regular other gear items (canBeef, painkillers, bottledWater, bandage)
 #See "SurvuvalGear". May be edited x)
 
-#02 - TemplateSuitcase :
-TemplaterGear
+#02 - SurvivorSuitcase :
+SurvivorrGear
 itemId	|	itemName		|#
 #Did not find seeds so fruits are designed to be transformed into seeds...
 #Add dirtFragment if you choose mushrooms.
 seedId	|	seedName		|#
 fruitId	|	fruitName		|#
 itemId	|	itemName		|#
-template_perks
-template_challenge1
+Survivor_perks
+Survivor_challenge1
 

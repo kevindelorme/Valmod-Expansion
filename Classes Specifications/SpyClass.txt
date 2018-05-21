@@ -1,11 +1,17 @@
 ### Spy Class Perks : ### DRAFT
-#50 skills points.
+#47/50 skills points.
+#perkTemplate in quests.xml
+#skills in progression.xml
+#----------------------------#
+#		skill			cost #
+# ex : 	Rifles			10	 #
+#----------------------------#
 Gun Pistol 10
 craftSkillGuns 3
 9mm Round Crafting 2
-Pistols 15
+Pistols 10  
 The Outlaw 5
-Athletics 3
+Lockpicks 5
 First Aid Kit 12
 -------------------------
 # Spy Class Challenges : 

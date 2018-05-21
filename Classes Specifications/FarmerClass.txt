@@ -1,11 +1,47 @@
 #### Farmer Class Perks : #### DRAFT
-#50 pts
+#45/50 pts
+#perkFarmer in quests.xml
+#skills in progression.xml
+#----------------------------#
+#		skill			cost #
+# ex : 	Rifles			10	 #
+#----------------------------#
 gunHuntingRifle 15
-Rifles 9
+Rifles 5
 Athletics 10
 Construction Tools 10
 craftSkillGuns 3
 762mm Round Crafting 3
+#----------------------------#
+# Farmer Class Challenges : 
+#3 Challenges
+#4 to be added : 3 regular challenges (4->6), and the nude bloodmoon pvp challenge (activates rewards->+1armor/cloth challenge)...
+# Goals and rewards
+------------------------------
+##### Challenges Goals : #####
+challenge1 :
+	requirement itemName #
+	objective
+challenge2 :
+	requirement itemName #
+	objective
+challengeX... :
+	requirement itemName #
+	objective
+------------------------------
+#### Challenges Rewards : ####
+challenge1 :
+	itemId itemName #
+	skillName xp #
+	ex : 1325 fertilizer 4
+challenge2 :
+	itemId itemName #
+	skillName xp #
+challengeX... :
+	itemId itemName #
+	skillName xp #
+------------------------------
+
 #### Farmer Class Items : ####
 ------------------------------
 itemId	|	itemName		|#

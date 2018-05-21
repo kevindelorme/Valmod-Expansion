@@ -1,11 +1,14 @@
-### Template Class Perks : ### DRAFT
-#50 skills points.
+### Wilcard Class Perks : ### DRAFT
+#50/50 skills points.
+#perkWilcard in quests.xml
+#skills in progression.xml
 #----------------------------#
 #		skill			cost #
-# ex : 	gunHuntingRifle	15	 #
+# ex : 	Rifles			10	 #
 #----------------------------#
+SkillPoints 50
 #----------------------------#
-# Template Class Challenges : 
+# Wilcard Class Challenges : 
 #3 Challenges
 #4 to be added : 3 regular challenges (4->6), and the nude bloodmoon pvp challenge (activates rewards->+1armor/cloth challenge)...
 # Goals and rewards
@@ -34,24 +37,24 @@ challengeX... :
 	skillName xp #
 ------------------------------
 ------------------------------
-### Template Class Items : ###
+### Wilcard Class Items : ###
 ------------------------------
 itemId	|	itemName		|#
 ------------------------------
 
-#01 - TemplateGear :
+#01 - WilcardGear :
 itemId	|	itemName		|#
 #Plus regular other gear items (canBeef, painkillers, bottledWater, bandage)
 #See "SurvuvalGear". May be edited x)
 
-#02 - TemplateSuitcase :
-TemplaterGear
+#02 - WilcardSuitcase :
+WilcardrGear
 itemId	|	itemName		|#
 #Did not find seeds so fruits are designed to be transformed into seeds...
 #Add dirtFragment if you choose mushrooms.
 seedId	|	seedName		|#
 fruitId	|	fruitName		|#
 itemId	|	itemName		|#
-template_perks
-template_challenge1
+Wilcard_perks
+Wilcard_challenge1
 

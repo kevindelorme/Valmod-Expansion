@@ -1,9 +1,12 @@
 ### Template Class Perks : ### DRAFT
 #50 skills points.
+#perksTemplate in quests.xml
+#skills in progression.xml
 #----------------------------#
 #		skill			cost #
-# ex : 	gunHuntingRifle	15	 #
+# ex : 	Rifles			10	 #
 #----------------------------#
+insert skills here
 #----------------------------#
 # Template Class Challenges : 
 #3 Challenges
@@ -45,7 +48,7 @@ itemId	|	itemName		|#
 #See "SurvuvalGear". May be edited x)
 
 #02 - TemplateSuitcase :
-TemplaterGear
+TemplateGear
 itemId	|	itemName		|#
 #Did not find seeds so fruits are designed to be transformed into seeds...
 #Add dirtFragment if you choose mushrooms.

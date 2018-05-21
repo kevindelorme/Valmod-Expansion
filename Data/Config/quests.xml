@@ -713,7 +713,7 @@
 		<reward type="Skill" id="Science" value="5" />
 		<reward type="Skill" id="Medicine" value="5" />
 	</quest>
-	<!-- MCO : added 20180519 kdelorme -->
+	<!-- frenchFrogMOD -->
 	<!-- Spy -->
 	<quest id="challenge_spy1" group_name_key="quest_spy" name="Spy Quest" subtitle="Spy Challenge" description="Waste some zombies" icon="ui_game_symbol_rifle" 
 		repeatable="false" category_key="challenge" offer="A spy likes to destroy his target with silenced pistols. Prove your skills on some zombies." difficulty="easy">
@@ -747,8 +747,6 @@
 		<reward type="Item" id="44MagBullet" value="170" />
 		<reward type="Skill" id="Pistols" value="5" />
 	</quest>
-	<!-- /Spy -->
-	<!-- MCO : added 20180520 kdelorme -->
 	<!-- Farmer -->
 	<quest id="challenge_farmer1" group_name_key="quest_farmer" name="Farmer Quest" subtitle="Farmer Challenge" description="You are a farmer" icon="ui_game_symbol_rifle" 
 		repeatable="false" category_key="challenge" offer="Farm some zombies !" difficulty="easy">
@@ -775,9 +773,8 @@
 		<reward type="Item" id="firstAidBandage" value="5" />
 		<reward type="Item" id="fertilizer" value="10" />
 	</quest>
-	<!-- /Farmer -->
-	<!-- MCO : added 20180520 kdelorme -->
 	<!-- Pvp Test. -->
+	<!-- Not working, the ObjectiveClass "PlayerKill" is missing. -> SDX ? -->
 	<!-- Only with the spy and farmer class for the begining -->
 	<!-- <quest id="challenge_pvp1" group_name_key="quest_pvp" name="PvP Quest" subtitle="PvP Challenge" description="You are a farmer" icon="ui_game_symbol_rifle"  -->
 		<!-- repeatable="false" category_key="challenge" offer="Farm other players !" difficulty="easy"> -->
@@ -790,7 +787,7 @@
 		<!-- <reward type="Item" id="Admin Machete" value="1" /> -->
 		<!-- <reward type="Skill" id="Rifles" value="50" /> -->
 	<!-- </quest> -->
-	<!-- /Pvp Test. -->
+	<!-- /frenchFrogMOD -->
 <!-- New Various Quests -->
 <quest id="challenge_weddingring" name="Holy Matrimony" subtitle="Collectes" description="Hey survivor. This chick I've been trying to get with in our group for months now refuses to put out unless we get 'married' - as if thats even a thing anymore. To make matters worse she won't accept unless she has some fancy ring. Nothing I've tried has been enough her her highness. Find me a diamond ring and I'll make make it worth your while - it'll certaily be worth mine!" icon="ui_game_symbol_treasure" 
 	repeatable="true" category_key="challenge" offer="Hey survivor. This chick I've been trying to get with in our group for months now refuses to put out unless we get 'married' - as if thats even a thing anymore. To make matters worse she won't accept unless she has some fancy ring. Nothing I've tried has been enough her her highness. Find me a diamond ring and I'll make make it worth your while - it'll certaily be worth mine!" difficulty="easy">
@@ -1274,29 +1271,27 @@ repeatable="false" category_key="challenge" offer="Miners are skilled with worki
 repeatable="false" category_key="challenge" offer="The Wildcard class can be custom tailored to match your preferences." difficulty="easy">
 	<reward type="SkillPoints" value="50" />
 </quest>
-<!-- MCO : added 20180517 kdelorme | reviewed 20180519 kdelorme -->
+<!-- frenchFrogMOD -->
 <!-- Spy -->
 <quest id="perkSpy" name="Spy Skills" subtitle="Spy Skills" description="This teaches you the skills of the class." icon="misc_crafting" 
 repeatable="false" category_key="challenge" offer="Spy have experience with silenced pistols and medecine." difficulty="easy">
 	<reward type="Skill" id="Gun Pistol" value="1" />
 	<reward type="Skill" id="craftSkillGuns" value="1" />
 	<reward type="Skill" id="9mm Round Crafting" value="1" />
-	<reward type="Skill" id="Pistols" value="15" />
+	<reward type="Skill" id="Pistols" value="10" />
 	<reward type="Skill" id="The Outlaw" value="1" />
-	<reward type="Skill" id="Athletics" value="3" />
+	<reward type="Skill" id="Lockpicks" value="5" />
 	<reward type="Skill" id="First Aid Kit" value="1" />
 </quest>
-<!-- /Spy -->
-<!-- MCO : added 20180520 kdelorme -->
 <!-- Farmer -->
 <quest id="perkFarmer" name="Farmer Skills" subtitle="Farmer Skills" description="This teaches you the skills of the class." icon="misc_crafting" 
 repeatable="false" category_key="challenge" offer="Farmer have experience with havresting, rifles, tools and is alcoholic ;)." difficulty="easy">
 	<reward type="Skill" id="Gun Hunting Rifle" value="1" />
 	<reward type="Skill" id="craftSkillGuns" value="1" />
 	<reward type="Skill" id="762mm Round Crafting" value="1" />
-	<reward type="Skill" id="Rifles" value="9" />
+	<reward type="Skill" id="Rifles" value="5" />
 	<reward type="Skill" id="Athletics" value="10" />
 	<reward type="Skill" id="Construction Tools" value="10" />
 </quest>
-<!-- /Farmer -->
+<!-- frenchFrogMOD -->
 </quests>

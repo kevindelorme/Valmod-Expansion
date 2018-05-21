@@ -15765,7 +15765,7 @@ Mesh files no longer used:
 	<property name="QuestGiven" value="perkWildcard" />
 	</property>
 </item>
-<!-- MCO : added 20180517 kdelorme -->
+<!-- frenchFrogMOD -->
 <!-- Spy -->
 <item id="3010" name="challengeClassSpy">
 	<property name="Extends" value="challengeQuestMaster" />
@@ -15773,9 +15773,6 @@ Mesh files no longer used:
 		<property name="QuestGiven" value="challenge_spy1" />
 	</property>
 </item>
-<!-- /Spy -->
-<!-- MCO : added 20180517 kedelorme -->
-<!-- Spy -->
 <item id="3011" name="perkSpy">
 	<property name="Extends" value="challengeQuestMaster" />
 	<property name="CustomIcon" value="expGain" />
@@ -15785,8 +15782,7 @@ Mesh files no longer used:
 	<property name="QuestGiven" value="perkSpy" />
 	</property>
 </item>
-<!-- /Spy -->
-<!-- MCO : added 20180519 kedelorme -->
+<!-- ldeShades -->
 <item id="3012" name="ledShades">
 		<property name="Extends" value="shades" />
 		<property name="DescriptionKey" value="LEDHelmetDesc"/>
@@ -15795,7 +15791,6 @@ Mesh files no longer used:
 		<property name="LightSource" value="Entities/Lighting/miningHelmetLightSource" />
 		<property name="Meshfile" value="Items/Clothing/Head/MiningHelmetPrefab" />
 </item>
-<!-- MCO : added 20180520 kdelorme -->
 <!-- Farmer -->
 <item id="3013" name="challengeClassFarmer">
 	<property name="Extends" value="challengeQuestMaster" />
@@ -15803,9 +15798,6 @@ Mesh files no longer used:
 		<property name="QuestGiven" value="challenge_farmer1" />
 	</property>
 </item>
-<!-- /Farmer -->
-<!-- MCO : added 20180520 kedelorme -->
-<!-- Farmer -->
 <item id="3014" name="perkFarmer">
 	<property name="Extends" value="challengeQuestMaster" />
 	<property name="CustomIcon" value="expGain" />
@@ -15815,14 +15807,12 @@ Mesh files no longer used:
 	<property name="QuestGiven" value="perkFarmer" />
 	</property>
 </item>
-<!-- /Farmer -->
-<!-- MCO : added 20180520 kedelorme -->
-<!-- PVP -->
+<!-- PVP Test ? -->
 <!-- <item id="3015" name="challengeClassPVP"> -->
 	<!-- <property name="Extends" value="challengeQuestMaster" /> -->
 	<!-- <property class="Action1"> -->
 		<!-- <property name="QuestGiven" value="challenge_pvp1" /> -->
 	<!-- </property> -->
 <!-- </item> -->
-<!-- /PVP -->
+<!-- /frenchFrogMOD -->
 </items>

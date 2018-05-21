@@ -1,9 +1,15 @@
 ### Template Class Perks : ### DRAFT
-#50 skills points.
+#41/50 skills points. 
+#perkTemplate in quests.xml
+#skills in progression.xml
 #----------------------------#
 #		skill			cost #
-# ex : 	gunHuntingRifle	15	 #
+# ex : 	Rifles			10	 #
 #----------------------------#
+Gun Hunting Rifle 15
+craftSkillGuns 3
+762mm Round Crafting 3
+Rifles 20
 #----------------------------#
 # Template Class Challenges : 
 #3 Challenges

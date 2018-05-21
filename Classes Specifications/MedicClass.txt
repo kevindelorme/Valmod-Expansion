@@ -1,11 +1,19 @@
-### Template Class Perks : ### DRAFT
-#50 skills points.
+### Medic Class Perks : ### DRAFT
+#60/50 skills points.
+#perkMedic in quests.xml
+#skills in progression.xml
 #----------------------------#
 #		skill			cost #
-# ex : 	gunHuntingRifle	15	 #
+# ex : 	Rifles			10	 #
 #----------------------------#
+Gun Pistol 10
+craftSkillGuns 3
+9mm Round Crafting 2
+Medicine 20
+Science 13
+First Aid Kit 12
 #----------------------------#
-# Template Class Challenges : 
+# Medic Class Challenges : 
 #3 Challenges
 #4 to be added : 3 regular challenges (4->6), and the nude bloodmoon pvp challenge (activates rewards->+1armor/cloth challenge)...
 # Goals and rewards
@@ -34,24 +42,24 @@ challengeX... :
 	skillName xp #
 ------------------------------
 ------------------------------
-### Template Class Items : ###
+### Medic Class Items : ###
 ------------------------------
 itemId	|	itemName		|#
 ------------------------------
 
-#01 - TemplateGear :
+#01 - MedicGear :
 itemId	|	itemName		|#
 #Plus regular other gear items (canBeef, painkillers, bottledWater, bandage)
 #See "SurvuvalGear". May be edited x)
 
-#02 - TemplateSuitcase :
-TemplaterGear
+#02 - MedicSuitcase :
+MedicrGear
 itemId	|	itemName		|#
 #Did not find seeds so fruits are designed to be transformed into seeds...
 #Add dirtFragment if you choose mushrooms.
 seedId	|	seedName		|#
 fruitId	|	fruitName		|#
 itemId	|	itemName		|#
-template_perks
-template_challenge1
+Medic_perks
+Medic_challenge1
 
