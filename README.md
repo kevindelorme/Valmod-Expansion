@@ -8,29 +8,46 @@ This mod is installed on one of my 7 Days To Die dedicated servers.
  - Farmer (OK),
  - Others (example : Thug, Nudist, etc...).
 2. New challenges : (in progress, NOK)
- - Valmod Callenges modifications (in progress)
+ - Valmod Classes Callenges modifications (in progress)
  - New classes specifics challenges
 	- Spy (Lockpicking and ZombieKill) (in progress), reward : Ammoboxes, firstAidKit, pistols
 	- Farmer (ZombieKill with Tools, Havresting, ZombieKill with rifle) (in progress), reward : fertilizers, seeds, Construction Tools, rifles
- - New All classes challenges, after the classes challenges (in progress)
-	- stage 2, 3 steps : kill more zombies / all classes all weapons allowed / reward : INC bullets boxes
+ - New All classes \ Survivor challenges, after the classes challenges (in progress)
+	- stage 2, 3 steps : kill more zombies / all classes \ Survivor all weapons allowed / reward : INC bullets boxes
 		- allClasses_challengeINC1-3 (in progress)
 		- Ammo Box INC (NOK) : item, quest, loot and image
-	- stage 3, 3 steps : kill more zombies / all classes all weapons allowed / reward : HP bullets boxes
+	- stage 3, 3 steps : kill more zombies / all classes \ Survivor all weapons allowed / reward : HP bullets boxes
 		- allClasses_challengeHP1-3 (in progress)
 		- Ammo Box HP (NOK) : item, quest, loot and image
-	- stage 4, 3 steps : kill more zombies / all classes all weapons allowed / reward : EXPLOSIVES boxes
+	- stage 4, 3 steps : kill more zombies / all classes \ Survivor all weapons allowed / reward : EXPLOSIVES boxes
 		- allClasses_challengeEXPL1-3 (NOK)
 		- Ammo Box Explosives (NOK) : item, quest, loot and image
-	- stage 5, 3 steps : kill more zombies / all classes all weapons allowed / reward : DELUXE boxes
+	- stage 5, 3 steps : kill more zombies / all classes \ Survivor all weapons allowed / reward : DELUXE boxes
 		- allClasses_challengeDLX1-3 (NOK)
 		- DELUXE Boxes Pack (NOK) : item, quest, loot and image, countains explosives, regular bullet boxes, INC and HP boxes + firstAidKit
 	- stage 6, 3 steps : kill more zombies / all classes all weapons allowed / reward : WEAPON boxes
 		- allClasses_challengeFRRM1-3 (NOK)
 		- weapon400, weapon500 and weapon600 Boxes (NOK) : items, quest, loot and image, countains 400, 500 then 600 level weapon, the choice is yours
+ - New Survivor challenges, after the classes challenges (NOK)
+	- stage 2, 3 steps : kill more zombies / Survivor class crossbow only allowed / reward : explosive crossbow darts
+		- allClasses_2survivor1-3 (NOK)
+		- explosive crossbow darts (NOK) : item, quest, loot and image
+	- stage 3, 3 steps : kill more zombies / Survivor class crossbow only allowed / reward : explosive crossbow darts
+		- allClasses_3survivor1-3 (in progress)
+		- explosive crossbow darts (NOK) : item, quest, loot and image
+	- stage 4, 3 steps : kill more zombies / Survivor class crossbow only allowed / reward : explosive crossbow darts
+		- allClasses_4survivor1-3 (NOK)
+		- explosive crossbow darts + Ammo Box Explosives (NOK) : item, quest, loot and image
+	- stage 5, 3 steps : kill more zombies / Survivor class crossbow only allowed / reward : explosive crossbow darts + EXPLOSIVES boxes
+		- allClasses_5survivor1-3 (NOK)
+		- explosive crossbow darts + Ammo Box Explosives + firstAidKit (NOK) : explosive crossbow darts + EXPLOSIVES boxes + firstAidKit
+	- stage 6, 3 steps : kill more zombies / Survivor class crossbow only allowed / reward : Crossbows
+		- allClasses_6survivor1-3 (NOK)
+		- 600 regular crossbow, 600 iron crossbow and 600 repeatable crossbow (NOK) : items, quest, loot and image, countains 400, 500 then 600 level weapon, the choice is yours
+
  - PvP challenges. (NOK)
 3. Loot more bullets to create a more PvP flavoured mod. (NOK)
-#The game take's place inside an USA similar country you're supposed to loot a lot ow firearms and bullets
+ - The game take's place inside an USA similar country you're supposed to loot a lot ow firearms and bullets
 4. Edit the blood moon mechanics in order to modify the 7 days delay to 28 days. (NOK)
 5. Add an Haloween ultra hardcore h24 blood moon on day 666. (NOK)
 6. Misc : I also may translate the mod to french. (NOK)
