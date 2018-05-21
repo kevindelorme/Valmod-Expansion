@@ -3570,6 +3570,32 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 <recipe name="ammoSupplyShotgun" count="1" >
 	<ingredient name="genericAmmoBox" count="1"/>
 </recipe>
+<!-- frenchFrogMOD -->
+<recipe name="ammoSupply9mmINC" count="1" >
+	<ingredient name="genericAmmoBoxINC" count="1"/>
+</recipe>
+<recipe name="ammoSupply44MagINC" count="1" >
+	<ingredient name="genericAmmoBoxINC" count="1"/>
+</recipe>
+<recipe name="ammoSupply762mmINC" count="1" >
+	<ingredient name="genericAmmoBoxINC" count="1"/>
+</recipe>
+<recipe name="ammoSupplyShotgunINC" count="1" >
+	<ingredient name="genericAmmoBoxINC" count="1"/>
+</recipe>
+<recipe name="ammoSupply9mmHP" count="1" >
+	<ingredient name="genericAmmoBoxHP" count="1"/>
+</recipe>
+<recipe name="ammoSupply44MagHP" count="1" >
+	<ingredient name="genericAmmoBoxHP" count="1"/>
+</recipe>
+<recipe name="ammoSupply762mmHP" count="1" >
+	<ingredient name="genericAmmoBoxHP" count="1"/>
+</recipe>
+<recipe name="ammoSupplyShotgunHP" count="1" >
+	<ingredient name="genericAmmoBoxHP" count="1"/>
+</recipe>
+<!-- /frenchFrogMOD -->
 
 <recipe name="ironArrow" count="1" craft_area="workbench" craft_exp_gain="0">
 	<ingredient name="ironCrossbowBolt" count="1"/>

@@ -715,15 +715,17 @@
 	</quest>
 	<!-- frenchFrogMOD -->
 	<!-- Spy -->
+	<!-- DRAFT -->
 	<quest id="challenge_spy1" group_name_key="quest_spy" name="Spy Quest" subtitle="Spy Challenge" description="Waste some zombies" icon="ui_game_symbol_rifle" 
 		repeatable="false" category_key="challenge" offer="A spy likes to destroy his target with silenced pistols. Prove your skills on some zombies." difficulty="easy">
 		<requirement type="Group" id="requirementGroupHandgun" value="OR">
 			<requirement type="Holding" id="gunPistolSilenced" />
 			<requirement type="Holding" id="gun44MagnumSilenced" />
 		</requirement>
-		<objective type="ZombieKill" value="30" />
+		<objective type="ZombieKill" value="1" />
 		<reward type="Item" id="44MagBullet" value="50" />
 		<reward type="Skill" id="Pistols" value="1" />
+		<reward type="Quest" id="challenge_spy2" />
 	</quest>
 	
 	<quest id="challenge_spy2" group_name_key="quest_spy" name="Spy Quest 2/3" subtitle="Spy Challenge 2" description="Waste some zombies" icon="ui_game_symbol_rifle" 
@@ -732,7 +734,7 @@
 			<requirement type="Holding" id="gunPistolSilenced" />
 			<requirement type="Holding" id="gun44MagnumSilenced" />
 		</requirement>
-		<objective type="ZombieKill" value="50" />
+		<objective type="ZombieKill" value="2" />
 		<reward type="Skill" id="Pistols" value="3" />
 		<reward type="Item" id="44MagBullet" value="75" />
 		<reward type="Quest" id="challenge_spy3" />
@@ -743,11 +745,13 @@
 			<requirement type="Holding" id="gunPistolSilenced" />
 			<requirement type="Holding" id="gun44MagnumSilenced" />
 		</requirement>
-		<objective type="ZombieKill" value="100" />
+		<objective type="ZombieKill" value="3" />
 		<reward type="Item" id="44MagBullet" value="170" />
 		<reward type="Skill" id="Pistols" value="5" />
+		<reward type="Quest" id="allClasses_challengeINC1" />
 	</quest>
 	<!-- Farmer -->
+	<!-- DRAFT -->
 	<quest id="challenge_farmer1" group_name_key="quest_farmer" name="Farmer Quest" subtitle="Farmer Challenge" description="You are a farmer" icon="ui_game_symbol_rifle" 
 		repeatable="false" category_key="challenge" offer="Farm some zombies !" difficulty="easy">
 		<requirement type="Holding" id="gunHuntingRifle" />
@@ -787,7 +791,56 @@
 		<!-- <reward type="Item" id="Admin Machete" value="1" /> -->
 		<!-- <reward type="Skill" id="Rifles" value="50" /> -->
 	<!-- </quest> -->
+	<!-- New classes challenges -->
+	<!-- allClasses_challengeINC -->
+	<quest id="allClasses_challengeINC1" group_name_key="allClasses_challengeINC" name="All classes rampage Quest 1/3" subtitle="All classes rampage Challenge 1/3" description="Waste more zombies" icon="ui_game_symbol_rifle" 
+		repeatable="false" category_key="challenge" offer="Did you know about INC bullets ?" difficulty="easy">
+		<objective type="ZombieKill" value="1" />
+		<reward type="Item" id="genericAmmoBoxINC" value="1" />
+		<reward type="Skill" id="Pistols" value="1" />	<!-- All weapon skills +3 -->
+		<reward type="Quest" id="allClasses_challengeINC2" />
+	</quest>
+	
+	<quest id="allClasses_challengeINC2" group_name_key="allClasses_challengeINC" name="All classes rampage Quest 2/3" subtitle="All classes rampage Challenge 2/3" description="Waste more zombies" icon="ui_game_symbol_rifle" 
+		repeatable="false" category_key="challenge" offer="Did you know about INC bullets ?" difficulty="easy">
+		<objective type="ZombieKill" value="2" />
+		<reward type="Item" id="genericAmmoBoxINC" value="1" />
+		<reward type="Skill" id="Pistols" value="1" />	<!-- All weapon skills +5 -->
+		<reward type="Quest" id="allClasses_challengeINC3" />
+	</quest>
+	
+	<quest id="allClasses_challengeINC3" group_name_key="allClasses_challengeINC" name="All classes rampage Quest 3/3" subtitle="All classes rampage Challenge 3/3" description="Waste more zombies" icon="ui_game_symbol_rifle" 
+		repeatable="false" category_key="challenge" offer="Did you know about INC bullets ?" difficulty="easy">
+		<objective type="ZombieKill" value="3" />
+		<reward type="Item" id="genericAmmoBoxINC" value="1" />
+		<reward type="Skill" id="Pistols" value="1" />	<!-- All weapon skills +7 -->
+		<reward type="Quest" id="allClasses_challengeHP1" />
+	</quest>
+	<!-- allClasses_challengeHP -->
+	<quest id="allClasses_challengeHP1" group_name_key="allClasses_challengeHP" name="All classes rampage Quest 4/3" subtitle="All classes rampage Challenge 4/3" description="Waste more zombies" icon="ui_game_symbol_rifle" 
+		repeatable="false" category_key="challenge" offer="Did you know about HP bullets ?" difficulty="easy">
+		<objective type="ZombieKill" value="4" />
+		<reward type="Item" id="genericAmmoBoxHP" value="1" />
+		<reward type="Skill" id="Pistols" value="1" />	<!-- All weapon skills +9 -->
+		<reward type="Quest" id="allClasses_challengeHP2" />
+	</quest>
+	
+	<quest id="allClasses_challengeHP2" group_name_key="allClasses_challengeHP" name="All classes rampage Quest 5/3" subtitle="All classes rampage Challenge 5/3" description="Waste more zombies" icon="ui_game_symbol_rifle" 
+		repeatable="false" category_key="challenge" offer="Did you know about HP bullets ?" difficulty="easy">
+		<objective type="ZombieKill" value="5" />
+		<reward type="Item" id="genericAmmoBoxHP" value="2" />
+		<reward type="Skill" id="Pistols" value="1" />	<!-- All weapon skills +11 -->
+		<reward type="Quest" id="allClasses_challengeHP3" />
+	</quest>
+	
+	<quest id="allClasses_challengeHP3" group_name_key="allClasses_challengeHP" name="All classes rampage Quest 6/3" subtitle="All classes rampage Challenge 6/3" description="Waste more zombies" icon="ui_game_symbol_rifle" 
+		repeatable="false" category_key="challenge" offer="Did you know about HP bullets ?" difficulty="easy">
+		<objective type="ZombieKill" value="6" />
+		<reward type="Item" id="genericAmmoBoxHP" value="3" />
+		<reward type="Skill" id="Pistols" value="1" />	<!-- All weapon skills +13 -->
+	</quest>
 	<!-- /frenchFrogMOD -->
+	
 <!-- New Various Quests -->
 <quest id="challenge_weddingring" name="Holy Matrimony" subtitle="Collectes" description="Hey survivor. This chick I've been trying to get with in our group for months now refuses to put out unless we get 'married' - as if thats even a thing anymore. To make matters worse she won't accept unless she has some fancy ring. Nothing I've tried has been enough her her highness. Find me a diamond ring and I'll make make it worth your while - it'll certaily be worth mine!" icon="ui_game_symbol_treasure" 
 	repeatable="true" category_key="challenge" offer="Hey survivor. This chick I've been trying to get with in our group for months now refuses to put out unless we get 'married' - as if thats even a thing anymore. To make matters worse she won't accept unless she has some fancy ring. Nothing I've tried has been enough her her highness. Find me a diamond ring and I'll make make it worth your while - it'll certaily be worth mine!" difficulty="easy">
@@ -1292,6 +1345,39 @@ repeatable="false" category_key="challenge" offer="Farmer have experience with h
 	<reward type="Skill" id="Rifles" value="5" />
 	<reward type="Skill" id="Athletics" value="10" />
 	<reward type="Skill" id="Construction Tools" value="10" />
+</quest>
+<!-- New Ammo Box -->
+<quest id="AmmoSupply9mmINC" name="Ammo Supply" subtitle="Ammo Supply" description="Open this to get some ammo for your gun." icon="misc_crafting" 
+repeatable="true" category_key="challenge" offer="Open this to get some ammo for your gun." difficulty="easy">
+<reward type="Item" id="9mmBulletINC" value="50" />
+</quest>
+<quest id="AmmoSupply44MagINC" name="Ammo Supply" subtitle="Ammo Supply" description="Open this to get some ammo for your gun." icon="misc_crafting" 
+repeatable="true" category_key="challenge" offer="Open this to get some ammo for your gun." difficulty="easy">
+<reward type="Item" id="44MagBulletINC" value="30" />
+</quest>
+<quest id="AmmoSupply762mmINC" name="Ammo Supply" subtitle="Ammo Supply" description="Open this to get some ammo for your gun." icon="misc_crafting" 
+repeatable="true" category_key="challenge" offer="Open this to get some ammo for your gun." difficulty="easy">
+<reward type="Item" id="762mmBulletINC" value="30" />
+</quest>
+<quest id="AmmoSupplyShotgunINC" name="Ammo Supply" subtitle="Ammo Supply" description="Open this to get some ammo for your gun." icon="misc_crafting" 
+repeatable="true" category_key="challenge" offer="Open this to get some ammo for your gun." difficulty="easy">
+<reward type="Item" id="shotgunShellINC" value="50" />
+</quest>
+<quest id="AmmoSupply9mmHP" name="Ammo Supply" subtitle="Ammo Supply" description="Open this to get some ammo for your gun." icon="misc_crafting" 
+repeatable="true" category_key="challenge" offer="Open this to get some ammo for your gun." difficulty="easy">
+<reward type="Item" id="9mmBulletHP" value="50" />
+</quest>
+<quest id="AmmoSupply44MagHP" name="Ammo Supply" subtitle="Ammo Supply" description="Open this to get some ammo for your gun." icon="misc_crafting" 
+repeatable="true" category_key="challenge" offer="Open this to get some ammo for your gun." difficulty="easy">
+<reward type="Item" id="44MagBulletHP" value="30" />
+</quest>
+<quest id="AmmoSupply762mmHP" name="Ammo Supply" subtitle="Ammo Supply" description="Open this to get some ammo for your gun." icon="misc_crafting" 
+repeatable="true" category_key="challenge" offer="Open this to get some ammo for your gun." difficulty="easy">
+<reward type="Item" id="762mmBulletHP" value="30" />
+</quest>
+<quest id="AmmoSupplyShotgunHP" name="Ammo Supply" subtitle="Ammo Supply" description="Open this to get some ammo for your gun." icon="misc_crafting" 
+repeatable="true" category_key="challenge" offer="Open this to get some ammo for your gun." difficulty="easy">
+<reward type="Item" id="SiegeShell" value="50" />
 </quest>
 <!-- frenchFrogMOD -->
 </quests>

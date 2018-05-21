@@ -15814,5 +15814,182 @@ Mesh files no longer used:
 		<!-- <property name="QuestGiven" value="challenge_pvp1" /> -->
 	<!-- </property> -->
 <!-- </item> -->
+<!-- New Ammo Supply -->
+<item id="3016" name="ammoSupply9mmINC">
+	<property name="Extends" value="challengeQuestMaster" />
+	<property name="CustomIcon" value="ammoSupply9mmINC" />
+	<property name="DescriptionKey" value="ammoSupplyDesc"/>
+	<property class="Action1">
+	<property name="QuestGiven" value="ammoSupply9mmINC" />
+	</property>
+</item>
+<item id="3017" name="ammoSupply44MagINC">
+	<property name="Extends" value="challengeQuestMaster" />
+	<property name="CustomIcon" value="ammoSupply44MagINC" />
+	<property name="DescriptionKey" value="ammoSupplyDesc"/>
+	<property class="Action1">
+	<property name="QuestGiven" value="ammoSupply44MagINC" />
+	</property>
+</item>
+<item id="3018" name="ammoSupply762mmINC">
+	<property name="Extends" value="challengeQuestMaster" />
+	<property name="CustomIcon" value="ammoSupply762mmINC" />
+	<property name="DescriptionKey" value="ammoSupplyDesc"/>
+	<property class="Action1">
+	<property name="QuestGiven" value="ammoSupply762mmINC" />
+	</property>
+</item>
+<item id="3019" name="ammoSupplyShotgunINC">
+	<property name="Extends" value="challengeQuestMaster" />
+	<property name="CustomIcon" value="AmmoSupplyShotgunINC" />
+	<property name="DescriptionKey" value="ammoSupplyDesc"/>
+	<property class="Action1">
+	<property name="QuestGiven" value="AmmoSupplyShotgunINC" />
+	</property>
+</item>
+<item id="3020" name="genericAmmoBoxINC">
+	<property name="DescriptionKey" value="genericAmmoBoxDesc"/>
+	<property name="Meshfile" value="Items/Misc/sackPrefab" />
+	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab" />
+	<property name="Material" value="organic" />
+	<property name="HoldType" value="3" />
+	<property name="Stacknumber" value="50" />
+	<property class="Preview">
+		<property name="Zoom" value="28" />
+		<property name="Pos" value="0,-0.05" />
+		<property name="Rot" value="90,45,0" />
+	</property>
+	<property name="Group" value="Resources" />
+	</item>
+<item id="3021" name="ammoSupply9mmHP">
+	<property name="Extends" value="challengeQuestMaster" />
+	<property name="CustomIcon" value="ammoSupply9mmHP" />
+	<property name="DescriptionKey" value="ammoSupplyDesc"/>
+	<property class="Action1">
+	<property name="QuestGiven" value="ammoSupply9mmHP" />
+	</property>
+</item>
+<item id="3022" name="ammoSupply44MagHP">
+	<property name="Extends" value="challengeQuestMaster" />
+	<property name="CustomIcon" value="ammoSupply44MagHP" />
+	<property name="DescriptionKey" value="ammoSupplyDesc"/>
+	<property class="Action1">
+	<property name="QuestGiven" value="AmmoSupply44MagHP" />
+	</property>
+</item>
+<item id="3023" name="ammoSupply762mmHP">
+	<property name="Extends" value="challengeQuestMaster" />
+	<property name="CustomIcon" value="ammoSupply762mmHP" />
+	<property name="DescriptionKey" value="ammoSupplyDesc"/>
+	<property class="Action1">
+	<property name="QuestGiven" value="AmmoSupply762mmHP" />
+	</property>
+</item>
+<item id="3024" name="ammoSupplyShotgunHP">
+	<property name="Extends" value="challengeQuestMaster" />
+	<property name="CustomIcon" value="ammoSupplyShotgunHP" />
+	<property name="DescriptionKey" value="ammoSupplyDesc"/>
+	<property class="Action1">
+	<property name="QuestGiven" value="AmmoSupplyShotgunHP" />
+	</property>
+</item>
+<item id="3025" name="genericAmmoBoxHP">
+	<property name="DescriptionKey" value="genericAmmoBoxDesc"/>
+	<property name="Meshfile" value="Items/Misc/sackPrefab" />
+	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab" />
+	<property name="Material" value="organic" />
+	<property name="HoldType" value="3" />
+	<property name="Stacknumber" value="50" />
+	<property class="Preview">
+		<property name="Zoom" value="28" />
+		<property name="Pos" value="0,-0.05" />
+		<property name="Rot" value="90,45,0" />
+	</property>
+	<property name="Group" value="Resources" />
+</item>
+<!-- <item id="3026" name="genericExplBox"> -->
+	<!-- <property name="DescriptionKey" value="genericAmmoBoxDesc"/> -->
+	<!-- <property name="Meshfile" value="Items/Misc/sackPrefab" /> -->
+	<!-- <property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab" /> -->
+	<!-- <property name="Material" value="organic" /> -->
+	<!-- <property name="HoldType" value="3" /> -->
+	<!-- <property name="Stacknumber" value="50" /> -->
+	<!-- <property class="Preview"> -->
+		<!-- <property name="Zoom" value="28" /> -->
+		<!-- <property name="Pos" value="0,-0.05" /> -->
+		<!-- <property name="Rot" value="90,45,0" /> -->
+	<!-- </property> -->
+	<!-- <property name="Group" value="Resources" /> -->
+	<!-- </item> -->
+<!-- <item id="3027" name="genericDlxBox"> -->
+	<!-- <property name="DescriptionKey" value="genericAmmoBoxDesc"/> -->
+	<!-- <property name="Meshfile" value="Items/Misc/sackPrefab" /> -->
+	<!-- <property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab" /> -->
+	<!-- <property name="Material" value="organic" /> -->
+	<!-- <property name="HoldType" value="3" /> -->
+	<!-- <property name="Stacknumber" value="50" /> -->
+	<!-- <property class="Preview"> -->
+		<!-- <property name="Zoom" value="28" /> -->
+		<!-- <property name="Pos" value="0,-0.05" /> -->
+		<!-- <property name="Rot" value="90,45,0" /> -->
+	<!-- </property> -->
+	<!-- <property name="Group" value="Resources" /> -->
+<!-- </item> -->
+<!-- <item id="3028" name="genericWeap400Box"> -->
+	<!-- <property name="DescriptionKey" value="genericAmmoBoxDesc"/> -->
+	<!-- <property name="Meshfile" value="Items/Misc/sackPrefab" /> -->
+	<!-- <property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab" /> -->
+	<!-- <property name="Material" value="organic" /> -->
+	<!-- <property name="HoldType" value="3" /> -->
+	<!-- <property name="Stacknumber" value="50" /> -->
+	<!-- <property class="Preview"> -->
+		<!-- <property name="Zoom" value="28" /> -->
+		<!-- <property name="Pos" value="0,-0.05" /> -->
+		<!-- <property name="Rot" value="90,45,0" /> -->
+	<!-- </property> -->
+	<!-- <property name="Group" value="Resources" /> -->
+<!-- </item> -->
+<!-- <item id="3029" name="genericWeap500Box"> -->
+	<!-- <property name="DescriptionKey" value="genericAmmoBoxDesc"/> -->
+	<!-- <property name="Meshfile" value="Items/Misc/sackPrefab" /> -->
+	<!-- <property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab" /> -->
+	<!-- <property name="Material" value="organic" /> -->
+	<!-- <property name="HoldType" value="3" /> -->
+	<!-- <property name="Stacknumber" value="50" /> -->
+	<!-- <property class="Preview"> -->
+		<!-- <property name="Zoom" value="28" /> -->
+		<!-- <property name="Pos" value="0,-0.05" /> -->
+		<!-- <property name="Rot" value="90,45,0" /> -->
+	<!-- </property> -->
+	<!-- <property name="Group" value="Resources" /> -->
+<!-- </item> -->
+<!-- <item id="3030" name="genericWeap600Box"> -->
+	<!-- <property name="DescriptionKey" value="genericAmmoBoxDesc"/> -->
+	<!-- <property name="Meshfile" value="Items/Misc/sackPrefab" /> -->
+	<!-- <property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab" /> -->
+	<!-- <property name="Material" value="organic" /> -->
+	<!-- <property name="HoldType" value="3" /> -->
+	<!-- <property name="Stacknumber" value="50" /> -->
+	<!-- <property class="Preview"> -->
+		<!-- <property name="Zoom" value="28" /> -->
+		<!-- <property name="Pos" value="0,-0.05" /> -->
+		<!-- <property name="Rot" value="90,45,0" /> -->
+	<!-- </property> -->
+	<!-- <property name="Group" value="Resources" /> -->
+<!-- </item> -->
+<!-- <item id="3031" name="genericCrossbow600Box"> -->
+	<!-- <property name="DescriptionKey" value="genericAmmoBoxDesc"/> -->
+	<!-- <property name="Meshfile" value="Items/Misc/sackPrefab" /> -->
+	<!-- <property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab" /> -->
+	<!-- <property name="Material" value="organic" /> -->
+	<!-- <property name="HoldType" value="3" /> -->
+	<!-- <property name="Stacknumber" value="50" /> -->
+	<!-- <property class="Preview"> -->
+		<!-- <property name="Zoom" value="28" /> -->
+		<!-- <property name="Pos" value="0,-0.05" /> -->
+		<!-- <property name="Rot" value="90,45,0" /> -->
+	<!-- </property> -->
+	<!-- <property name="Group" value="Resources" /> -->
+<!-- </item> -->
 <!-- /frenchFrogMOD -->
 </items>

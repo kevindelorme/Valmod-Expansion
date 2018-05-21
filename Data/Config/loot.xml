@@ -3629,6 +3629,7 @@
         <item name="gunPistolSilenced" count="1" quality="180,180"/>
         <item name="9mmBullet" count="90"/>
         <item name="repairKit" count="5"/>
+        <item name="Lockpick" count="5"/>
 		<item name="challengeClassSpy" count="1"/>
 		<!-- <item name="challengeClassPVP" count="1"/> -->
 		<item name="perkSpy" count="1"/>
