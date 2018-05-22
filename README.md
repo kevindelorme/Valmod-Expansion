@@ -2,6 +2,7 @@
 Valmod - French Frog MOD Edition Pack
 
 This is a fork of the Valmod Pack - Expansion Edition.
+
 1. New items : (in progress)
  - 3010 challengeClassSpy (OK)
  - 3011 perkSpy (OK)
@@ -17,58 +18,78 @@ This is a fork of the Valmod Pack - Expansion Edition.
  - 3021 ammoSupply9mmHP (OK)
  - 3022 ammoSupply44MagHP (OK)
  - 3023 ammoSupply762mmHP (OK)
- - 3024 ammoSupplyShotgunHP (OK) (siege)
+ - 3024 ammoSupplyShotgunHP (siege) (OK)
  - 3025 genericAmmoBoxHP (OK)
- - 3026 genericExplBox (NOK) (molotov, mines, tnt)
- - 3027 genericDlxBox (NOK) (genericAmmoBoxINC + genericAmmoBoxHP + genericExplBox + firstAidKit)
- - 3028 genericWeap400Box (NOK) (you choose one firearm lvl 400-499)
- - 3029 genericWeap500Box (NOK) (you choose one firearm lvl 500-599)
- - 3030 genericWeap600Box (NOK) (you choose one firearm lvl 600)
- - 3031 genericCrossbow600Box (NOK) (you choose one crossbow lvl 600)
+ - 3026 genericExplBox (molotov id 183 , mines id 431, tnt id 381) (in progress)
+ - 3027 genericDlxBox (genericAmmoBoxINC + genericAmmoBoxHP + genericExplBox + firstAidKit) (NOK)
+ - 3028 genericWeap400Box (you choose one firearm lvl 400-499) (NOK)
+ - 3029 genericWeap500Box (you choose one firearm lvl 500-599) (NOK)
+ - 3030 genericWeap600Box (you choose one firearm lvl 600) (NOK)
+ - 3031 genericCrossbow600Box (NOK) (you choose one crossbow lvl 600) (NOK)
+
 2. New classes : (OK)
  - Spy (OK),
  - Farmer (OK),
  - Others (example : Thug, Nudist, etc...).
+
 3. New challenges : (in progress, NOK)
  - Valmod Classes Callenges modifications (in progress)
  - New classes specifics challenges
-	- Spy (Lockpicking and ZombieKill) (in progress), reward : Ammoboxes, firstAidKit, pistols
-	- Farmer (ZombieKill with Tools, Havresting, ZombieKill with rifle) (in progress), reward : fertilizers, seeds, Construction Tools, rifles
- - New All classes \ Survivor challenges, after the classes challenges (in progress)
-	- stage 2, 3 steps : kill more zombies / all classes \ Survivor all weapons allowed / reward : INC bullets boxes
-		- allClasses_challengeINC1-3 (in progress)
-		- genericAmmoBoxINC (in progress)
-	- stage 3, 3 steps : kill more zombies / all classes \ Survivor all weapons allowed / reward : HP bullets boxes
-		- allClasses_challengeHP1-3 (in progress)
-		- genericAmmoBoxHP (in progress)
-	- stage 4, 3 steps : kill more zombies / all classes \ Survivor all weapons allowed / reward : EXPLOSIVES boxes
-		- allClasses_challengeEXPL1-3 (NOK)
-		- Ammo Box Explosives (NOK) : item, quest, loot and image
-	- stage 5, 3 steps : kill more zombies / all classes \ Survivor all weapons allowed / reward : DELUXE boxes
-		- allClasses_challengeDLX1-3 (NOK)
-		- DELUXE Boxes Pack (NOK) : item, quest, loot and image, countains explosives, regular bullet boxes, INC and HP boxes + firstAidKit
-	- stage 6, 3 steps : kill more zombies / all classes all weapons allowed / reward : WEAPON boxes
-		- allClasses_challengeWEAP1-3 (NOK)
-		- weapon400, weapon500 and weapon600 Boxes (NOK) : items, quest, loot and image, countains 400, 500 then 600 level weapon, the choice is yours
- - New Survivor challenges, after the classes challenges (NOK)
-	- stage 2, 3 steps : kill more zombies / Survivor class crossbow only allowed / reward : explosive crossbow darts
-		- allClasses_2survivor1-3 (NOK)
-		- explosive crossbow darts (NOK) : item, quest, loot and image
-	- stage 3, 3 steps : kill more zombies / Survivor class crossbow only allowed / reward : explosive crossbow darts
-		- allClasses_3survivor1-3 (in progress)
-		- explosive crossbow darts (NOK) : item, quest, loot and image
-	- stage 4, 3 steps : kill more zombies / Survivor class crossbow only allowed / reward : explosive crossbow darts
-		- allClasses_4survivor1-3 (NOK)
-		- explosive crossbow darts + Ammo Box Explosives (NOK) : item, quest, loot and image
-	- stage 5, 3 steps : kill more zombies / Survivor class crossbow only allowed / reward : explosive crossbow darts + EXPLOSIVES boxes
-		- allClasses_5survivor1-3 (NOK)
-		- explosive crossbow darts + Ammo Box Explosives + firstAidKit (NOK) : explosive crossbow darts + EXPLOSIVES boxes + firstAidKit
-	- stage 6, 3 steps : kill more zombies / Survivor class crossbow only allowed / reward : Crossbows
-		- allClasses_6survivor1-3 (NOK)
-		- 600 regular crossbow, 600 iron crossbow then 600 repeat crossbow (NOK)
+	- Spy (in progress)
+		- objectives : Lockpicking, ZombieKill (NOK)
+		- rewards : items(Ammoboxes, firstAidKit, repairKit ?), skills(pistols, Lockpicking) (NOK)
+	- Farmer (in progress)
+		- objectives : ZombieKill with tools, ZombieKill with rifle, havresting (NOK)
+		- rewards : items(fertilizers, seeds, Ammoboxes, firstAidKit, repairKit ?), skills(construction tools, rifles) (NOK)
+ - New "All classes" challenges - DO NOT GIVE THIS QUESTLINE TO SURVIVOR CLASS - (in progress)
+	- stage 2, 3 steps : allClasses_challengeINC1->3 (in progress)
+		- objectives : ZombieKill / all classes all weapons allowed 
+		- rewards : genericAmmoBoxINC (OK) *1 - *3 - *5 (NOK)
+		- working but ZombieKill set to 1 for testing purposes
+	- stage 3, 3 steps : allClasses_challengeHP1->3 (in progress)
+		- objectives : ZombieKill / all classes all weapons allowed 
+		- rewards : genericAmmoBoxHP (OK) *1 - *3 - *5 (NOK)
+		- working but ZombieKill set to 1 for testing purposes
+	- stage 4, 3 steps : allClasses_challengeEXPL1->3 (NOK)
+		- objectives : ZombieKill / all classes all weapons allowed 
+		- rewards : genericExplBox (NOK) *1 - *3 - *5 (NOK)
+		- not implemented yet
+	- stage 5, 3 steps : allClasses_challengeDLX1-> (NOK)
+		- objectives : ZombieKill / all classes all weapons allowed 
+		- rewards : genericDlxBox (NOK) *1 - *3 - *5 (NOK)
+		- not implemented yet
+	- stage 6, 3 steps : allClasses_challengeWEAP1->3 (NOK)
+		- objectives : ZombieKill / all classes all weapons allowed 
+		- rewards : genericWeap400Box->genericWeap500Box->genericWeap600Box (NOK)
+		- not implemented yet
+ - New Survivor challenges - ONLY GIVE THIS QUESTLINE TO SURVIVOR CLASS - (NOK)
+	- stage 2, 3 steps : allClasses_2survivor1->3 (NOK)
+		- objectives : ZombieKill / survivor class crossbow only allowed 
+		- rewards : explodingCrossbowBolt (OK) *20 - *50 - *80 (NOK)
+		- not implemented yet
+	- stage 3, 3 steps : allClasses_3survivor1->3 (NOK)
+		- objectives : ZombieKill / survivor class crossbow only allowed 
+		- rewards : explodingCrossbowBolt (OK) *110 - *140 - *170 (NOK)
+		- not implemented yet
+	- stage 4, 3 steps : allClasses_4survivor1->3 (NOK)
+		- objectives : ZombieKill / survivor class crossbow only allowed 
+		- rewards : explodingCrossbowBolt (OK) *200 - *230 - *260 (NOK)
+		- not implemented yet
+	- stage 5, 3 steps : allClasses_5survivor1->3 (NOK)
+		- objectives : ZombieKill / survivor class crossbow only allowed 
+		- rewards : explodingCrossbowBolt (OK) *200 - *230 - *260 (NOK)
+		- rewards : genericExplBox (NOK) *1 - *3 - *5 (NOK)
+		- rewards : firstAidKit (OK) *1 - *3 - *5 (NOK)
+		- not implemented yet
+	- stage 6, 3 steps : allClasses_6survivor1->3 (NOK)
+		- objectives : ZombieKill / survivor class crossbow only allowed 
+		- rewards : genericCrossbow600Box (NOK)
+		- not implemented yet
  - PvP challenges. (NOK)
+
 4. Loot more bullets to create a more PvP flavoured mod. (NOK)
- - The game take's place inside an USA similar country you're supposed to loot a lot ow firearms and bullets
+ - The game take's place inside an USA similar country you're supposed to loot a lot of firearms and bullets
+
 5. Edit the blood moon mechanics in order to modify the 7 days delay to 28 days. (NOK)
 6. Add an Haloween ultra hardcore h24 blood moon on day 666. (NOK)
 7. Misc : I also may translate the mod to french. (NOK)
