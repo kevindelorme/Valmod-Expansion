@@ -3595,6 +3595,18 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 <recipe name="ammoSupplyShotgunHP" count="1" >
 	<ingredient name="genericAmmoBoxHP" count="1"/>
 </recipe>
+<recipe name="pipeBomb" count="10" >
+	<ingredient name="genericExplBox" count="1"/>
+</recipe>
+<recipe name="dynamite" count="10" >
+	<ingredient name="genericExplBox" count="1"/>
+</recipe>
+<recipe name="molotovCocktail" count="10" >
+	<ingredient name="genericExplBox" count="1"/>
+</recipe>
+<recipe name="flare" count="10" >
+	<ingredient name="genericExplBox" count="1"/>
+</recipe>
 <!-- /frenchFrogMOD -->
 
 <recipe name="ironArrow" count="1" craft_area="workbench" craft_exp_gain="0">

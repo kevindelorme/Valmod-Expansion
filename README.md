@@ -20,12 +20,11 @@ This is a fork of the Valmod Pack - Expansion Edition.
  - 3023 ammoSupply762mmHP (OK)
  - 3024 ammoSupplyShotgunHP (siege) (OK)
  - 3025 genericAmmoBoxHP (OK)
- - 3026 genericExplBox (molotov id 183 , mines id 431, tnt id 381) (in progress)
- - 3027 genericDlxBox (genericAmmoBoxINC + genericAmmoBoxHP + genericExplBox + firstAidKit) (NOK)
- - 3028 genericWeap400Box (you choose one firearm lvl 400-499) (NOK)
- - 3029 genericWeap500Box (you choose one firearm lvl 500-599) (NOK)
- - 3030 genericWeap600Box (you choose one firearm lvl 600) (NOK)
- - 3031 genericCrossbow600Box (NOK) (you choose one crossbow lvl 600) (NOK)
+ - 3026 genericExplBox (OK)
+ - 3027 genericWeap400Box (you choose one firearm lvl 400-499) (NOK)
+ - 3028 genericWeap500Box (you choose one firearm lvl 500-599) (NOK)
+ - 3029 genericWeap600Box (you choose one firearm lvl 600) (NOK)
+ - 3030 genericCrossbow600Box (NOK) (you choose one crossbow lvl 600) (NOK)
 
 2. New classes : (OK)
  - Spy (OK),
@@ -38,26 +37,30 @@ This is a fork of the Valmod Pack - Expansion Edition.
 	- Spy (in progress)
 		- objectives : Lockpicking, ZombieKill (NOK)
 		- rewards : items(Ammoboxes, firstAidKit, repairKit ?), skills(pistols, Lockpicking) (NOK)
+		- ZombieKill set to 1 for testing purposes
 	- Farmer (in progress)
 		- objectives : ZombieKill with tools, ZombieKill with rifle, havresting (NOK)
 		- rewards : items(fertilizers, seeds, Ammoboxes, firstAidKit, repairKit ?), skills(construction tools, rifles) (NOK)
  - New "All classes" challenges - DO NOT GIVE THIS QUESTLINE TO SURVIVOR CLASS - (in progress)
-	- stage 2, 3 steps : allClasses_challengeINC1->3 (in progress)
+	- stage 2, 3 steps : allClasses_challengeINC1->3 (OK)
 		- objectives : ZombieKill / all classes all weapons allowed 
-		- rewards : genericAmmoBoxINC (OK) *1 - *3 - *5 (NOK)
+		- rewards : genericAmmoBoxINC (OK) *1 - *3 - *5 (OK)
 		- working but ZombieKill set to 1 for testing purposes
-	- stage 3, 3 steps : allClasses_challengeHP1->3 (in progress)
+	- stage 3, 3 steps : allClasses_challengeHP1->3 (OK)
 		- objectives : ZombieKill / all classes all weapons allowed 
-		- rewards : genericAmmoBoxHP (OK) *1 - *3 - *5 (NOK)
+		- rewards : genericAmmoBoxHP (OK) *1 - *3 - *5 (OK)
 		- working but ZombieKill set to 1 for testing purposes
-	- stage 4, 3 steps : allClasses_challengeEXPL1->3 (NOK)
+	- stage 4, 3 steps : allClasses_challengeEXPL1->3 (OK)
 		- objectives : ZombieKill / all classes all weapons allowed 
-		- rewards : genericExplBox (NOK) *1 - *3 - *5 (NOK)
-		- not implemented yet
-	- stage 5, 3 steps : allClasses_challengeDLX1-> (NOK)
-		- objectives : ZombieKill / all classes all weapons allowed 
-		- rewards : genericDlxBox (NOK) *1 - *3 - *5 (NOK)
-		- not implemented yet
+		- rewards : genericExplBox (in progress) *1 - *3 - *5 (OK)
+		- working but ZombieKill set to 1 for testing purposes
+	- stage 5, 3 steps : allClasses_challengeDLX1->3 (OK)
+		- objectives : ZombieKill / all classes all weapons allowed
+		- rewards : genericAmmoBoxINC (OK) *1 - *3 - *5 (OK)
+		- rewards : genericAmmoBoxHP (OK) *1 - *3 - *5 (OK)
+		- rewards : genericExplBox (OK) *1 - *3 - *5 (OK)
+		- rewards : firstAidKit (OK) *1 - *3 - *5 (OK)
+		- working but ZombieKill set to 1 for testing purposes
 	- stage 6, 3 steps : allClasses_challengeWEAP1->3 (NOK)
 		- objectives : ZombieKill / all classes all weapons allowed 
 		- rewards : genericWeap400Box->genericWeap500Box->genericWeap600Box (NOK)
@@ -77,7 +80,7 @@ This is a fork of the Valmod Pack - Expansion Edition.
 		- not implemented yet
 	- stage 5, 3 steps : allClasses_5survivor1->3 (NOK)
 		- objectives : ZombieKill / survivor class crossbow only allowed 
-		- rewards : explodingCrossbowBolt (OK) *200 - *230 - *260 (NOK)
+		- rewards : explodingCrossbowBolt (OK) *250 - *300 - *400 (NOK)
 		- rewards : genericExplBox (NOK) *1 - *3 - *5 (NOK)
 		- rewards : firstAidKit (OK) *1 - *3 - *5 (NOK)
 		- not implemented yet
@@ -92,10 +95,10 @@ This is a fork of the Valmod Pack - Expansion Edition.
 
 5. Edit the blood moon mechanics in order to modify the 7 days delay to 28 days. (NOK)
 6. Add an Haloween ultra hardcore h24 blood moon on day 666. (NOK)
-7. Misc : I also may translate the mod to french. (NOK)
-8. Misc : Add a "Baguette" (bread) weapon (and also a white flag lol) because I'm french. (NOK)
-9. Misc : Add a "Maple Syrup" item (similar with honey) because I do love Québec. (NOK)
-10. Misc : The blood moon white flag/baguette nude run survival challenge ! - floor level >= -1 (NOK)
+7. Add a "Baguette" (bread) weapon (and also a white flag lol) because I'm french. (NOK)
+8. Add a "Maple Syrup" item (similar with honey) because I do love Québec. (NOK)
+9. The blood moon white flag/baguette nude run survival challenge ! - floor level >= -1 (NOK)
+10. Misc : I also may translate the mod to french. (NOK)
 
 I work with Notepad++, Gimp, Github Desktop and MobaXTerm on a MS Windows 10 x64 PC.
 

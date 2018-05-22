@@ -734,7 +734,7 @@
 			<requirement type="Holding" id="gunPistolSilenced" />
 			<requirement type="Holding" id="gun44MagnumSilenced" />
 		</requirement>
-		<objective type="ZombieKill" value="2" />
+		<objective type="ZombieKill" value="1" />
 		<reward type="Skill" id="Pistols" value="3" />
 		<reward type="Item" id="44MagBullet" value="75" />
 		<reward type="Quest" id="challenge_spy3" />
@@ -745,7 +745,7 @@
 			<requirement type="Holding" id="gunPistolSilenced" />
 			<requirement type="Holding" id="gun44MagnumSilenced" />
 		</requirement>
-		<objective type="ZombieKill" value="3" />
+		<objective type="ZombieKill" value="1" />
 		<reward type="Item" id="44MagBullet" value="170" />
 		<reward type="Skill" id="Pistols" value="5" />
 		<reward type="Quest" id="allClasses_challengeINC1" />
@@ -803,23 +803,23 @@
 	
 	<quest id="allClasses_challengeINC2" group_name_key="allClasses_challengeINC" name="All classes rampage Quest 2/3" subtitle="All classes rampage Challenge 2/3" description="Waste more zombies" icon="ui_game_symbol_rifle" 
 		repeatable="false" category_key="challenge" offer="Did you know about INC bullets ?" difficulty="easy">
-		<objective type="ZombieKill" value="2" />
-		<reward type="Item" id="genericAmmoBoxINC" value="1" />
+		<objective type="ZombieKill" value="1" />
+		<reward type="Item" id="genericAmmoBoxINC" value="3" />
 		<reward type="Skill" id="Pistols" value="1" />	<!-- All weapon skills +5 -->
 		<reward type="Quest" id="allClasses_challengeINC3" />
 	</quest>
 	
 	<quest id="allClasses_challengeINC3" group_name_key="allClasses_challengeINC" name="All classes rampage Quest 3/3" subtitle="All classes rampage Challenge 3/3" description="Waste more zombies" icon="ui_game_symbol_rifle" 
 		repeatable="false" category_key="challenge" offer="Did you know about INC bullets ?" difficulty="easy">
-		<objective type="ZombieKill" value="3" />
-		<reward type="Item" id="genericAmmoBoxINC" value="1" />
+		<objective type="ZombieKill" value="1" />
+		<reward type="Item" id="genericAmmoBoxINC" value="5" />
 		<reward type="Skill" id="Pistols" value="1" />	<!-- All weapon skills +7 -->
 		<reward type="Quest" id="allClasses_challengeHP1" />
 	</quest>
 	<!-- allClasses_challengeHP -->
 	<quest id="allClasses_challengeHP1" group_name_key="allClasses_challengeHP" name="All classes rampage Quest 4/3" subtitle="All classes rampage Challenge 4/3" description="Waste more zombies" icon="ui_game_symbol_rifle" 
 		repeatable="false" category_key="challenge" offer="Did you know about HP bullets ?" difficulty="easy">
-		<objective type="ZombieKill" value="4" />
+		<objective type="ZombieKill" value="1" />
 		<reward type="Item" id="genericAmmoBoxHP" value="1" />
 		<reward type="Skill" id="Pistols" value="1" />	<!-- All weapon skills +9 -->
 		<reward type="Quest" id="allClasses_challengeHP2" />
@@ -827,16 +827,75 @@
 	
 	<quest id="allClasses_challengeHP2" group_name_key="allClasses_challengeHP" name="All classes rampage Quest 5/3" subtitle="All classes rampage Challenge 5/3" description="Waste more zombies" icon="ui_game_symbol_rifle" 
 		repeatable="false" category_key="challenge" offer="Did you know about HP bullets ?" difficulty="easy">
-		<objective type="ZombieKill" value="5" />
-		<reward type="Item" id="genericAmmoBoxHP" value="2" />
+		<objective type="ZombieKill" value="1" />
+		<reward type="Item" id="genericAmmoBoxHP" value="3" />
 		<reward type="Skill" id="Pistols" value="1" />	<!-- All weapon skills +11 -->
 		<reward type="Quest" id="allClasses_challengeHP3" />
 	</quest>
 	
 	<quest id="allClasses_challengeHP3" group_name_key="allClasses_challengeHP" name="All classes rampage Quest 6/3" subtitle="All classes rampage Challenge 6/3" description="Waste more zombies" icon="ui_game_symbol_rifle" 
 		repeatable="false" category_key="challenge" offer="Did you know about HP bullets ?" difficulty="easy">
-		<objective type="ZombieKill" value="6" />
+		<objective type="ZombieKill" value="1" />
+		<reward type="Item" id="genericAmmoBoxHP" value="5" />
+		<reward type="Skill" id="Pistols" value="1" />	<!-- All weapon skills +13 -->
+		<reward type="Quest" id="allClasses_challengeEXPL1" />
+	</quest>
+	
+	<!-- allClasses_challengeEXPL -->
+	<quest id="allClasses_challengeEXPL1" group_name_key="allClasses_challengeEXPL" name="All classes bomb Quest 7/3" subtitle="All classes bomb Challenge 7/3" description="Waste more zombies" icon="ui_game_symbol_rifle" 
+		repeatable="false" category_key="challenge" offer="Did you know about explosives ?" difficulty="easy">
+		<objective type="ZombieKill" value="1" />
+		<reward type="Item" id="genericExplBox" value="1" />
+		<reward type="Skill" id="Pistols" value="1" />	<!-- All weapon skills +9 -->
+		<reward type="Quest" id="allClasses_challengeEXPL2" />
+	</quest>
+	
+	<quest id="allClasses_challengeEXPL2" group_name_key="allClasses_challengeEXPL" name="All classes bomb Quest 8/3" subtitle="All classes bomb Challenge 8/3" description="Waste more zombies" icon="ui_game_symbol_rifle" 
+		repeatable="false" category_key="challenge" offer="Did you know about explosives ?" difficulty="easy">
+		<objective type="ZombieKill" value="1" />
+		<reward type="Item" id="genericExplBox" value="3" />
+		<reward type="Skill" id="Pistols" value="1" />	<!-- All weapon skills +11 -->
+		<reward type="Quest" id="allClasses_challengeEXPL3" />
+	</quest>
+	
+	<quest id="allClasses_challengeEXPL3" group_name_key="allClasses_challengeEXPL" name="All classes bomb Quest 9/3" subtitle="All classes bomb Challenge 9/3" description="Waste more zombies" icon="ui_game_symbol_rifle" 
+		repeatable="false" category_key="challenge" offer="Did you know about explosives ?" difficulty="easy">
+		<objective type="ZombieKill" value="1" />
+		<reward type="Item" id="genericExplBox" value="5" />
+		<reward type="Skill" id="Pistols" value="1" />	<!-- All weapon skills +13 -->
+		<reward type="Quest" id="allClasses_challengeDLX1" />
+	</quest>
+	
+	<!-- allClasses_challengeDLX -->
+	<quest id="allClasses_challengeDLX1" group_name_key="allClasses_challengeDLX" name="All classes DLX Quest 10/3" subtitle="All classes DLX Challenge 10/3" description="Waste more zombies" icon="ui_game_symbol_rifle" 
+		repeatable="false" category_key="challenge" offer="Did you know about royal deluxe ?" difficulty="easy">
+		<objective type="ZombieKill" value="1" />
+		<reward type="Item" id="genericAmmoBoxINC" value="1" />
+		<reward type="Item" id="genericAmmoBoxHP" value="1" />
+		<reward type="Item" id="genericExplBox" value="1" />
+		<reward type="Item" id="firstAidKit" value="1" />
+		<reward type="Skill" id="Pistols" value="1" />	<!-- All weapon skills +9 -->
+		<reward type="Quest" id="allClasses_challengeDLX2" />
+	</quest>
+	
+	<quest id="allClasses_challengeDLX2" group_name_key="allClasses_challengeDLX" name="All classes DLX Quest 11/3" subtitle="All classes DLX Challenge 11/3" description="Waste more zombies" icon="ui_game_symbol_rifle" 
+		repeatable="false" category_key="challenge" offer="Did you know about royal deluxe ?" difficulty="easy">
+		<objective type="ZombieKill" value="1" />
+		<reward type="Item" id="genericAmmoBoxINC" value="3" />
 		<reward type="Item" id="genericAmmoBoxHP" value="3" />
+		<reward type="Item" id="genericExplBox" value="3" />
+		<reward type="Item" id="firstAidKit" value="3" />
+		<reward type="Skill" id="Pistols" value="1" />	<!-- All weapon skills +11 -->
+		<reward type="Quest" id="allClasses_challengeDLX3" />
+	</quest>
+	
+	<quest id="allClasses_challengeDLX3" group_name_key="allClasses_challengeDLX" name="All classes DLX Quest 12/3" subtitle="All classes DLX Challenge 12/3" description="Waste more zombies" icon="ui_game_symbol_rifle" 
+		repeatable="false" category_key="challenge" offer="Did you know about royal deluxe ?" difficulty="easy">
+		<objective type="ZombieKill" value="1" />
+		<reward type="Item" id="genericAmmoBoxINC" value="5" />
+		<reward type="Item" id="genericAmmoBoxHP" value="5" />
+		<reward type="Item" id="genericExplBox" value="5" />
+		<reward type="Item" id="firstAidKit" value="5" />
 		<reward type="Skill" id="Pistols" value="1" />	<!-- All weapon skills +13 -->
 	</quest>
 	<!-- /frenchFrogMOD -->
@@ -1379,5 +1438,7 @@ repeatable="true" category_key="challenge" offer="Open this to get some ammo for
 repeatable="true" category_key="challenge" offer="Open this to get some ammo for your gun." difficulty="easy">
 <reward type="Item" id="SiegeShell" value="50" />
 </quest>
-<!-- frenchFrogMOD -->
+<!-- DEVfrenchFrogMOD -->
+
+<!-- /frenchFrogMOD -->
 </quests>
