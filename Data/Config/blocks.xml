@@ -17371,6 +17371,44 @@ kind of free
 	<property name="Group" value="Food/Cooking" />
 	<property name="DowngradeBlock" value="seedGrape" />
 	<property name="CropsGrown.BonusHarvestDivisor" value="5" />
-  </block>  
+  </block>
+
+<!-- frenchFrogMOD -->
+	<!-- Weap 400 - gunPistolSilenced -->
+	<block id="2047" name="Weap 400 - gunPistolSilenced (Locked)">
+		<property name="DescriptionKey" value="weap400Desc"/>
+		<property name="Group" value="Weap 400 System" />
+		<property name="CustomIcon" value="Class - Wildcard" />
+		<!--		<property name="CustomIcon" value="suitcase" /> -->
+		<property name="Material" value="wood+wood" />
+		<property name="Shape" value="Ext3dModel" />
+		<property name="Mesh" value="models" />
+		<property name="Model" value="LootContainers/suitcase" param1="main_mesh" />
+		<property name="Place" value="TowardsPlacer" />
+		<drop event="Destroy" count="0" prob="1" />
+		<property name="CanPickup" value="true" />
+		<property name="DowngradeBlock" value="Weap 400 - gunPistolSilenced" />
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="Weap 400 - gunPistolSilenced" />
+			<property name="Item" value="weap400Key" />
+			<property name="ItemCount" value="1" />
+			<property name="UpgradeHitCount" value="1" />
+		</property>
+	</block>
+	<block id="2046" name="Weap 400 - gunPistolSilenced">
+		<property name="Class" value="Loot" />
+		<property name="Group" value="Survival" />
+		<property name="Material" value="wood+wood" />
+		<!--		<property name="CustomIcon" value="suitcase" /> -->
+		<property name="Shape" value="Ext3dModel" />
+		<property name="Mesh" value="models" />
+		<property name="Model" value="LootContainers/suitcase" param1="main_mesh" />
+		<property name="Place" value="TowardsPlacer" />
+		<property name="LootList" value="227" />
+		<drop event="Destroy" count="0" />
+		<drop event="Fall" name="woodDebris" count="1" prob="1.0"  stick_chance=".75" />
+		<property name="LPHardnessScale" value="8" />
+	</block>
+<!-- /frenchFrogMOD -->
 
 </blocks><!-- Block limit: No block can have an ID greater 2047. -->

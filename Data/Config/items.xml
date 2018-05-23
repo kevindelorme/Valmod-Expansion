@@ -15921,61 +15921,48 @@ Mesh files no longer used:
 	</property>
 	<property name="Group" value="Resources" />
 </item>
-<!-- <item id="3027" name="genericWeap400Box"> -->
-	<!-- <property name="DescriptionKey" value="genericAmmoBoxDesc"/> -->
-	<!-- <property name="Meshfile" value="Items/Misc/sackPrefab" /> -->
-	<!-- <property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab" /> -->
-	<!-- <property name="Material" value="organic" /> -->
-	<!-- <property name="HoldType" value="3" /> -->
-	<!-- <property name="Stacknumber" value="50" /> -->
-	<!-- <property class="Preview"> -->
-		<!-- <property name="Zoom" value="28" /> -->
-		<!-- <property name="Pos" value="0,-0.05" /> -->
-		<!-- <property name="Rot" value="90,45,0" /> -->
-	<!-- </property> -->
-	<!-- <property name="Group" value="Resources" /> -->
+<item id="3027" name="weap400Key">
+	<property name="Degradation" value="125" param1="true" />
+	<property name="Meshfile" value="Items/Misc/paper" />
+	<property name="DescriptionKey" value="weap400KeyDesc"/> <!-- TO DO -->
+	<property name="Material" value="paper" />
+	<property name="HoldType" value="23" />
+	<property name="Stacknumber" value="1" />
+	<property class="Action1">
+		<property name="Class" value="Repair" />
+		<property name="Delay" value="0.4" />
+		<property name="Upgrade_hit_offset" value="-2" />
+		<property name="Sound_start" value="UseActions/repair_block" />
+		<property name="Allowed_upgrade_items" value="weap400Key" />
+	</property>
+	<!-- <property name="Group" value="Professions" /> -->
+</item>
+<item id="3028" name="weap400Selection">
+	<property name="DescriptionKey" value="weap400SelectionDesc"/> <!-- TO DO -->
+	<property name="Meshfile" value="Items/Misc/Book" />
+	<property name="Material" value="organic" />
+	<property name="HoldType" value="21" />
+	<property name="Stacknumber" value="1" />
+	<property name="FuelValue" value="20" />
+	<property name="Group" value="Special Items" />
+	<property class="Preview">
+		<property name="Zoom" value="10" />
+		<property name="Pos" value="0,-0.2" />
+		<property name="Rot" value="90,45,0" />
+	</property>
+</item>
+<!-- TO DO -->
+<!-- <item id="3029" name="weap500Key"> -->
 <!-- </item> -->
-<!-- <item id="3028" name="genericWeap500Box"> -->
-	<!-- <property name="DescriptionKey" value="genericAmmoBoxDesc"/> -->
-	<!-- <property name="Meshfile" value="Items/Misc/sackPrefab" /> -->
-	<!-- <property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab" /> -->
-	<!-- <property name="Material" value="organic" /> -->
-	<!-- <property name="HoldType" value="3" /> -->
-	<!-- <property name="Stacknumber" value="50" /> -->
-	<!-- <property class="Preview"> -->
-		<!-- <property name="Zoom" value="28" /> -->
-		<!-- <property name="Pos" value="0,-0.05" /> -->
-		<!-- <property name="Rot" value="90,45,0" /> -->
-	<!-- </property> -->
-	<!-- <property name="Group" value="Resources" /> -->
+<!-- <item id="3030" name="weap500Selection"> -->
 <!-- </item> -->
-<!-- <item id="3029" name="genericWeap600Box"> -->
-	<!-- <property name="DescriptionKey" value="genericAmmoBoxDesc"/> -->
-	<!-- <property name="Meshfile" value="Items/Misc/sackPrefab" /> -->
-	<!-- <property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab" /> -->
-	<!-- <property name="Material" value="organic" /> -->
-	<!-- <property name="HoldType" value="3" /> -->
-	<!-- <property name="Stacknumber" value="50" /> -->
-	<!-- <property class="Preview"> -->
-		<!-- <property name="Zoom" value="28" /> -->
-		<!-- <property name="Pos" value="0,-0.05" /> -->
-		<!-- <property name="Rot" value="90,45,0" /> -->
-	<!-- </property> -->
-	<!-- <property name="Group" value="Resources" /> -->
+<!-- <item id="3031" name="weap600Key"> -->
 <!-- </item> -->
-<!-- <item id="3030" name="genericCrossbow600Box"> -->
-	<!-- <property name="DescriptionKey" value="genericAmmoBoxDesc"/> -->
-	<!-- <property name="Meshfile" value="Items/Misc/sackPrefab" /> -->
-	<!-- <property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab" /> -->
-	<!-- <property name="Material" value="organic" /> -->
-	<!-- <property name="HoldType" value="3" /> -->
-	<!-- <property name="Stacknumber" value="50" /> -->
-	<!-- <property class="Preview"> -->
-		<!-- <property name="Zoom" value="28" /> -->
-		<!-- <property name="Pos" value="0,-0.05" /> -->
-		<!-- <property name="Rot" value="90,45,0" /> -->
-	<!-- </property> -->
-	<!-- <property name="Group" value="Resources" /> -->
+<!-- <item id="3032" name="weap600Selection"> -->
+<!-- </item> -->
+<!-- <item id="3033" name="crossbowKey"> -->
+<!-- </item> -->
+<!-- <item id="3034" name="crossbowSelection"> -->
 <!-- </item> -->
 <!-- /frenchFrogMOD -->
 </items>

@@ -897,6 +897,15 @@
 		<reward type="Item" id="genericExplBox" value="5" />
 		<reward type="Item" id="firstAidKit" value="5" />
 		<reward type="Skill" id="Pistols" value="1" />	<!-- All weapon skills +13 -->
+		<reward type="Quest" id="allClasses_challengeWEAP1" />
+	</quest>
+	
+	<!-- allClasses_challengeWEAP -->
+	<quest id="allClasses_challengeWEAP1" group_name_key="allClasses_challengeWEAP" name="All classes WEAP Quest 13/3" subtitle="All classes WEAP Challenge 13/3" description="Waste more zombies" icon="ui_game_symbol_rifle" 
+		repeatable="false" category_key="challenge" offer="Did you know about firearms ?" difficulty="easy">
+		<objective type="ZombieKill" value="1" />
+		<reward type="Item" id="weap400Selection" value="1" />
+		<reward type="Item" id="weap400Key" value="1" />
 	</quest>
 	<!-- /frenchFrogMOD -->
 	

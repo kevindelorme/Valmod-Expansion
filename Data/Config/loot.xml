@@ -388,6 +388,14 @@
 		</qualitytemplate>
 	</lootqualitytemplate>
 	
+	<!-- frenchFrogMOD -->
+	<lootqualitytemplate name="weap400Template">
+		<qualitytemplate default_quality="400">
+			<loot quality="400" prob="1"/>
+		</qualitytemplate>
+	</lootqualitytemplate>
+	<!-- /frenchFrogMOD -->
+	
 	<lootqualitytemplate name="legendaryTemplate">
 		<qualitytemplate level="0,0.48" default_quality="201,300">
 			<loot quality="301,600" prob="0.01"/>
@@ -3668,6 +3676,10 @@
 		<!-- <item name="challengeClassPVP" count="1"/> -->
 		<item name="perkFarmer" count="1"/>
 	</lootgroup>
+	<!-- Weap 400 - gunPistolSilenced -->
+	<lootgroup name="400gunPistolSilenced" count="all">
+		<item name="gunPistolSilenced" count="1" quality="400"/>
+	</lootgroup>
 	<!-- /frenchFrogMOD -->
 
 			<!-- Hunter Class -->	
@@ -3718,6 +3730,10 @@
 		<!-- Farmer Class -->
 	<lootcontainer id="226" count="1" size="8,4" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="classTemplate">
 	    <item group="FarmerClass"/>
+		</lootcontainer>
+		<!-- Weap 400 - gunPistolSilenced -->
+	<lootcontainer id="227" count="1" size="8,4" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="weap400Template">
+	    <item group="400gunPistolSilenced"/>
 		</lootcontainer>
 		<!-- /frenchFrogMOD -->
 </lootcontainers>
