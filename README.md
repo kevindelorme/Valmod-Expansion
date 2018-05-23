@@ -21,12 +21,21 @@ This is a fork of the Valmod Pack - Expansion Edition.
  - 3024 ammoSupplyShotgunHP (siege) (OK)
  - 3025 genericAmmoBoxHP (OK)
  - 3026 genericExplBox (OK)
- - 3027 genericWeap400Box (you choose one firearm lvl 400-499) (in progress)
+ - 3027 genericWeap400Box (you choose one firearm lvl 400) (in progress)
 	- The box will grant you a quest item linked with the choosen weapon.
+		- Need to create new items. 1 quest item / firearm :
+			- 2*shotgun (short/long)
+			- 2*44Mag (silenced or not)
+			- 2*pistol (silenced or not)
+			- 2*hunting rifle (silenced or not)
+			- 2*hunting bolt (Valmod) (silenced or not)
+			- 2*mp5 (silenced or not)
+			- 2*ak47 (silenced or not)
+			- 2*sniper rifle (silenced or not)
 	- The quest reward is the weapon.
-	- Need to define a lootqualitytemplate with default_quality="400,499" prob="1" inside the loot.xml config file.
+	- Need to define a lootqualitytemplate with default_quality="400" prob="1" inside the loot.xml config file.
 	- Need to link this lootqualitytemplate with the new quests to force the quality level of created items without taking player level in the loot params.
- - 3028 genericWeap500Box (you choose one firearm lvl 500-599) (NOK)
+ - 3028 genericWeap500Box (you choose one firearm lvl 500) (NOK)
  - 3029 genericWeap600Box (you choose one firearm lvl 600) (NOK)
  - 3030 genericCrossbow600Box (NOK) (you choose one crossbow lvl 600) (NOK)
 
