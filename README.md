@@ -22,7 +22,10 @@ This is a fork of the Valmod Pack - Expansion Edition.
  - 3025 genericAmmoBoxHP (OK)
  - 3026 genericExplBox (OK)
  - 3027 weap400Key (cf. 1966 classKey) (in progress)
+	- image missing
  - 3028 weap400Selection (cf. 1967 Class Selection) (you choose one firearm lvl 400 suitcase) (in progress)
+	- Working but only with gunPistolSilenced (others firearms not added yet)
+	- image missing
  - 3029 weap500Key (cf. 1966 classKey) (NOK)
  - 3030 weap500Selection (cf. 1967 Class Selection) (you choose one firearm lvl 500 suitcase) (NOK)
  - 3031 weap600Key (cf. 1966 classKey) (NOK)
