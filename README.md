@@ -21,7 +21,11 @@ This is a fork of the Valmod Pack - Expansion Edition.
  - 3024 ammoSupplyShotgunHP (siege) (OK)
  - 3025 genericAmmoBoxHP (OK)
  - 3026 genericExplBox (OK)
- - 3027 genericWeap400Box (you choose one firearm lvl 400-499) (NOK)
+ - 3027 genericWeap400Box (you choose one firearm lvl 400-499) (in progress)
+	- The box will grant you a quest item linked with the choosen weapon.
+	- The quest reward is the weapon.
+	- Need to define a lootqualitytemplate with default_quality="400,499" prob="1" inside the loot.xml config file.
+	- Need to link this lootqualitytemplate with the new quests to force the quality level of created items without taking player level in the loot params.
  - 3028 genericWeap500Box (you choose one firearm lvl 500-599) (NOK)
  - 3029 genericWeap600Box (you choose one firearm lvl 600) (NOK)
  - 3030 genericCrossbow600Box (NOK) (you choose one crossbow lvl 600) (NOK)
@@ -61,9 +65,9 @@ This is a fork of the Valmod Pack - Expansion Edition.
 		- rewards : genericExplBox (OK) *1 - *3 - *5 (OK)
 		- rewards : firstAidKit (OK) *1 - *3 - *5 (OK)
 		- working but ZombieKill set to 1 for testing purposes
-	- stage 6, 3 steps : allClasses_challengeWEAP1->3 (NOK)
+	- stage 6, 3 steps : allClasses_challengeWEAP1->3 (in progress)
 		- objectives : ZombieKill / all classes all weapons allowed 
-		- rewards : genericWeap400Box->genericWeap500Box->genericWeap600Box (NOK)
+		- rewards : genericWeap400Box->genericWeap500Box->genericWeap600Box (in progress)
 		- not implemented yet
  - New Survivor challenges - ONLY GIVE THIS QUESTLINE TO SURVIVOR CLASS - (NOK)
 	- stage 2, 3 steps : allClasses_2survivor1->3 (NOK)
