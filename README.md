@@ -109,7 +109,7 @@ This is a fork of the Valmod Pack - Expansion Edition.
  - PvP challenges. (NOK)
 	- did not find the "PlayerKill" objective equivalent of "ZombieKill"
 	- this mod may involve reverse engineering, SDX, and DLL modifications
-		- EAC must be disabled if this method is choosen
+		- EAC must be disabled in that case
 
 
 4. Loot more bullets to create a more PvP flavoured mod. (NOK)
