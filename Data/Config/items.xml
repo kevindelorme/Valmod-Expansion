@@ -15960,9 +15960,17 @@ Mesh files no longer used:
 <!-- </item> -->
 <!-- <item id="3032" name="weap600Selection"> -->
 <!-- </item> -->
-<!-- <item id="3033" name="crossbowKey"> -->
+<!-- <item id="3033" name="crossbow400Key"> -->
 <!-- </item> -->
-<!-- <item id="3034" name="crossbowSelection"> -->
+<!-- <item id="3034" name="crossbow400Selection"> -->
+<!-- </item> -->
+<!-- <item id="3033" name="crossbow500Key"> -->
+<!-- </item> -->
+<!-- <item id="3034" name="crossbow500Selection"> -->
+<!-- </item> -->
+<!-- <item id="3033" name="crossbow600Key"> -->
+<!-- </item> -->
+<!-- <item id="3034" name="crossbow5=600Selection"> -->
 <!-- </item> -->
 <!-- /frenchFrogMOD -->
 </items>

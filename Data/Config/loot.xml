@@ -3676,9 +3676,9 @@
 		<!-- <item name="challengeClassPVP" count="1"/> -->
 		<item name="perkFarmer" count="1"/>
 	</lootgroup>
-	<!-- Weap 400 - gunPistolSilenced -->
-	<lootgroup name="400gunPistolSilenced" count="all">
-		<item name="gunPistolSilenced" count="1" quality="400"/>
+	<!-- Weap 400 - gunPistol -->
+	<lootgroup name="400gunPistol" count="all">
+		<item name="gunPistol" count="1" quality="400"/>
 	</lootgroup>
 	<!-- /frenchFrogMOD -->
 
@@ -3731,9 +3731,9 @@
 	<lootcontainer id="226" count="1" size="8,4" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="classTemplate">
 	    <item group="FarmerClass"/>
 		</lootcontainer>
-		<!-- Weap 400 - gunPistolSilenced -->
+		<!-- Weap 400 - gunPistol -->
 	<lootcontainer id="227" count="1" size="8,4" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="weap400Template">
-	    <item group="400gunPistolSilenced"/>
+	    <item group="400gunPistol"/>
 		</lootcontainer>
 		<!-- /frenchFrogMOD -->
 </lootcontainers>

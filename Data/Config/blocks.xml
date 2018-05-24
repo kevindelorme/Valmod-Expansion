@@ -17374,8 +17374,8 @@ kind of free
   </block>
 
 <!-- frenchFrogMOD -->
-	<!-- Weap 400 - gunPistolSilenced -->
-	<block id="2047" name="Weap 400 - gunPistolSilenced (Locked)">
+	<!-- Weap 400 - gunPistol 2047-2046 Test-->
+	<block id="2047" name="Weap 400 - gunPistol (Locked)">
 		<property name="DescriptionKey" value="weap400Desc"/>
 		<property name="Group" value="Weap 400 System" />
 		<property name="CustomIcon" value="Class - Wildcard" />
@@ -17387,15 +17387,15 @@ kind of free
 		<property name="Place" value="TowardsPlacer" />
 		<drop event="Destroy" count="0" prob="1" />
 		<property name="CanPickup" value="true" />
-		<property name="DowngradeBlock" value="Weap 400 - gunPistolSilenced" />
+		<property name="DowngradeBlock" value="Weap 400 - gunPistol" />
 		<property class="UpgradeBlock">
-			<property name="ToBlock" value="Weap 400 - gunPistolSilenced" />
+			<property name="ToBlock" value="Weap 400 - gunPistol" />
 			<property name="Item" value="weap400Key" />
 			<property name="ItemCount" value="1" />
 			<property name="UpgradeHitCount" value="1" />
 		</property>
 	</block>
-	<block id="2046" name="Weap 400 - gunPistolSilenced">
+	<block id="2046" name="Weap 400 - gunPistol">
 		<property name="Class" value="Loot" />
 		<property name="Group" value="Survival" />
 		<property name="Material" value="wood+wood" />
@@ -17409,6 +17409,148 @@ kind of free
 		<drop event="Fall" name="woodDebris" count="1" prob="1.0"  stick_chance=".75" />
 		<property name="LPHardnessScale" value="8" />
 	</block>
+	<!-- regular firearms : need 46 free id -->
+	<!-- Weap 400 - gunPistol id : ??-??-->
+	<!-- Weap 400 - gun44Magnum id : ??-??-->
+	<!-- Weap 400 - gunSawedOffPumpShotgun id : ??-??-->
+	<!-- Weap 400 - gunPumpShotgun id : ??-??-->
+	<!-- Weap 400 - gunMP5 id :??-??-->
+	<!-- Weap 400 - gunAK47 id : ??-??-->
+	<!-- Weap 400 - gunHuntingRifle id : ??-??-->
+	<!-- Weap 400 - gunSniperRifle id : ??-??-->
+	<!-- Weap 500 - gunPistol id : ??-??-->
+	<!-- Weap 500 - gun44Magnum id : ??-??-->
+	<!-- Weap 500 - gunSawedOffPumpShotgun id : ??-??-->
+	<!-- Weap 500 - gunPumpShotgun id : ??-??-->
+	<!-- Weap 500 - gunMP5 id : ??-??-->
+	<!-- Weap 500 - gunAK47 id : ??-??-->
+	<!-- Weap 500 - gunHuntingRifle id : ??-??-->
+	<!-- Weap 500 - gunSniperRifle id : ??-??-->
+	<!-- Weap 600 - gunPistol id : ??-??-->
+	<!-- Weap 600 - gun44Magnum id : ??-??-->
+	<!-- Weap 600 - gunSawedOffPumpShotgun id : ??-??-->
+	<!-- Weap 600 - gunMP5 id : ??-??-->
+	<!-- Weap 600 - gunAK47 id : ??-??-->
+	<!-- Weap 600 - gunHuntingRifle id : ??-??-->
+	<!-- Weap 600 - gunSniperRifle id : ??-??-->
+	<!-- Valmod firearms : need 72 free id -->
+	<!-- Weap 400 - gunPistolSilenced id : ??-??-->
+	<!-- Weap 400 - gun44MagnumSilenced id : ??-??-->
+	<!-- Weap 400 - gunBoomstick id : ??-??-->
+	<!-- Weap 400 - gunMP5Silenced id : ??-??-->
+	<!-- Weap 400 - gunSniperSilenced id :??-??-->
+	<!-- Weap 400 - gunPumpShotgunChoked id : ??-??-->
+	<!-- Weap 400 - gunHuntingRifleSilenced id : ??-??-->
+	<!-- Weap 400 - gunBoltRifle id : ??-??-->
+	<!-- Weap 400 - gunBoltRifleSilenced id : ??-??-->
+	<!-- Weap 400 - gunAK47Silenced id : ??-??-->
+	<!-- Weap 400 - gunSniperRifleHPScope id : ??-??-->
+	<!-- Weap 400 - gunSniperRifleHPScopeSilenced id : ??-??-->
+	<!-- Weap 500 - gunPistolSilenced id : ??-??-->
+	<!-- Weap 500 - gun44MagnumSilenced id : ??-??-->
+	<!-- Weap 500 - gunBoomstick id : ??-??-->
+	<!-- Weap 500 - gunMP5Silenced id : ??-??-->
+	<!-- Weap 500 - gunSniperSilenced id :??-??-->
+	<!-- Weap 500 - gunPumpShotgunChoked id : ??-??-->
+	<!-- Weap 500 - gunHuntingRifleSilenced id : ??-??-->
+	<!-- Weap 500 - gunBoltRifle id : ??-??-->
+	<!-- Weap 500 - gunBoltRifleSilenced id : ??-??-->
+	<!-- Weap 500 - gunAK47Silenced id : ??-??-->
+	<!-- Weap 500 - gunSniperRifleHPScope id : ??-??-->
+	<!-- Weap 500 - gunSniperRifleHPScopeSilenced id : ??-??-->
+	<!-- Weap 600 - gunPistolSilenced id : ??-??-->
+	<!-- Weap 600 - gun44MagnumSilenced id : ??-??-->
+	<!-- Weap 600 - gunBoomstick id : ??-??-->
+	<!-- Weap 600 - gunMP5Silenced id : ??-??-->
+	<!-- Weap 600 - gunSniperSilenced id :??-??-->
+	<!-- Weap 600 - gunPumpShotgunChoked id : ??-??-->
+	<!-- Weap 600 - gunHuntingRifleSilenced id : ??-??-->
+	<!-- Weap 600 - gunBoltRifle id : ??-??-->
+	<!-- Weap 600 - gunBoltRifleSilenced id : ??-??-->
+	<!-- Weap 600 - gunAK47Silenced id : ??-??-->
+	<!-- Weap 600 - gunSniperRifleHPScope id : ??-??-->
+	<!-- Weap 600 - gunSniperRifleHPScopeSilenced id : ??-??-->
+	<!-- crossbows : need 18 free id -->
+	<!-- Crossbow 400 - crossbow id : ??-??-->
+	<!-- Crossbow 400 - ironCrossbow id : ??-??-->
+	<!-- Crossbow 400 - crossbowRepeater id : ??-??-->
+	<!-- Crossbow 500 - crossbow id : ??-??-->
+	<!-- Crossbow 500 - ironCrossbow id : ??-??-->
+	<!-- Crossbow 500 - crossbowRepeater id : ??-??-->
+	<!-- Crossbow 600 - crossbow id : ??-??-->
+	<!-- Crossbow 600 - ironCrossbow id : ??-??-->
+	<!-- Crossbow 600 - crossbowRepeater id : ??-??-->
+	<!-- TOTAL : need 46 + 72 + 18 == 136 free id -->
 <!-- /frenchFrogMOD -->
 
-</blocks><!-- Block limit: No block can have an ID greater 2047. -->
+</blocks>
+<!-- Block limit: No block can have an ID greater 2047. -->
+<!-- frenchFrogMOD -->
+<!-- free id list :
+123						1 free id
+127						1 free id
+139						1 free id
+583->585				3 free id
+659->661				3 free id
+700						1 free id
+805						1 free id
+827						1 free id
+865->868				4 free id
+904->906				3 free id
+950->984 				35 free id
+1010->1028 				18 free id
+1045->1054 				10 free id
+1078->1091 				14 free id
+1147->1155 				9 free id
+1169->1172				3 free id
+1223->1225				3 free id
+1341->1345				5 free id
+1421					1 free id
+1423					1 free id
+1446->1447				2 free id
+1456->1462				7 free id
+1466					1 free id
+1476					1 free id
+1478->1479				2 free id
+1485->1499				15 free id
+1501->1502				2 free id
+1504					1 free id
+1506->1508				3 free id
+1533->1535				3 free id
+1543->1544				2 free id
+1555					1 free id
+1566					1 free id
+1570->1574				5 free id
+1588->1591				4 free id
+1594->1609				16 free id
+1614->1618				5 free id
+1621					1 free id
+1623->1627				5 free id
+1629->1639				11 free id
+1641					1 free id
+1643->1644				2 free id
+1646->1647				2 free id
+1649->1651				3 free id
+1654->1656				3 free id
+1660->1661				2 free id
+1664->1665				2 free id
+1667					1 free id
+1670->1671				2 free id
+1676->1677				2 free id
+1680->1773				94 free id
+1779->1799				21 free id
+1930					1 free id
+1954->1956				3 free id
+1959->1962				4 free id
+1972->1973				2 free id
+1987->1998				12 free id
+2003					1 free id
+2013					1 free id
+2018->2019				2 free id
+2027					1 free id
+2031->2040				10 free id
+2042->2047				6 free id
+--------------------------------------
+TOTAL : 384 FUCK YEAH !!!!!!!!!!!!!!!!
+-->
+<!-- /frenchFrogMOD -->

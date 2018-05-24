@@ -3505,8 +3505,8 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	<recipe name="Class - Farmer (Locked)" count="1">
   <ingredient name="classSelection" count="1" />
 	</recipe>
-	<!-- Weap 400 - gunPistolSilenced (Locked) -->
-	<recipe name="Weap 400 - gunPistolSilenced (Locked)" count="1">
+	<!-- Weap 400 - gunPistol (Locked) -->
+	<recipe name="Weap 400 - gunPistol (Locked)" count="1">
   <ingredient name="weap400Selection" count="1" />
 	</recipe>	
 <!-- /frenchFrogMOD -->

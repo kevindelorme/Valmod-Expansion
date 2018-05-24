@@ -23,15 +23,19 @@ This is a fork of the Valmod Pack - Expansion Edition.
  - 3026 genericExplBox (OK)
  - 3027 weap400Key (in progress)
 	- image missing
- - 3028 weap400Selection (you choose one lvl 400 firearm suitcase) (in progress)
-	- Working but only with gunPistolSilenced (others firearms not added yet)
+ - 3028 weap400Selection (you choose one lvl 400  firearm suitcase, rocket launcher excluded) (in progress)
+	- Working but only with gunPistol (others firearms not added yet)
 	- image missing
  - 3029 weap500Key (NOK)
- - 3030 weap500Selection (you choose one lvl 500 firearm suitcase) (NOK)
+ - 3030 weap500Selection (you choose one lvl 500 firearm suitcase, rocket launcher excluded) (NOK)
  - 3031 weap600Key (NOK)
- - 3032 weap600Selection (you choose one lvl 600 firearm suitcase) (NOK)
- - 3033 crossbowKey (NOK)
- - 3034 crossbowSelection (you choose one lvl 600 crossbow suitcase) (NOK)
+ - 3032 weap600Selection (you choose one lvl 600 firearm suitcase, rocket launcher excluded) (NOK)
+ - 3033 crossbow400Key (NOK)
+ - 3034 crossbow400Selection (you choose one lvl 400 crossbow suitcase) (NOK)
+ - 3035 crossbow500Key (NOK)
+ - 3036 crossbow500Selection (you choose one lvl 500 crossbow suitcase) (NOK)
+ - 3037 crossbow600Key (NOK)
+ - 3038 crossbow600Selection (you choose one lvl 600 crossbow suitcase) (NOK)
 
 2. New classes : (OK)
  - Spy (OK)
@@ -41,7 +45,7 @@ This is a fork of the Valmod Pack - Expansion Edition.
 
 3. New challenges : (in progress, NOK)
  - Valmod Classes Callenges modifications (NOK)
-	- some classes challenges are not working
+	- some classes challenges are not working -> need to fix them
  - New classes specifics challenges
 	- Spy (in progress)
 		- objectives : Lockpicking, ZombieKill (NOK)
@@ -98,6 +102,9 @@ This is a fork of the Valmod Pack - Expansion Edition.
 	- stage 6, 3 steps : allClasses_6survivor1->3 (NOK)
 		- objectives : ZombieKill / survivor class crossbow only allowed 
 		- rewards : crossbowKey + crossbowSelection (NOK)
+			1. crossbow400Key + crossbow400Selection (NOK)
+			2. crossbow500Key + crossbow500Selection (NOK)
+			3. crossbow600Key + crossbow600Selection (NOK)
 		- not implemented yet
  - PvP challenges. (NOK)
 	- did not find the "PlayerKill" objective equivalent of "ZombieKill"
@@ -115,8 +122,8 @@ This is a fork of the Valmod Pack - Expansion Edition.
 9. The blood moon white flag/baguette nude run survival challenge ! - floor level >= -1 (NOK)
 10. Misc : I also may translate the mod to french. (NOK)
 
-I work with Notepad++, Gimp, Github Desktop and MobaXTerm on a MS Windows 10 x64 PC.
-I may work with MS Visual Studio and the SDX.
+ - I work with Notepad++, Gimp, Github Desktop and MobaXTerm on a MS Windows 10 x64 PC.
+ - I may work with MS Visual Studio and the SDX.
 
 Cheers, and thanks for reading.
 
