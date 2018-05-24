@@ -21,25 +21,27 @@ This is a fork of the Valmod Pack - Expansion Edition.
  - 3024 ammoSupplyShotgunHP (siege) (OK)
  - 3025 genericAmmoBoxHP (OK)
  - 3026 genericExplBox (OK)
- - 3027 weap400Key (cf. 1966 classKey) (in progress)
+ - 3027 weap400Key (in progress)
 	- image missing
- - 3028 weap400Selection (cf. 1967 Class Selection) (you choose one firearm lvl 400 suitcase) (in progress)
+ - 3028 weap400Selection (you choose one lvl 400 firearm suitcase) (in progress)
 	- Working but only with gunPistolSilenced (others firearms not added yet)
 	- image missing
- - 3029 weap500Key (cf. 1966 classKey) (NOK)
- - 3030 weap500Selection (cf. 1967 Class Selection) (you choose one firearm lvl 500 suitcase) (NOK)
- - 3031 weap600Key (cf. 1966 classKey) (NOK)
- - 3032 weap600Selection (cf. 1967 Class Selection) (you choose one firearm lvl 600 suitcase) (NOK)
- - 3033 crossbowKey (cf. 1966 classKey) (NOK)
- - 3034 crossbowSelection (you choose one crossbow lvl 600 suitcase) (NOK)
+ - 3029 weap500Key (NOK)
+ - 3030 weap500Selection (you choose one lvl 500 firearm suitcase) (NOK)
+ - 3031 weap600Key (NOK)
+ - 3032 weap600Selection (you choose one lvl 600 firearm suitcase) (NOK)
+ - 3033 crossbowKey (NOK)
+ - 3034 crossbowSelection (you choose one lvl 600 crossbow suitcase) (NOK)
 
 2. New classes : (OK)
- - Spy (OK),
- - Farmer (OK),
- - Others (example : Thug, Nudist, etc...).
+ - Spy (OK)
+ - Farmer (OK)
+	- Farmer suitcase need a complete redesign (change fruits with seeds !)
+ - Others (example : Thug, Nudist, etc...)
 
 3. New challenges : (in progress, NOK)
- - Valmod Classes Callenges modifications (in progress)
+ - Valmod Classes Callenges modifications (NOK)
+	- some classes challenges are not working
  - New classes specifics challenges
 	- Spy (in progress)
 		- objectives : Lockpicking, ZombieKill (NOK)
@@ -70,8 +72,10 @@ This is a fork of the Valmod Pack - Expansion Edition.
 		- working but ZombieKill set to 1 for testing purposes
 	- stage 6, 3 steps : allClasses_challengeWEAP1->3 (in progress)
 		- objectives : ZombieKill / all classes all weapons allowed 
-		- rewards : genericWeap400Box->genericWeap500Box->genericWeap600Box (in progress)
-		- not implemented yet
+		- rewards : 
+			1. weap400Key + weap400Selection (in progress)
+			2. weap500Key + weap500Selection (NOK)
+			3. weap600Key + weap600Selection (NOK)
  - New Survivor challenges - ONLY GIVE THIS QUESTLINE TO SURVIVOR CLASS - (NOK)
 	- stage 2, 3 steps : allClasses_2survivor1->3 (NOK)
 		- objectives : ZombieKill / survivor class crossbow only allowed 
@@ -87,15 +91,19 @@ This is a fork of the Valmod Pack - Expansion Edition.
 		- not implemented yet
 	- stage 5, 3 steps : allClasses_5survivor1->3 (NOK)
 		- objectives : ZombieKill / survivor class crossbow only allowed 
-		- rewards : explodingCrossbowBolt (OK) *250 - *300 - *400 (NOK)
+		- rewards : explodingCrossbowBolt (OK) *290 - *320 - *350 (NOK)
 		- rewards : genericExplBox (NOK) *1 - *3 - *5 (NOK)
 		- rewards : firstAidKit (OK) *1 - *3 - *5 (NOK)
 		- not implemented yet
 	- stage 6, 3 steps : allClasses_6survivor1->3 (NOK)
 		- objectives : ZombieKill / survivor class crossbow only allowed 
-		- rewards : genericCrossbow600Box (NOK)
+		- rewards : crossbowKey + crossbowSelection (NOK)
 		- not implemented yet
  - PvP challenges. (NOK)
+	- did not find the "PlayerKill" objective equivalent of "ZombieKill"
+	- this mod may involve reverse engineering, SDX, and DLL modifications
+		- EAC must be disabled if this method is choosen
+
 
 4. Loot more bullets to create a more PvP flavoured mod. (NOK)
  - The game take's place inside an USA similar country you're supposed to loot a lot of firearms and bullets
@@ -108,6 +116,7 @@ This is a fork of the Valmod Pack - Expansion Edition.
 10. Misc : I also may translate the mod to french. (NOK)
 
 I work with Notepad++, Gimp, Github Desktop and MobaXTerm on a MS Windows 10 x64 PC.
+I may work with MS Visual Studio and the SDX.
 
 Cheers, and thanks for reading.
 
