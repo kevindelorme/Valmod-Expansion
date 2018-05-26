@@ -88,6 +88,7 @@ This is a fork of the Valmod Pack - Expansion Edition.
 			1. weap400Key + weap400Selection (OK)
 			2. weap500Key + weap500Selection (OK)
 			3. weap600Key + weap600Selection (OK)
+		- working but ZombieKill set to 1 for testing purposes
  - New Survivor challenges - ONLY GIVE THIS QUESTLINE TO SURVIVOR CLASS - (NOK)
 	- stage 2, 3 steps : allClasses_2survivor1->3 (NOK)
 		- objectives : ZombieKill / survivor class crossbow only allowed 
