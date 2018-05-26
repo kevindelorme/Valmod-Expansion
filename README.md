@@ -21,21 +21,30 @@ This is a fork of the Valmod Pack - Expansion Edition.
  - 3024 ammoSupplyShotgunHP (siege) (OK)
  - 3025 genericAmmoBoxHP (OK)
  - 3026 genericExplBox (OK)
- - 3027 weap400Key (in progress)
-	- image missing
- - 3028 weap400Selection (you choose one lvl 400  firearm suitcase, rocket launcher excluded) (in progress)
-	- Working but only with gunPistol (others firearms not added yet)
-	- image missing
- - 3029 weap500Key (NOK)
- - 3030 weap500Selection (you choose one lvl 500 firearm suitcase, rocket launcher excluded) (NOK)
- - 3031 weap600Key (NOK)
- - 3032 weap600Selection (you choose one lvl 600 firearm suitcase, rocket launcher excluded) (NOK)
- - 3033 crossbow400Key (NOK)
- - 3034 crossbow400Selection (you choose one lvl 400 crossbow suitcase) (NOK)
- - 3035 crossbow500Key (NOK)
- - 3036 crossbow500Selection (you choose one lvl 500 crossbow suitcase) (NOK)
- - 3037 crossbow600Key (NOK)
- - 3038 crossbow600Selection (you choose one lvl 600 crossbow suitcase) (NOK)
+ - 3027 weap400Key (OK)
+	- edit image
+ - 3028 weap400Selection (you choose one lvl 400  firearm suitcase, rocket launcher excluded) (OK)
+	- edit image
+ - 3029 weap500Key (OK)
+	- edit image
+ - 3030 weap500Selection (you choose one lvl 500 firearm suitcase, rocket launcher excluded) (OK)
+	- edit image
+ - 3031 weap600Key (OK)
+	- edit image
+ - 3032 weap600Selection (you choose one lvl 600 firearm suitcase, rocket launcher excluded) (OK)
+	- image to edit
+ - 3033 crossbow400Key (OK)
+	- edit image
+ - 3034 crossbow400Selection (you choose one lvl 400 crossbow suitcase) (OK)
+	- edit image
+ - 3035 crossbow500Key (OK)
+	- edit image
+ - 3036 crossbow500Selection (you choose one lvl 500 crossbow suitcase) (OK)
+	- edit image
+ - 3037 crossbow600Key (OK)
+	- edit image
+ - 3038 crossbow600Selection (you choose one lvl 600 crossbow suitcase) (OK)
+	- edit image
 
 2. New classes : (OK)
  - Spy (OK)
@@ -45,13 +54,12 @@ This is a fork of the Valmod Pack - Expansion Edition.
 
 3. New challenges : (in progress, NOK)
  - Valmod Classes Callenges modifications (NOK)
-	- some classes challenges are not working -> need to fix them
  - New classes specifics challenges
-	- Spy (in progress)
+	- Spy (NOK)
 		- objectives : Lockpicking, ZombieKill (NOK)
 		- rewards : items(Ammoboxes, firstAidKit, repairKit ?), skills(pistols, Lockpicking) (NOK)
 		- ZombieKill set to 1 for testing purposes
-	- Farmer (in progress)
+	- Farmer (NOK)
 		- objectives : ZombieKill with tools, ZombieKill with rifle, havresting (NOK)
 		- rewards : items(fertilizers, seeds, Ammoboxes, firstAidKit, repairKit ?), skills(construction tools, rifles) (NOK)
  - New "All classes" challenges - DO NOT GIVE THIS QUESTLINE TO SURVIVOR CLASS - (in progress)
@@ -74,12 +82,12 @@ This is a fork of the Valmod Pack - Expansion Edition.
 		- rewards : genericExplBox (OK) *1 - *3 - *5 (OK)
 		- rewards : firstAidKit (OK) *1 - *3 - *5 (OK)
 		- working but ZombieKill set to 1 for testing purposes
-	- stage 6, 3 steps : allClasses_challengeWEAP1->3 (in progress)
+	- stage 6, 3 steps : allClasses_challengeWEAP1->3 (OK)
 		- objectives : ZombieKill / all classes all weapons allowed 
 		- rewards : 
-			1. weap400Key + weap400Selection (in progress)
-			2. weap500Key + weap500Selection (NOK)
-			3. weap600Key + weap600Selection (NOK)
+			1. weap400Key + weap400Selection (OK)
+			2. weap500Key + weap500Selection (OK)
+			3. weap600Key + weap600Selection (OK)
  - New Survivor challenges - ONLY GIVE THIS QUESTLINE TO SURVIVOR CLASS - (NOK)
 	- stage 2, 3 steps : allClasses_2survivor1->3 (NOK)
 		- objectives : ZombieKill / survivor class crossbow only allowed 
@@ -96,15 +104,15 @@ This is a fork of the Valmod Pack - Expansion Edition.
 	- stage 5, 3 steps : allClasses_5survivor1->3 (NOK)
 		- objectives : ZombieKill / survivor class crossbow only allowed 
 		- rewards : explodingCrossbowBolt (OK) *290 - *320 - *350 (NOK)
-		- rewards : genericExplBox (NOK) *1 - *3 - *5 (NOK)
+		- rewards : genericExplBox (OK) *1 - *3 - *5 (NOK)
 		- rewards : firstAidKit (OK) *1 - *3 - *5 (NOK)
 		- not implemented yet
 	- stage 6, 3 steps : allClasses_6survivor1->3 (NOK)
 		- objectives : ZombieKill / survivor class crossbow only allowed 
-		- rewards : crossbowKey + crossbowSelection (NOK)
-			1. crossbow400Key + crossbow400Selection (NOK)
-			2. crossbow500Key + crossbow500Selection (NOK)
-			3. crossbow600Key + crossbow600Selection (NOK)
+		- rewards : crossbowKey + crossbowSelection (OK)
+			1. crossbow400Key + crossbow400Selection (OK)
+			2. crossbow500Key + crossbow500Selection (OK)
+			3. crossbow600Key + crossbow600Selection (OK)
 		- not implemented yet
  - PvP challenges. (NOK)
 	- did not find the "PlayerKill" objective equivalent of "ZombieKill"

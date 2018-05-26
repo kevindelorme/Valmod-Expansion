@@ -906,6 +906,22 @@
 		<objective type="ZombieKill" value="1" />
 		<reward type="Item" id="weap400Selection" value="1" />
 		<reward type="Item" id="weap400Key" value="1" />
+		<reward type="Quest" id="allClasses_challengeWEAP2" />
+	</quest>
+	
+	<quest id="allClasses_challengeWEAP2" group_name_key="allClasses_challengeWEAP" name="All classes WEAP Quest 14/3" subtitle="All classes WEAP Challenge 14/3" description="Waste more zombies" icon="ui_game_symbol_rifle" 
+		repeatable="false" category_key="challenge" offer="Did you know about firearms ?" difficulty="easy">
+		<objective type="ZombieKill" value="1" />
+		<reward type="Item" id="weap500Selection" value="1" />
+		<reward type="Item" id="weap500Key" value="1" />
+		<reward type="Quest" id="allClasses_challengeWEAP3" />
+	</quest>
+	
+	<quest id="allClasses_challengeWEAP3" group_name_key="allClasses_challengeWEAP" name="All classes WEAP Quest 15/3" subtitle="All classes WEAP Challenge 15/3" description="Waste more zombies" icon="ui_game_symbol_rifle" 
+		repeatable="false" category_key="challenge" offer="Did you know about firearms ?" difficulty="easy">
+		<objective type="ZombieKill" value="1" />
+		<reward type="Item" id="weap600Selection" value="1" />
+		<reward type="Item" id="weap600Key" value="1" />
 	</quest>
 	<!-- /frenchFrogMOD -->
 	
@@ -1448,6 +1464,5 @@ repeatable="true" category_key="challenge" offer="Open this to get some ammo for
 <reward type="Item" id="SiegeShell" value="50" />
 </quest>
 <!-- DEVfrenchFrogMOD -->
-
 <!-- /frenchFrogMOD -->
 </quests>

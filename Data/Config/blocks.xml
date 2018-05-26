@@ -9375,7 +9375,12 @@ kind of free
 	<property name="DescriptionKey" value="ladderMetalDesc"/>
 	<property name="Group" value="Building"/>
 </block>
-	<!-- 35 Free -->
+
+<!-- frenchFrogMOD -->
+<!-- 950 used by Valmod -->
+<!-- 951->984 now used -->
+<!-- 35 NOT FREE -->
+<!-- /frenchFrogMOD -->
 
 <block id="985" name="steelArrowSlitHalf">
 	<property name="Extends" value="steelMaster"/>
@@ -13414,7 +13419,11 @@ kind of free
 	</property>
 	<property name="ActivationDistance" value="6"/>
 </block>
-	<!-- n Free -->
+	
+<!-- frenchFrogMOD -->
+<!-- 1456->1462 now used  -->
+<!-- 7 NOT FREE -->
+<!-- /frenchFrogMOD -->
 
 <block id="1463" name="scrapHatch_v1">
 	<property name="Class" value="DoorSecure"/>
@@ -14723,7 +14732,11 @@ kind of free
 	<property name="EconomicValue" value="2500"/>
 	<property name="PickupJournalEntry" value="cameraTip"/>
 </block>
-<!-- 94 Free -->
+
+<!-- frenchFrogMOD -->
+<!-- 1680->1773 now used  -->
+<!-- 94 NOT FREE -->
+<!-- /frenchFrogMOD -->
 
 <block id="1774" name="burningBarrelPlayer">
 	<property name="Extends" value="corrugatedMetalNoUpgradeMaster"/>
@@ -17374,8 +17387,9 @@ kind of free
   </block>
 
 <!-- frenchFrogMOD -->
-	<!-- Weap 400 - gunPistol 2047-2046 Test-->
-	<block id="2047" name="Weap 400 - gunPistol (Locked)">
+	<!-- regular firearms : need 46 free id -->
+	<!-- Weap 400 - gunPistol id : 123-951-->
+	<block id="123" name="Weap 400 - gunPistol (Locked)">
 		<property name="DescriptionKey" value="weap400Desc"/>
 		<property name="Group" value="Weap 400 System" />
 		<property name="CustomIcon" value="Class - Wildcard" />
@@ -17395,7 +17409,7 @@ kind of free
 			<property name="UpgradeHitCount" value="1" />
 		</property>
 	</block>
-	<block id="2046" name="Weap 400 - gunPistol">
+	<block id="951" name="Weap 400 - gunPistol">
 		<property name="Class" value="Loot" />
 		<property name="Group" value="Survival" />
 		<property name="Material" value="wood+wood" />
@@ -17404,153 +17418,2395 @@ kind of free
 		<property name="Mesh" value="models" />
 		<property name="Model" value="LootContainers/suitcase" param1="main_mesh" />
 		<property name="Place" value="TowardsPlacer" />
-		<property name="LootList" value="227" />
+		<property name="LootList" value="227" /> <!-- LOOTLIST WARNING -->
 		<drop event="Destroy" count="0" />
 		<drop event="Fall" name="woodDebris" count="1" prob="1.0"  stick_chance=".75" />
 		<property name="LPHardnessScale" value="8" />
 	</block>
-	<!-- regular firearms : need 46 free id -->
-	<!-- Weap 400 - gunPistol id : ??-??-->
-	<!-- Weap 400 - gun44Magnum id : ??-??-->
-	<!-- Weap 400 - gunSawedOffPumpShotgun id : ??-??-->
-	<!-- Weap 400 - gunPumpShotgun id : ??-??-->
-	<!-- Weap 400 - gunMP5 id :??-??-->
-	<!-- Weap 400 - gunAK47 id : ??-??-->
-	<!-- Weap 400 - gunHuntingRifle id : ??-??-->
-	<!-- Weap 400 - gunSniperRifle id : ??-??-->
-	<!-- Weap 500 - gunPistol id : ??-??-->
-	<!-- Weap 500 - gun44Magnum id : ??-??-->
-	<!-- Weap 500 - gunSawedOffPumpShotgun id : ??-??-->
-	<!-- Weap 500 - gunPumpShotgun id : ??-??-->
-	<!-- Weap 500 - gunMP5 id : ??-??-->
-	<!-- Weap 500 - gunAK47 id : ??-??-->
-	<!-- Weap 500 - gunHuntingRifle id : ??-??-->
-	<!-- Weap 500 - gunSniperRifle id : ??-??-->
-	<!-- Weap 600 - gunPistol id : ??-??-->
-	<!-- Weap 600 - gun44Magnum id : ??-??-->
-	<!-- Weap 600 - gunSawedOffPumpShotgun id : ??-??-->
-	<!-- Weap 600 - gunMP5 id : ??-??-->
-	<!-- Weap 600 - gunAK47 id : ??-??-->
-	<!-- Weap 600 - gunHuntingRifle id : ??-??-->
-	<!-- Weap 600 - gunSniperRifle id : ??-??-->
+	<!-- Weap 400 - gun44Magnum id : 952-953-->
+	<block id="952" name="Weap 400 - gun44Magnum (Locked)">
+		<property name="DescriptionKey" value="weap400Desc"/>
+		<property name="Group" value="Weap 400 System" />
+		<property name="CustomIcon" value="Class - Wildcard" />
+		<!--		<property name="CustomIcon" value="suitcase" /> -->
+		<property name="Material" value="wood+wood" />
+		<property name="Shape" value="Ext3dModel" />
+		<property name="Mesh" value="models" />
+		<property name="Model" value="LootContainers/suitcase" param1="main_mesh" />
+		<property name="Place" value="TowardsPlacer" />
+		<drop event="Destroy" count="0" prob="1" />
+		<property name="CanPickup" value="true" />
+		<property name="DowngradeBlock" value="Weap 400 - gun44Magnum" />
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="Weap 400 - gun44Magnum" />
+			<property name="Item" value="weap400Key" />
+			<property name="ItemCount" value="1" />
+			<property name="UpgradeHitCount" value="1" />
+		</property>
+	</block>
+	<block id="953" name="Weap 400 - gun44Magnum">
+		<property name="Class" value="Loot" />
+		<property name="Group" value="Survival" />
+		<property name="Material" value="wood+wood" />
+		<!--		<property name="CustomIcon" value="suitcase" /> -->
+		<property name="Shape" value="Ext3dModel" />
+		<property name="Mesh" value="models" />
+		<property name="Model" value="LootContainers/suitcase" param1="main_mesh" />
+		<property name="Place" value="TowardsPlacer" />
+		<property name="LootList" value="228" /> <!-- LOOTLIST WARNING -->
+		<drop event="Destroy" count="0" />
+		<drop event="Fall" name="woodDebris" count="1" prob="1.0"  stick_chance=".75" />
+		<property name="LPHardnessScale" value="8" />
+	</block>
+	<!-- Weap 400 - gunSawedOffPumpShotgun id : 954-955-->
+	<block id="954" name="Weap 400 - gunSawedOffPumpShotgun (Locked)">
+		<property name="DescriptionKey" value="weap400Desc"/>
+		<property name="Group" value="Weap 400 System" />
+		<property name="CustomIcon" value="Class - Wildcard" />
+		<!--		<property name="CustomIcon" value="suitcase" /> -->
+		<property name="Material" value="wood+wood" />
+		<property name="Shape" value="Ext3dModel" />
+		<property name="Mesh" value="models" />
+		<property name="Model" value="LootContainers/suitcase" param1="main_mesh" />
+		<property name="Place" value="TowardsPlacer" />
+		<drop event="Destroy" count="0" prob="1" />
+		<property name="CanPickup" value="true" />
+		<property name="DowngradeBlock" value="Weap 400 - gunSawedOffPumpShotgun" />
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="Weap 400 - gunSawedOffPumpShotgun" />
+			<property name="Item" value="weap400Key" />
+			<property name="ItemCount" value="1" />
+			<property name="UpgradeHitCount" value="1" />
+		</property>
+	</block>
+	<block id="955" name="Weap 400 - gunSawedOffPumpShotgun">
+		<property name="Class" value="Loot" />
+		<property name="Group" value="Survival" />
+		<property name="Material" value="wood+wood" />
+		<!--		<property name="CustomIcon" value="suitcase" /> -->
+		<property name="Shape" value="Ext3dModel" />
+		<property name="Mesh" value="models" />
+		<property name="Model" value="LootContainers/suitcase" param1="main_mesh" />
+		<property name="Place" value="TowardsPlacer" />
+		<property name="LootList" value="229" /> <!-- LOOTLIST WARNING -->
+		<drop event="Destroy" count="0" />
+		<drop event="Fall" name="woodDebris" count="1" prob="1.0"  stick_chance=".75" />
+		<property name="LPHardnessScale" value="8" />
+	</block>
+	<!-- Weap 400 - gunPumpShotgun id : 956-957-->
+	<block id="956" name="Weap 400 - gunPumpShotgun (Locked)">
+		<property name="DescriptionKey" value="weap400Desc"/>
+		<property name="Group" value="Weap 400 System" />
+		<property name="CustomIcon" value="Class - Wildcard" />
+		<!--		<property name="CustomIcon" value="suitcase" /> -->
+		<property name="Material" value="wood+wood" />
+		<property name="Shape" value="Ext3dModel" />
+		<property name="Mesh" value="models" />
+		<property name="Model" value="LootContainers/suitcase" param1="main_mesh" />
+		<property name="Place" value="TowardsPlacer" />
+		<drop event="Destroy" count="0" prob="1" />
+		<property name="CanPickup" value="true" />
+		<property name="DowngradeBlock" value="Weap 400 - gunPumpShotgun" />
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="Weap 400 - gunPumpShotgun" />
+			<property name="Item" value="weap400Key" />
+			<property name="ItemCount" value="1" />
+			<property name="UpgradeHitCount" value="1" />
+		</property>
+	</block>
+	<block id="957" name="Weap 400 - gunPumpShotgun">
+		<property name="Class" value="Loot" />
+		<property name="Group" value="Survival" />
+		<property name="Material" value="wood+wood" />
+		<!--		<property name="CustomIcon" value="suitcase" /> -->
+		<property name="Shape" value="Ext3dModel" />
+		<property name="Mesh" value="models" />
+		<property name="Model" value="LootContainers/suitcase" param1="main_mesh" />
+		<property name="Place" value="TowardsPlacer" />
+		<property name="LootList" value="230" /> <!-- LOOTLIST WARNING -->
+		<drop event="Destroy" count="0" />
+		<drop event="Fall" name="woodDebris" count="1" prob="1.0"  stick_chance=".75" />
+		<property name="LPHardnessScale" value="8" />
+	</block>
+	<!-- Weap 400 - gunMP5 id : 958-959-->
+	<block id="958" name="Weap 400 - gunMP5 (Locked)">
+		<property name="DescriptionKey" value="weap400Desc"/>
+		<property name="Group" value="Weap 400 System" />
+		<property name="CustomIcon" value="Class - Wildcard" />
+		<!--		<property name="CustomIcon" value="suitcase" /> -->
+		<property name="Material" value="wood+wood" />
+		<property name="Shape" value="Ext3dModel" />
+		<property name="Mesh" value="models" />
+		<property name="Model" value="LootContainers/suitcase" param1="main_mesh" />
+		<property name="Place" value="TowardsPlacer" />
+		<drop event="Destroy" count="0" prob="1" />
+		<property name="CanPickup" value="true" />
+		<property name="DowngradeBlock" value="Weap 400 - gunMP5" />
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="Weap 400 - gunMP5" />
+			<property name="Item" value="weap400Key" />
+			<property name="ItemCount" value="1" />
+			<property name="UpgradeHitCount" value="1" />
+		</property>
+	</block>
+	<block id="959" name="Weap 400 - gunMP5">
+		<property name="Class" value="Loot" />
+		<property name="Group" value="Survival" />
+		<property name="Material" value="wood+wood" />
+		<!--		<property name="CustomIcon" value="suitcase" /> -->
+		<property name="Shape" value="Ext3dModel" />
+		<property name="Mesh" value="models" />
+		<property name="Model" value="LootContainers/suitcase" param1="main_mesh" />
+		<property name="Place" value="TowardsPlacer" />
+		<property name="LootList" value="231" /> <!-- LOOTLIST WARNING -->
+		<drop event="Destroy" count="0" />
+		<drop event="Fall" name="woodDebris" count="1" prob="1.0"  stick_chance=".75" />
+		<property name="LPHardnessScale" value="8" />
+	</block>
+	<!-- Weap 400 - gunAK47 id : 960-961-->
+	<block id="960" name="Weap 400 - gunAK47 (Locked)">
+		<property name="DescriptionKey" value="weap400Desc"/>
+		<property name="Group" value="Weap 400 System" />
+		<property name="CustomIcon" value="Class - Wildcard" />
+		<!--		<property name="CustomIcon" value="suitcase" /> -->
+		<property name="Material" value="wood+wood" />
+		<property name="Shape" value="Ext3dModel" />
+		<property name="Mesh" value="models" />
+		<property name="Model" value="LootContainers/suitcase" param1="main_mesh" />
+		<property name="Place" value="TowardsPlacer" />
+		<drop event="Destroy" count="0" prob="1" />
+		<property name="CanPickup" value="true" />
+		<property name="DowngradeBlock" value="Weap 400 - gunAK47" />
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="Weap 400 - gunAK47" />
+			<property name="Item" value="weap400Key" />
+			<property name="ItemCount" value="1" />
+			<property name="UpgradeHitCount" value="1" />
+		</property>
+	</block>
+	<block id="961" name="Weap 400 - gunAK47">
+		<property name="Class" value="Loot" />
+		<property name="Group" value="Survival" />
+		<property name="Material" value="wood+wood" />
+		<!--		<property name="CustomIcon" value="suitcase" /> -->
+		<property name="Shape" value="Ext3dModel" />
+		<property name="Mesh" value="models" />
+		<property name="Model" value="LootContainers/suitcase" param1="main_mesh" />
+		<property name="Place" value="TowardsPlacer" />
+		<property name="LootList" value="232" /> <!-- LOOTLIST WARNING -->
+		<drop event="Destroy" count="0" />
+		<drop event="Fall" name="woodDebris" count="1" prob="1.0"  stick_chance=".75" />
+		<property name="LPHardnessScale" value="8" />
+	</block>
+	<!-- Weap 400 - gunHuntingRifle id : 962-963-->
+	<block id="962" name="Weap 400 - gunHuntingRifle (Locked)">
+		<property name="DescriptionKey" value="weap400Desc"/>
+		<property name="Group" value="Weap 400 System" />
+		<property name="CustomIcon" value="Class - Wildcard" />
+		<!--		<property name="CustomIcon" value="suitcase" /> -->
+		<property name="Material" value="wood+wood" />
+		<property name="Shape" value="Ext3dModel" />
+		<property name="Mesh" value="models" />
+		<property name="Model" value="LootContainers/suitcase" param1="main_mesh" />
+		<property name="Place" value="TowardsPlacer" />
+		<drop event="Destroy" count="0" prob="1" />
+		<property name="CanPickup" value="true" />
+		<property name="DowngradeBlock" value="Weap 400 - gunHuntingRifle" />
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="Weap 400 - gunHuntingRifle" />
+			<property name="Item" value="weap400Key" />
+			<property name="ItemCount" value="1" />
+			<property name="UpgradeHitCount" value="1" />
+		</property>
+	</block>
+	<block id="963" name="Weap 400 - gunHuntingRifle">
+		<property name="Class" value="Loot" />
+		<property name="Group" value="Survival" />
+		<property name="Material" value="wood+wood" />
+		<!--		<property name="CustomIcon" value="suitcase" /> -->
+		<property name="Shape" value="Ext3dModel" />
+		<property name="Mesh" value="models" />
+		<property name="Model" value="LootContainers/suitcase" param1="main_mesh" />
+		<property name="Place" value="TowardsPlacer" />
+		<property name="LootList" value="233" /> <!-- LOOTLIST WARNING -->
+		<drop event="Destroy" count="0" />
+		<drop event="Fall" name="woodDebris" count="1" prob="1.0"  stick_chance=".75" />
+		<property name="LPHardnessScale" value="8" />
+	</block>
+	<!-- Weap 400 - gunSniperRifle id : 964-965-->
+	<block id="964" name="Weap 400 - gunSniperRifle (Locked)">
+		<property name="DescriptionKey" value="weap400Desc"/>
+		<property name="Group" value="Weap 400 System" />
+		<property name="CustomIcon" value="Class - Wildcard" />
+		<!--		<property name="CustomIcon" value="suitcase" /> -->
+		<property name="Material" value="wood+wood" />
+		<property name="Shape" value="Ext3dModel" />
+		<property name="Mesh" value="models" />
+		<property name="Model" value="LootContainers/suitcase" param1="main_mesh" />
+		<property name="Place" value="TowardsPlacer" />
+		<drop event="Destroy" count="0" prob="1" />
+		<property name="CanPickup" value="true" />
+		<property name="DowngradeBlock" value="Weap 400 - gunSniperRifle" />
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="Weap 400 - gunSniperRifle" />
+			<property name="Item" value="weap400Key" />
+			<property name="ItemCount" value="1" />
+			<property name="UpgradeHitCount" value="1" />
+		</property>
+	</block>
+	<block id="965" name="Weap 400 - gunSniperRifle">
+		<property name="Class" value="Loot" />
+		<property name="Group" value="Survival" />
+		<property name="Material" value="wood+wood" />
+		<!--		<property name="CustomIcon" value="suitcase" /> -->
+		<property name="Shape" value="Ext3dModel" />
+		<property name="Mesh" value="models" />
+		<property name="Model" value="LootContainers/suitcase" param1="main_mesh" />
+		<property name="Place" value="TowardsPlacer" />
+		<property name="LootList" value="234" /> <!-- LOOTLIST WARNING -->
+		<drop event="Destroy" count="0" />
+		<drop event="Fall" name="woodDebris" count="1" prob="1.0"  stick_chance=".75" />
+		<property name="LPHardnessScale" value="8" />
+	</block>
+	<!-- Weap 500 - gunPistol id : 966-967-->
+	<block id="966" name="Weap 500 - gunPistol (Locked)">
+		<property name="DescriptionKey" value="weap500Desc"/>
+		<property name="Group" value="Weap 500 System" />
+		<property name="CustomIcon" value="Class - Wildcard" />
+		<!--		<property name="CustomIcon" value="suitcase" /> -->
+		<property name="Material" value="wood+wood" />
+		<property name="Shape" value="Ext3dModel" />
+		<property name="Mesh" value="models" />
+		<property name="Model" value="LootContainers/suitcase" param1="main_mesh" />
+		<property name="Place" value="TowardsPlacer" />
+		<drop event="Destroy" count="0" prob="1" />
+		<property name="CanPickup" value="true" />
+		<property name="DowngradeBlock" value="Weap 500 - gunPistol" />
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="Weap 500 - gunPistol" />
+			<property name="Item" value="weap500Key" />
+			<property name="ItemCount" value="1" />
+			<property name="UpgradeHitCount" value="1" />
+		</property>
+	</block>
+	<block id="967" name="Weap 500 - gunPistol">
+		<property name="Class" value="Loot" />
+		<property name="Group" value="Survival" />
+		<property name="Material" value="wood+wood" />
+		<!--		<property name="CustomIcon" value="suitcase" /> -->
+		<property name="Shape" value="Ext3dModel" />
+		<property name="Mesh" value="models" />
+		<property name="Model" value="LootContainers/suitcase" param1="main_mesh" />
+		<property name="Place" value="TowardsPlacer" />
+		<property name="LootList" value="235" /> <!-- LOOTLIST WARNING -->
+		<drop event="Destroy" count="0" />
+		<drop event="Fall" name="woodDebris" count="1" prob="1.0"  stick_chance=".75" />
+		<property name="LPHardnessScale" value="8" />
+	</block>
+	<!-- Weap 500 - gun44Magnum id : 968-969-->
+	<block id="968" name="Weap 500 - gun44Magnum (Locked)">
+		<property name="DescriptionKey" value="weap500Desc"/>
+		<property name="Group" value="Weap 500 System" />
+		<property name="CustomIcon" value="Class - Wildcard" />
+		<!--		<property name="CustomIcon" value="suitcase" /> -->
+		<property name="Material" value="wood+wood" />
+		<property name="Shape" value="Ext3dModel" />
+		<property name="Mesh" value="models" />
+		<property name="Model" value="LootContainers/suitcase" param1="main_mesh" />
+		<property name="Place" value="TowardsPlacer" />
+		<drop event="Destroy" count="0" prob="1" />
+		<property name="CanPickup" value="true" />
+		<property name="DowngradeBlock" value="Weap 500 - gun44Magnum" />
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="Weap 500 - gun44Magnum" />
+			<property name="Item" value="weap500Key" />
+			<property name="ItemCount" value="1" />
+			<property name="UpgradeHitCount" value="1" />
+		</property>
+	</block>
+	<block id="969" name="Weap 500 - gun44Magnum">
+		<property name="Class" value="Loot" />
+		<property name="Group" value="Survival" />
+		<property name="Material" value="wood+wood" />
+		<!--		<property name="CustomIcon" value="suitcase" /> -->
+		<property name="Shape" value="Ext3dModel" />
+		<property name="Mesh" value="models" />
+		<property name="Model" value="LootContainers/suitcase" param1="main_mesh" />
+		<property name="Place" value="TowardsPlacer" />
+		<property name="LootList" value="236" /> <!-- LOOTLIST WARNING -->
+		<drop event="Destroy" count="0" />
+		<drop event="Fall" name="woodDebris" count="1" prob="1.0"  stick_chance=".75" />
+		<property name="LPHardnessScale" value="8" />
+	</block>
+	<!-- Weap 500 - gunSawedOffPumpShotgun id : 970-971-->
+	<block id="970" name="Weap 500 - gunSawedOffPumpShotgun (Locked)">
+		<property name="DescriptionKey" value="weap500Desc"/>
+		<property name="Group" value="Weap 500 System" />
+		<property name="CustomIcon" value="Class - Wildcard" />
+		<!--		<property name="CustomIcon" value="suitcase" /> -->
+		<property name="Material" value="wood+wood" />
+		<property name="Shape" value="Ext3dModel" />
+		<property name="Mesh" value="models" />
+		<property name="Model" value="LootContainers/suitcase" param1="main_mesh" />
+		<property name="Place" value="TowardsPlacer" />
+		<drop event="Destroy" count="0" prob="1" />
+		<property name="CanPickup" value="true" />
+		<property name="DowngradeBlock" value="Weap 500 - gunSawedOffPumpShotgun" />
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="Weap 500 - gunSawedOffPumpShotgun" />
+			<property name="Item" value="weap500Key" />
+			<property name="ItemCount" value="1" />
+			<property name="UpgradeHitCount" value="1" />
+		</property>
+	</block>
+	<block id="971" name="Weap 500 - gunSawedOffPumpShotgun">
+		<property name="Class" value="Loot" />
+		<property name="Group" value="Survival" />
+		<property name="Material" value="wood+wood" />
+		<!--		<property name="CustomIcon" value="suitcase" /> -->
+		<property name="Shape" value="Ext3dModel" />
+		<property name="Mesh" value="models" />
+		<property name="Model" value="LootContainers/suitcase" param1="main_mesh" />
+		<property name="Place" value="TowardsPlacer" />
+		<property name="LootList" value="237" /> <!-- LOOTLIST WARNING -->
+		<drop event="Destroy" count="0" />
+		<drop event="Fall" name="woodDebris" count="1" prob="1.0"  stick_chance=".75" />
+		<property name="LPHardnessScale" value="8" />
+	</block>
+	<!-- Weap 500 - gunPumpShotgun id : 972-973-->
+	<block id="972" name="Weap 500 - gunPumpShotgun (Locked)">
+		<property name="DescriptionKey" value="weap500Desc"/>
+		<property name="Group" value="Weap 500 System" />
+		<property name="CustomIcon" value="Class - Wildcard" />
+		<!--		<property name="CustomIcon" value="suitcase" /> -->
+		<property name="Material" value="wood+wood" />
+		<property name="Shape" value="Ext3dModel" />
+		<property name="Mesh" value="models" />
+		<property name="Model" value="LootContainers/suitcase" param1="main_mesh" />
+		<property name="Place" value="TowardsPlacer" />
+		<drop event="Destroy" count="0" prob="1" />
+		<property name="CanPickup" value="true" />
+		<property name="DowngradeBlock" value="Weap 500 - gunPumpShotgun" />
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="Weap 500 - gunPumpShotgun" />
+			<property name="Item" value="weap500Key" />
+			<property name="ItemCount" value="1" />
+			<property name="UpgradeHitCount" value="1" />
+		</property>
+	</block>
+	<block id="973" name="Weap 500 - gunPumpShotgun">
+		<property name="Class" value="Loot" />
+		<property name="Group" value="Survival" />
+		<property name="Material" value="wood+wood" />
+		<!--		<property name="CustomIcon" value="suitcase" /> -->
+		<property name="Shape" value="Ext3dModel" />
+		<property name="Mesh" value="models" />
+		<property name="Model" value="LootContainers/suitcase" param1="main_mesh" />
+		<property name="Place" value="TowardsPlacer" />
+		<property name="LootList" value="238" /> <!-- LOOTLIST WARNING -->
+		<drop event="Destroy" count="0" />
+		<drop event="Fall" name="woodDebris" count="1" prob="1.0"  stick_chance=".75" />
+		<property name="LPHardnessScale" value="8" />
+	</block>
+	<!-- Weap 500 - gunMP5 id : 974-975-->
+	<block id="974" name="Weap 500 - gunMP5 (Locked)">
+		<property name="DescriptionKey" value="weap500Desc"/>
+		<property name="Group" value="Weap 500 System" />
+		<property name="CustomIcon" value="Class - Wildcard" />
+		<!--		<property name="CustomIcon" value="suitcase" /> -->
+		<property name="Material" value="wood+wood" />
+		<property name="Shape" value="Ext3dModel" />
+		<property name="Mesh" value="models" />
+		<property name="Model" value="LootContainers/suitcase" param1="main_mesh" />
+		<property name="Place" value="TowardsPlacer" />
+		<drop event="Destroy" count="0" prob="1" />
+		<property name="CanPickup" value="true" />
+		<property name="DowngradeBlock" value="Weap 500 - gunMP5" />
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="Weap 500 - gunMP5" />
+			<property name="Item" value="weap500Key" />
+			<property name="ItemCount" value="1" />
+			<property name="UpgradeHitCount" value="1" />
+		</property>
+	</block>
+	<block id="975" name="Weap 500 - gunMP5">
+		<property name="Class" value="Loot" />
+		<property name="Group" value="Survival" />
+		<property name="Material" value="wood+wood" />
+		<!--		<property name="CustomIcon" value="suitcase" /> -->
+		<property name="Shape" value="Ext3dModel" />
+		<property name="Mesh" value="models" />
+		<property name="Model" value="LootContainers/suitcase" param1="main_mesh" />
+		<property name="Place" value="TowardsPlacer" />
+		<property name="LootList" value="239" /> <!-- LOOTLIST WARNING -->
+		<drop event="Destroy" count="0" />
+		<drop event="Fall" name="woodDebris" count="1" prob="1.0"  stick_chance=".75" />
+		<property name="LPHardnessScale" value="8" />
+	</block>
+	<!-- Weap 500 - gunAK47 id : 976-977-->
+	<block id="976" name="Weap 500 - gunAK47 (Locked)">
+		<property name="DescriptionKey" value="weap500Desc"/>
+		<property name="Group" value="Weap 500 System" />
+		<property name="CustomIcon" value="Class - Wildcard" />
+		<!--		<property name="CustomIcon" value="suitcase" /> -->
+		<property name="Material" value="wood+wood" />
+		<property name="Shape" value="Ext3dModel" />
+		<property name="Mesh" value="models" />
+		<property name="Model" value="LootContainers/suitcase" param1="main_mesh" />
+		<property name="Place" value="TowardsPlacer" />
+		<drop event="Destroy" count="0" prob="1" />
+		<property name="CanPickup" value="true" />
+		<property name="DowngradeBlock" value="Weap 500 - gunAK47" />
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="Weap 500 - gunAK47" />
+			<property name="Item" value="weap500Key" />
+			<property name="ItemCount" value="1" />
+			<property name="UpgradeHitCount" value="1" />
+		</property>
+	</block>
+	<block id="977" name="Weap 500 - gunAK47">
+		<property name="Class" value="Loot" />
+		<property name="Group" value="Survival" />
+		<property name="Material" value="wood+wood" />
+		<!--		<property name="CustomIcon" value="suitcase" /> -->
+		<property name="Shape" value="Ext3dModel" />
+		<property name="Mesh" value="models" />
+		<property name="Model" value="LootContainers/suitcase" param1="main_mesh" />
+		<property name="Place" value="TowardsPlacer" />
+		<property name="LootList" value="240" /> <!-- LOOTLIST WARNING -->
+		<drop event="Destroy" count="0" />
+		<drop event="Fall" name="woodDebris" count="1" prob="1.0"  stick_chance=".75" />
+		<property name="LPHardnessScale" value="8" />
+	</block>
+	<!-- Weap 500 - gunHuntingRifle id : 978-979-->
+	<block id="978" name="Weap 500 - gunHuntingRifle (Locked)">
+		<property name="DescriptionKey" value="weap500Desc"/>
+		<property name="Group" value="Weap 500 System" />
+		<property name="CustomIcon" value="Class - Wildcard" />
+		<!--		<property name="CustomIcon" value="suitcase" /> -->
+		<property name="Material" value="wood+wood" />
+		<property name="Shape" value="Ext3dModel" />
+		<property name="Mesh" value="models" />
+		<property name="Model" value="LootContainers/suitcase" param1="main_mesh" />
+		<property name="Place" value="TowardsPlacer" />
+		<drop event="Destroy" count="0" prob="1" />
+		<property name="CanPickup" value="true" />
+		<property name="DowngradeBlock" value="Weap 500 - gunHuntingRifle" />
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="Weap 500 - gunHuntingRifle" />
+			<property name="Item" value="weap500Key" />
+			<property name="ItemCount" value="1" />
+			<property name="UpgradeHitCount" value="1" />
+		</property>
+	</block>
+	<block id="979" name="Weap 500 - gunHuntingRifle">
+		<property name="Class" value="Loot" />
+		<property name="Group" value="Survival" />
+		<property name="Material" value="wood+wood" />
+		<!--		<property name="CustomIcon" value="suitcase" /> -->
+		<property name="Shape" value="Ext3dModel" />
+		<property name="Mesh" value="models" />
+		<property name="Model" value="LootContainers/suitcase" param1="main_mesh" />
+		<property name="Place" value="TowardsPlacer" />
+		<property name="LootList" value="241" /> <!-- LOOTLIST WARNING -->
+		<drop event="Destroy" count="0" />
+		<drop event="Fall" name="woodDebris" count="1" prob="1.0"  stick_chance=".75" />
+		<property name="LPHardnessScale" value="8" />
+	</block>
+	<!-- Weap 500 - gunSniperRifle id : 980-981-->
+	<block id="980" name="Weap 500 - gunSniperRifle (Locked)">
+		<property name="DescriptionKey" value="weap500Desc"/>
+		<property name="Group" value="Weap 500 System" />
+		<property name="CustomIcon" value="Class - Wildcard" />
+		<!--		<property name="CustomIcon" value="suitcase" /> -->
+		<property name="Material" value="wood+wood" />
+		<property name="Shape" value="Ext3dModel" />
+		<property name="Mesh" value="models" />
+		<property name="Model" value="LootContainers/suitcase" param1="main_mesh" />
+		<property name="Place" value="TowardsPlacer" />
+		<drop event="Destroy" count="0" prob="1" />
+		<property name="CanPickup" value="true" />
+		<property name="DowngradeBlock" value="Weap 500 - gunSniperRifle" />
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="Weap 500 - gunSniperRifle" />
+			<property name="Item" value="weap500Key" />
+			<property name="ItemCount" value="1" />
+			<property name="UpgradeHitCount" value="1" />
+		</property>
+	</block>
+	<block id="981" name="Weap 500 - gunSniperRifle">
+		<property name="Class" value="Loot" />
+		<property name="Group" value="Survival" />
+		<property name="Material" value="wood+wood" />
+		<!--		<property name="CustomIcon" value="suitcase" /> -->
+		<property name="Shape" value="Ext3dModel" />
+		<property name="Mesh" value="models" />
+		<property name="Model" value="LootContainers/suitcase" param1="main_mesh" />
+		<property name="Place" value="TowardsPlacer" />
+		<property name="LootList" value="242" /> <!-- LOOTLIST WARNING -->
+		<drop event="Destroy" count="0" />
+		<drop event="Fall" name="woodDebris" count="1" prob="1.0"  stick_chance=".75" />
+		<property name="LPHardnessScale" value="8" />
+	</block>
+	<!-- Weap 600 - gunPistol id : 982-983-->
+	<block id="982" name="Weap 600 - gunPistol (Locked)">
+		<property name="DescriptionKey" value="weap600Desc"/>
+		<property name="Group" value="Weap 600 System" />
+		<property name="CustomIcon" value="Class - Wildcard" />
+		<!--		<property name="CustomIcon" value="suitcase" /> -->
+		<property name="Material" value="wood+wood" />
+		<property name="Shape" value="Ext3dModel" />
+		<property name="Mesh" value="models" />
+		<property name="Model" value="LootContainers/suitcase" param1="main_mesh" />
+		<property name="Place" value="TowardsPlacer" />
+		<drop event="Destroy" count="0" prob="1" />
+		<property name="CanPickup" value="true" />
+		<property name="DowngradeBlock" value="Weap 600 - gunPistol" />
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="Weap 600 - gunPistol" />
+			<property name="Item" value="weap600Key" />
+			<property name="ItemCount" value="1" />
+			<property name="UpgradeHitCount" value="1" />
+		</property>
+	</block>
+	<block id="983" name="Weap 600 - gunPistol">
+		<property name="Class" value="Loot" />
+		<property name="Group" value="Survival" />
+		<property name="Material" value="wood+wood" />
+		<!--		<property name="CustomIcon" value="suitcase" /> -->
+		<property name="Shape" value="Ext3dModel" />
+		<property name="Mesh" value="models" />
+		<property name="Model" value="LootContainers/suitcase" param1="main_mesh" />
+		<property name="Place" value="TowardsPlacer" />
+		<property name="LootList" value="243" /> <!-- LOOTLIST WARNING -->
+		<drop event="Destroy" count="0" />
+		<drop event="Fall" name="woodDebris" count="1" prob="1.0"  stick_chance=".75" />
+		<property name="LPHardnessScale" value="8" />
+	</block>
+	<!-- Weap 600 - gun44Magnum id : 984-1456-->
+	<block id="984" name="Weap 600 - gun44Magnum (Locked)">
+		<property name="DescriptionKey" value="weap600Desc"/>
+		<property name="Group" value="Weap 600 System" />
+		<property name="CustomIcon" value="Class - Wildcard" />
+		<!--		<property name="CustomIcon" value="suitcase" /> -->
+		<property name="Material" value="wood+wood" />
+		<property name="Shape" value="Ext3dModel" />
+		<property name="Mesh" value="models" />
+		<property name="Model" value="LootContainers/suitcase" param1="main_mesh" />
+		<property name="Place" value="TowardsPlacer" />
+		<drop event="Destroy" count="0" prob="1" />
+		<property name="CanPickup" value="true" />
+		<property name="DowngradeBlock" value="Weap 600 - gun44Magnum" />
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="Weap 600 - gun44Magnum" />
+			<property name="Item" value="weap600Key" />
+			<property name="ItemCount" value="1" />
+			<property name="UpgradeHitCount" value="1" />
+		</property>
+	</block>
+	<block id="1456" name="Weap 600 - gun44Magnum">
+		<property name="Class" value="Loot" />
+		<property name="Group" value="Survival" />
+		<property name="Material" value="wood+wood" />
+		<!--		<property name="CustomIcon" value="suitcase" /> -->
+		<property name="Shape" value="Ext3dModel" />
+		<property name="Mesh" value="models" />
+		<property name="Model" value="LootContainers/suitcase" param1="main_mesh" />
+		<property name="Place" value="TowardsPlacer" />
+		<property name="LootList" value="244" /> <!-- LOOTLIST WARNING -->
+		<drop event="Destroy" count="0" />
+		<drop event="Fall" name="woodDebris" count="1" prob="1.0"  stick_chance=".75" />
+		<property name="LPHardnessScale" value="8" />
+	</block>
+	<!-- Weap 600 - gunSawedOffPumpShotgun id : 1457-1458-->
+	<block id="1457" name="Weap 600 - gunSawedOffPumpShotgun (Locked)">
+		<property name="DescriptionKey" value="weap600Desc"/>
+		<property name="Group" value="Weap 600 System" />
+		<property name="CustomIcon" value="Class - Wildcard" />
+		<!--		<property name="CustomIcon" value="suitcase" /> -->
+		<property name="Material" value="wood+wood" />
+		<property name="Shape" value="Ext3dModel" />
+		<property name="Mesh" value="models" />
+		<property name="Model" value="LootContainers/suitcase" param1="main_mesh" />
+		<property name="Place" value="TowardsPlacer" />
+		<drop event="Destroy" count="0" prob="1" />
+		<property name="CanPickup" value="true" />
+		<property name="DowngradeBlock" value="Weap 600 - gunSawedOffPumpShotgun" />
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="Weap 600 - gunSawedOffPumpShotgun" />
+			<property name="Item" value="weap600Key" />
+			<property name="ItemCount" value="1" />
+			<property name="UpgradeHitCount" value="1" />
+		</property>
+	</block>
+	<block id="1458" name="Weap 600 - gunSawedOffPumpShotgun">
+		<property name="Class" value="Loot" />
+		<property name="Group" value="Survival" />
+		<property name="Material" value="wood+wood" />
+		<!--		<property name="CustomIcon" value="suitcase" /> -->
+		<property name="Shape" value="Ext3dModel" />
+		<property name="Mesh" value="models" />
+		<property name="Model" value="LootContainers/suitcase" param1="main_mesh" />
+		<property name="Place" value="TowardsPlacer" />
+		<property name="LootList" value="245" /> <!-- LOOTLIST WARNING -->
+		<drop event="Destroy" count="0" />
+		<drop event="Fall" name="woodDebris" count="1" prob="1.0"  stick_chance=".75" />
+		<property name="LPHardnessScale" value="8" />
+	</block>
+	<!-- Weap 600 - gunMP5 id : 1459-1460-->
+	<block id="1459" name="Weap 600 - gunMP5 (Locked)">
+		<property name="DescriptionKey" value="weap600Desc"/>
+		<property name="Group" value="Weap 600 System" />
+		<property name="CustomIcon" value="Class - Wildcard" />
+		<!--		<property name="CustomIcon" value="suitcase" /> -->
+		<property name="Material" value="wood+wood" />
+		<property name="Shape" value="Ext3dModel" />
+		<property name="Mesh" value="models" />
+		<property name="Model" value="LootContainers/suitcase" param1="main_mesh" />
+		<property name="Place" value="TowardsPlacer" />
+		<drop event="Destroy" count="0" prob="1" />
+		<property name="CanPickup" value="true" />
+		<property name="DowngradeBlock" value="Weap 600 - gunMP5" />
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="Weap 600 - gunMP5" />
+			<property name="Item" value="weap600Key" />
+			<property name="ItemCount" value="1" />
+			<property name="UpgradeHitCount" value="1" />
+		</property>
+	</block>
+	<block id="1460" name="Weap 600 - gunMP5">
+		<property name="Class" value="Loot" />
+		<property name="Group" value="Survival" />
+		<property name="Material" value="wood+wood" />
+		<!--		<property name="CustomIcon" value="suitcase" /> -->
+		<property name="Shape" value="Ext3dModel" />
+		<property name="Mesh" value="models" />
+		<property name="Model" value="LootContainers/suitcase" param1="main_mesh" />
+		<property name="Place" value="TowardsPlacer" />
+		<property name="LootList" value="246" /> <!-- LOOTLIST WARNING -->
+		<drop event="Destroy" count="0" />
+		<drop event="Fall" name="woodDebris" count="1" prob="1.0"  stick_chance=".75" />
+		<property name="LPHardnessScale" value="8" />
+	</block>
+	<!-- Weap 600 - gunAK47 id : 1461-1462-->
+	<block id="1461" name="Weap 600 - gunAK47 (Locked)">
+		<property name="DescriptionKey" value="weap600Desc"/>
+		<property name="Group" value="Weap 600 System" />
+		<property name="CustomIcon" value="Class - Wildcard" />
+		<!--		<property name="CustomIcon" value="suitcase" /> -->
+		<property name="Material" value="wood+wood" />
+		<property name="Shape" value="Ext3dModel" />
+		<property name="Mesh" value="models" />
+		<property name="Model" value="LootContainers/suitcase" param1="main_mesh" />
+		<property name="Place" value="TowardsPlacer" />
+		<drop event="Destroy" count="0" prob="1" />
+		<property name="CanPickup" value="true" />
+		<property name="DowngradeBlock" value="Weap 600 - gunAK47" />
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="Weap 600 - gunAK47" />
+			<property name="Item" value="weap600Key" />
+			<property name="ItemCount" value="1" />
+			<property name="UpgradeHitCount" value="1" />
+		</property>
+	</block>
+	<block id="1462" name="Weap 600 - gunAK47">
+		<property name="Class" value="Loot" />
+		<property name="Group" value="Survival" />
+		<property name="Material" value="wood+wood" />
+		<!--		<property name="CustomIcon" value="suitcase" /> -->
+		<property name="Shape" value="Ext3dModel" />
+		<property name="Mesh" value="models" />
+		<property name="Model" value="LootContainers/suitcase" param1="main_mesh" />
+		<property name="Place" value="TowardsPlacer" />
+		<property name="LootList" value="247" /> <!-- LOOTLIST WARNING -->
+		<drop event="Destroy" count="0" />
+		<drop event="Fall" name="woodDebris" count="1" prob="1.0"  stick_chance=".75" />
+		<property name="LPHardnessScale" value="8" />
+	</block>
+	<!-- Weap 600 - gunHuntingRifle id : 1680-1681-->
+	<block id="1680" name="Weap 600 - gunHuntingRifle (Locked)">
+		<property name="DescriptionKey" value="weap600Desc"/>
+		<property name="Group" value="Weap 600 System" />
+		<property name="CustomIcon" value="Class - Wildcard" />
+		<!--		<property name="CustomIcon" value="suitcase" /> -->
+		<property name="Material" value="wood+wood" />
+		<property name="Shape" value="Ext3dModel" />
+		<property name="Mesh" value="models" />
+		<property name="Model" value="LootContainers/suitcase" param1="main_mesh" />
+		<property name="Place" value="TowardsPlacer" />
+		<drop event="Destroy" count="0" prob="1" />
+		<property name="CanPickup" value="true" />
+		<property name="DowngradeBlock" value="Weap 600 - gunHuntingRifle" />
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="Weap 600 - gunHuntingRifle" />
+			<property name="Item" value="weap600Key" />
+			<property name="ItemCount" value="1" />
+			<property name="UpgradeHitCount" value="1" />
+		</property>
+	</block>
+	<block id="1681" name="Weap 600 - gunHuntingRifle">
+		<property name="Class" value="Loot" />
+		<property name="Group" value="Survival" />
+		<property name="Material" value="wood+wood" />
+		<!--		<property name="CustomIcon" value="suitcase" /> -->
+		<property name="Shape" value="Ext3dModel" />
+		<property name="Mesh" value="models" />
+		<property name="Model" value="LootContainers/suitcase" param1="main_mesh" />
+		<property name="Place" value="TowardsPlacer" />
+		<property name="LootList" value="248" /> <!-- LOOTLIST WARNING -->
+		<drop event="Destroy" count="0" />
+		<drop event="Fall" name="woodDebris" count="1" prob="1.0"  stick_chance=".75" />
+		<property name="LPHardnessScale" value="8" />
+	</block>
+	<!-- Weap 600 - gunSniperRifle id : 1682-1683-->
+	<block id="1682" name="Weap 600 - gunSniperRifle (Locked)">
+		<property name="DescriptionKey" value="weap600Desc"/>
+		<property name="Group" value="Weap 600 System" />
+		<property name="CustomIcon" value="Class - Wildcard" />
+		<!--		<property name="CustomIcon" value="suitcase" /> -->
+		<property name="Material" value="wood+wood" />
+		<property name="Shape" value="Ext3dModel" />
+		<property name="Mesh" value="models" />
+		<property name="Model" value="LootContainers/suitcase" param1="main_mesh" />
+		<property name="Place" value="TowardsPlacer" />
+		<drop event="Destroy" count="0" prob="1" />
+		<property name="CanPickup" value="true" />
+		<property name="DowngradeBlock" value="Weap 600 - gunSniperRifle" />
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="Weap 600 - gunSniperRifle" />
+			<property name="Item" value="weap600Key" />
+			<property name="ItemCount" value="1" />
+			<property name="UpgradeHitCount" value="1" />
+		</property>
+	</block>
+	<block id="1683" name="Weap 600 - gunSniperRifle">
+		<property name="Class" value="Loot" />
+		<property name="Group" value="Survival" />
+		<property name="Material" value="wood+wood" />
+		<!--		<property name="CustomIcon" value="suitcase" /> -->
+		<property name="Shape" value="Ext3dModel" />
+		<property name="Mesh" value="models" />
+		<property name="Model" value="LootContainers/suitcase" param1="main_mesh" />
+		<property name="Place" value="TowardsPlacer" />
+		<property name="LootList" value="249" /> <!-- LOOTLIST WARNING -->
+		<drop event="Destroy" count="0" />
+		<drop event="Fall" name="woodDebris" count="1" prob="1.0"  stick_chance=".75" />
+		<property name="LPHardnessScale" value="8" />
+	</block>
 	<!-- Valmod firearms : need 72 free id -->
-	<!-- Weap 400 - gunPistolSilenced id : ??-??-->
-	<!-- Weap 400 - gun44MagnumSilenced id : ??-??-->
-	<!-- Weap 400 - gunBoomstick id : ??-??-->
-	<!-- Weap 400 - gunMP5Silenced id : ??-??-->
-	<!-- Weap 400 - gunSniperSilenced id :??-??-->
-	<!-- Weap 400 - gunPumpShotgunChoked id : ??-??-->
-	<!-- Weap 400 - gunHuntingRifleSilenced id : ??-??-->
-	<!-- Weap 400 - gunBoltRifle id : ??-??-->
-	<!-- Weap 400 - gunBoltRifleSilenced id : ??-??-->
-	<!-- Weap 400 - gunAK47Silenced id : ??-??-->
-	<!-- Weap 400 - gunSniperRifleHPScope id : ??-??-->
-	<!-- Weap 400 - gunSniperRifleHPScopeSilenced id : ??-??-->
-	<!-- Weap 500 - gunPistolSilenced id : ??-??-->
-	<!-- Weap 500 - gun44MagnumSilenced id : ??-??-->
-	<!-- Weap 500 - gunBoomstick id : ??-??-->
-	<!-- Weap 500 - gunMP5Silenced id : ??-??-->
-	<!-- Weap 500 - gunSniperSilenced id :??-??-->
-	<!-- Weap 500 - gunPumpShotgunChoked id : ??-??-->
-	<!-- Weap 500 - gunHuntingRifleSilenced id : ??-??-->
-	<!-- Weap 500 - gunBoltRifle id : ??-??-->
-	<!-- Weap 500 - gunBoltRifleSilenced id : ??-??-->
-	<!-- Weap 500 - gunAK47Silenced id : ??-??-->
-	<!-- Weap 500 - gunSniperRifleHPScope id : ??-??-->
-	<!-- Weap 500 - gunSniperRifleHPScopeSilenced id : ??-??-->
-	<!-- Weap 600 - gunPistolSilenced id : ??-??-->
-	<!-- Weap 600 - gun44MagnumSilenced id : ??-??-->
-	<!-- Weap 600 - gunBoomstick id : ??-??-->
-	<!-- Weap 600 - gunMP5Silenced id : ??-??-->
-	<!-- Weap 600 - gunSniperSilenced id :??-??-->
-	<!-- Weap 600 - gunPumpShotgunChoked id : ??-??-->
-	<!-- Weap 600 - gunHuntingRifleSilenced id : ??-??-->
-	<!-- Weap 600 - gunBoltRifle id : ??-??-->
-	<!-- Weap 600 - gunBoltRifleSilenced id : ??-??-->
-	<!-- Weap 600 - gunAK47Silenced id : ??-??-->
-	<!-- Weap 600 - gunSniperRifleHPScope id : ??-??-->
-	<!-- Weap 600 - gunSniperRifleHPScopeSilenced id : ??-??-->
+	<!-- Weap 400 - gunPistolSilenced id : 1684-1685-->
+	<block id="1684" name="Weap 400 - gunPistolSilenced (Locked)">
+		<property name="DescriptionKey" value="weap400Desc"/>
+		<property name="Group" value="Weap 400 System" />
+		<property name="CustomIcon" value="Class - Wildcard" />
+		<!--		<property name="CustomIcon" value="suitcase" /> -->
+		<property name="Material" value="wood+wood" />
+		<property name="Shape" value="Ext3dModel" />
+		<property name="Mesh" value="models" />
+		<property name="Model" value="LootContainers/suitcase" param1="main_mesh" />
+		<property name="Place" value="TowardsPlacer" />
+		<drop event="Destroy" count="0" prob="1" />
+		<property name="CanPickup" value="true" />
+		<property name="DowngradeBlock" value="Weap 400 - gunPistolSilenced" />
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="Weap 400 - gunPistolSilenced" />
+			<property name="Item" value="weap400Key" />
+			<property name="ItemCount" value="1" />
+			<property name="UpgradeHitCount" value="1" />
+		</property>
+	</block>
+	<block id="1685" name="Weap 400 - gunPistolSilenced">
+		<property name="Class" value="Loot" />
+		<property name="Group" value="Survival" />
+		<property name="Material" value="wood+wood" />
+		<!--		<property name="CustomIcon" value="suitcase" /> -->
+		<property name="Shape" value="Ext3dModel" />
+		<property name="Mesh" value="models" />
+		<property name="Model" value="LootContainers/suitcase" param1="main_mesh" />
+		<property name="Place" value="TowardsPlacer" />
+		<property name="LootList" value="250" /> <!-- LOOTLIST WARNING -->
+		<drop event="Destroy" count="0" />
+		<drop event="Fall" name="woodDebris" count="1" prob="1.0"  stick_chance=".75" />
+		<property name="LPHardnessScale" value="8" />
+	</block>
+	<!-- Weap 400 - gun44MagnumSilenced id : 1686-1687-->
+	<block id="1686" name="Weap 400 - gun44MagnumSilenced (Locked)">
+		<property name="DescriptionKey" value="weap400Desc"/>
+		<property name="Group" value="Weap 400 System" />
+		<property name="CustomIcon" value="Class - Wildcard" />
+		<!--		<property name="CustomIcon" value="suitcase" /> -->
+		<property name="Material" value="wood+wood" />
+		<property name="Shape" value="Ext3dModel" />
+		<property name="Mesh" value="models" />
+		<property name="Model" value="LootContainers/suitcase" param1="main_mesh" />
+		<property name="Place" value="TowardsPlacer" />
+		<drop event="Destroy" count="0" prob="1" />
+		<property name="CanPickup" value="true" />
+		<property name="DowngradeBlock" value="Weap 400 - gun44MagnumSilenced" />
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="Weap 400 - gun44MagnumSilenced" />
+			<property name="Item" value="weap400Key" />
+			<property name="ItemCount" value="1" />
+			<property name="UpgradeHitCount" value="1" />
+		</property>
+	</block>
+	<block id="1687" name="Weap 400 - gun44MagnumSilenced">
+		<property name="Class" value="Loot" />
+		<property name="Group" value="Survival" />
+		<property name="Material" value="wood+wood" />
+		<!--		<property name="CustomIcon" value="suitcase" /> -->
+		<property name="Shape" value="Ext3dModel" />
+		<property name="Mesh" value="models" />
+		<property name="Model" value="LootContainers/suitcase" param1="main_mesh" />
+		<property name="Place" value="TowardsPlacer" />
+		<property name="LootList" value="134" /> <!-- LOOTLIST WARNING -->
+		<drop event="Destroy" count="0" />
+		<drop event="Fall" name="woodDebris" count="1" prob="1.0"  stick_chance=".75" />
+		<property name="LPHardnessScale" value="8" />
+	</block>
+	<!-- Weap 400 - gunBoomstick id : 1688-1689-->
+	<block id="1688" name="Weap 400 - gunBoomstick (Locked)">
+		<property name="DescriptionKey" value="weap400Desc"/>
+		<property name="Group" value="Weap 400 System" />
+		<property name="CustomIcon" value="Class - Wildcard" />
+		<!--		<property name="CustomIcon" value="suitcase" /> -->
+		<property name="Material" value="wood+wood" />
+		<property name="Shape" value="Ext3dModel" />
+		<property name="Mesh" value="models" />
+		<property name="Model" value="LootContainers/suitcase" param1="main_mesh" />
+		<property name="Place" value="TowardsPlacer" />
+		<drop event="Destroy" count="0" prob="1" />
+		<property name="CanPickup" value="true" />
+		<property name="DowngradeBlock" value="Weap 400 - gunBoomstick" />
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="Weap 400 - gunBoomstick" />
+			<property name="Item" value="weap400Key" />
+			<property name="ItemCount" value="1" />
+			<property name="UpgradeHitCount" value="1" />
+		</property>
+	</block>
+	<block id="1689" name="Weap 400 - gunBoomstick">
+		<property name="Class" value="Loot" />
+		<property name="Group" value="Survival" />
+		<property name="Material" value="wood+wood" />
+		<!--		<property name="CustomIcon" value="suitcase" /> -->
+		<property name="Shape" value="Ext3dModel" />
+		<property name="Mesh" value="models" />
+		<property name="Model" value="LootContainers/suitcase" param1="main_mesh" />
+		<property name="Place" value="TowardsPlacer" />
+		<property name="LootList" value="135" /> <!-- LOOTLIST WARNING -->
+		<drop event="Destroy" count="0" />
+		<drop event="Fall" name="woodDebris" count="1" prob="1.0"  stick_chance=".75" />
+		<property name="LPHardnessScale" value="8" />
+	</block>
+	<!-- Weap 400 - gunMP5Silenced id : 1690-1691-->
+	<block id="1690" name="Weap 400 - gunMP5Silenced (Locked)">
+		<property name="DescriptionKey" value="weap400Desc"/>
+		<property name="Group" value="Weap 400 System" />
+		<property name="CustomIcon" value="Class - Wildcard" />
+		<!--		<property name="CustomIcon" value="suitcase" /> -->
+		<property name="Material" value="wood+wood" />
+		<property name="Shape" value="Ext3dModel" />
+		<property name="Mesh" value="models" />
+		<property name="Model" value="LootContainers/suitcase" param1="main_mesh" />
+		<property name="Place" value="TowardsPlacer" />
+		<drop event="Destroy" count="0" prob="1" />
+		<property name="CanPickup" value="true" />
+		<property name="DowngradeBlock" value="Weap 400 - gunMP5Silenced" />
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="Weap 400 - gunMP5Silenced" />
+			<property name="Item" value="weap400Key" />
+			<property name="ItemCount" value="1" />
+			<property name="UpgradeHitCount" value="1" />
+		</property>
+	</block>
+	<block id="1691" name="Weap 400 - gunMP5Silenced">
+		<property name="Class" value="Loot" />
+		<property name="Group" value="Survival" />
+		<property name="Material" value="wood+wood" />
+		<!--		<property name="CustomIcon" value="suitcase" /> -->
+		<property name="Shape" value="Ext3dModel" />
+		<property name="Mesh" value="models" />
+		<property name="Model" value="LootContainers/suitcase" param1="main_mesh" />
+		<property name="Place" value="TowardsPlacer" />
+		<property name="LootList" value="136" /> <!-- LOOTLIST WARNING -->
+		<drop event="Destroy" count="0" />
+		<drop event="Fall" name="woodDebris" count="1" prob="1.0"  stick_chance=".75" />
+		<property name="LPHardnessScale" value="8" />
+	</block>
+	<!-- Weap 400 - gunSniperSilenced id : 1692-1693-->
+	<block id="1692" name="Weap 400 - gunSniperSilenced (Locked)">
+		<property name="DescriptionKey" value="weap400Desc"/>
+		<property name="Group" value="Weap 400 System" />
+		<property name="CustomIcon" value="Class - Wildcard" />
+		<!--		<property name="CustomIcon" value="suitcase" /> -->
+		<property name="Material" value="wood+wood" />
+		<property name="Shape" value="Ext3dModel" />
+		<property name="Mesh" value="models" />
+		<property name="Model" value="LootContainers/suitcase" param1="main_mesh" />
+		<property name="Place" value="TowardsPlacer" />
+		<drop event="Destroy" count="0" prob="1" />
+		<property name="CanPickup" value="true" />
+		<property name="DowngradeBlock" value="Weap 400 - gunSniperSilenced" />
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="Weap 400 - gunSniperSilenced" />
+			<property name="Item" value="weap400Key" />
+			<property name="ItemCount" value="1" />
+			<property name="UpgradeHitCount" value="1" />
+		</property>
+	</block>
+	<block id="1693" name="Weap 400 - gunSniperSilenced">
+		<property name="Class" value="Loot" />
+		<property name="Group" value="Survival" />
+		<property name="Material" value="wood+wood" />
+		<!--		<property name="CustomIcon" value="suitcase" /> -->
+		<property name="Shape" value="Ext3dModel" />
+		<property name="Mesh" value="models" />
+		<property name="Model" value="LootContainers/suitcase" param1="main_mesh" />
+		<property name="Place" value="TowardsPlacer" />
+		<property name="LootList" value="137" /> <!-- LOOTLIST WARNING -->
+		<drop event="Destroy" count="0" />
+		<drop event="Fall" name="woodDebris" count="1" prob="1.0"  stick_chance=".75" />
+		<property name="LPHardnessScale" value="8" />
+	</block>
+	<!-- Weap 400 - gunPumpShotgunChoked id : 1694-1695-->
+	<block id="1694" name="Weap 400 - gunPumpShotgunChoked (Locked)">
+		<property name="DescriptionKey" value="weap400Desc"/>
+		<property name="Group" value="Weap 400 System" />
+		<property name="CustomIcon" value="Class - Wildcard" />
+		<!--		<property name="CustomIcon" value="suitcase" /> -->
+		<property name="Material" value="wood+wood" />
+		<property name="Shape" value="Ext3dModel" />
+		<property name="Mesh" value="models" />
+		<property name="Model" value="LootContainers/suitcase" param1="main_mesh" />
+		<property name="Place" value="TowardsPlacer" />
+		<drop event="Destroy" count="0" prob="1" />
+		<property name="CanPickup" value="true" />
+		<property name="DowngradeBlock" value="Weap 400 - gunPumpShotgunChoked" />
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="Weap 400 - gunPumpShotgunChoked" />
+			<property name="Item" value="weap400Key" />
+			<property name="ItemCount" value="1" />
+			<property name="UpgradeHitCount" value="1" />
+		</property>
+	</block>
+	<block id="1695" name="Weap 400 - gunPumpShotgunChoked">
+		<property name="Class" value="Loot" />
+		<property name="Group" value="Survival" />
+		<property name="Material" value="wood+wood" />
+		<!--		<property name="CustomIcon" value="suitcase" /> -->
+		<property name="Shape" value="Ext3dModel" />
+		<property name="Mesh" value="models" />
+		<property name="Model" value="LootContainers/suitcase" param1="main_mesh" />
+		<property name="Place" value="TowardsPlacer" />
+		<property name="LootList" value="138" /> <!-- LOOTLIST WARNING -->
+		<drop event="Destroy" count="0" />
+		<drop event="Fall" name="woodDebris" count="1" prob="1.0"  stick_chance=".75" />
+		<property name="LPHardnessScale" value="8" />
+	</block>
+	<!-- Weap 400 - gunHuntingRifleSilenced id : 1696-1697-->
+	<block id="1696" name="Weap 400 - gunHuntingRifleSilenced (Locked)">
+		<property name="DescriptionKey" value="weap400Desc"/>
+		<property name="Group" value="Weap 400 System" />
+		<property name="CustomIcon" value="Class - Wildcard" />
+		<!--		<property name="CustomIcon" value="suitcase" /> -->
+		<property name="Material" value="wood+wood" />
+		<property name="Shape" value="Ext3dModel" />
+		<property name="Mesh" value="models" />
+		<property name="Model" value="LootContainers/suitcase" param1="main_mesh" />
+		<property name="Place" value="TowardsPlacer" />
+		<drop event="Destroy" count="0" prob="1" />
+		<property name="CanPickup" value="true" />
+		<property name="DowngradeBlock" value="Weap 400 - gunHuntingRifleSilenced" />
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="Weap 400 - gunHuntingRifleSilenced" />
+			<property name="Item" value="weap400Key" />
+			<property name="ItemCount" value="1" />
+			<property name="UpgradeHitCount" value="1" />
+		</property>
+	</block>
+	<block id="1697" name="Weap 400 - gunHuntingRifleSilenced">
+		<property name="Class" value="Loot" />
+		<property name="Group" value="Survival" />
+		<property name="Material" value="wood+wood" />
+		<!--		<property name="CustomIcon" value="suitcase" /> -->
+		<property name="Shape" value="Ext3dModel" />
+		<property name="Mesh" value="models" />
+		<property name="Model" value="LootContainers/suitcase" param1="main_mesh" />
+		<property name="Place" value="TowardsPlacer" />
+		<property name="LootList" value="139" /> <!-- LOOTLIST WARNING -->
+		<drop event="Destroy" count="0" />
+		<drop event="Fall" name="woodDebris" count="1" prob="1.0"  stick_chance=".75" />
+		<property name="LPHardnessScale" value="8" />
+	</block>
+	<!-- Weap 400 - gunBoltRifle id : 1698-1699-->
+	<block id="1698" name="Weap 400 - gunBoltRifle (Locked)">
+		<property name="DescriptionKey" value="weap400Desc"/>
+		<property name="Group" value="Weap 400 System" />
+		<property name="CustomIcon" value="Class - Wildcard" />
+		<!--		<property name="CustomIcon" value="suitcase" /> -->
+		<property name="Material" value="wood+wood" />
+		<property name="Shape" value="Ext3dModel" />
+		<property name="Mesh" value="models" />
+		<property name="Model" value="LootContainers/suitcase" param1="main_mesh" />
+		<property name="Place" value="TowardsPlacer" />
+		<drop event="Destroy" count="0" prob="1" />
+		<property name="CanPickup" value="true" />
+		<property name="DowngradeBlock" value="Weap 400 - gunBoltRifle" />
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="Weap 400 - gunBoltRifle" />
+			<property name="Item" value="weap400Key" />
+			<property name="ItemCount" value="1" />
+			<property name="UpgradeHitCount" value="1" />
+		</property>
+	</block>
+	<block id="1699" name="Weap 400 - gunBoltRifle">
+		<property name="Class" value="Loot" />
+		<property name="Group" value="Survival" />
+		<property name="Material" value="wood+wood" />
+		<!--		<property name="CustomIcon" value="suitcase" /> -->
+		<property name="Shape" value="Ext3dModel" />
+		<property name="Mesh" value="models" />
+		<property name="Model" value="LootContainers/suitcase" param1="main_mesh" />
+		<property name="Place" value="TowardsPlacer" />
+		<property name="LootList" value="140" /> <!-- LOOTLIST WARNING -->
+		<drop event="Destroy" count="0" />
+		<drop event="Fall" name="woodDebris" count="1" prob="1.0"  stick_chance=".75" />
+		<property name="LPHardnessScale" value="8" />
+	</block>
+	<!-- Weap 400 - gunBoltRifleSilenced id : 127-139-->
+	<block id="127" name="Weap 400 - gunBoltRifleSilenced (Locked)">
+		<property name="DescriptionKey" value="weap400Desc"/>
+		<property name="Group" value="Weap 400 System" />
+		<property name="CustomIcon" value="Class - Wildcard" />
+		<!--		<property name="CustomIcon" value="suitcase" /> -->
+		<property name="Material" value="wood+wood" />
+		<property name="Shape" value="Ext3dModel" />
+		<property name="Mesh" value="models" />
+		<property name="Model" value="LootContainers/suitcase" param1="main_mesh" />
+		<property name="Place" value="TowardsPlacer" />
+		<drop event="Destroy" count="0" prob="1" />
+		<property name="CanPickup" value="true" />
+		<property name="DowngradeBlock" value="Weap 400 - gunBoltRifleSilenced" />
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="Weap 400 - gunBoltRifleSilenced" />
+			<property name="Item" value="weap400Key" />
+			<property name="ItemCount" value="1" />
+			<property name="UpgradeHitCount" value="1" />
+		</property>
+	</block>
+	<block id="139" name="Weap 400 - gunBoltRifleSilenced">
+		<property name="Class" value="Loot" />
+		<property name="Group" value="Survival" />
+		<property name="Material" value="wood+wood" />
+		<!--		<property name="CustomIcon" value="suitcase" /> -->
+		<property name="Shape" value="Ext3dModel" />
+		<property name="Mesh" value="models" />
+		<property name="Model" value="LootContainers/suitcase" param1="main_mesh" />
+		<property name="Place" value="TowardsPlacer" />
+		<property name="LootList" value="141" /> <!-- LOOTLIST WARNING -->
+		<drop event="Destroy" count="0" />
+		<drop event="Fall" name="woodDebris" count="1" prob="1.0"  stick_chance=".75" />
+		<property name="LPHardnessScale" value="8" />
+	</block>
+	<!-- Weap 400 - gunAK47Silenced id : 583-584-->
+	<block id="583" name="Weap 400 - gunAK47Silenced (Locked)">
+		<property name="DescriptionKey" value="weap400Desc"/>
+		<property name="Group" value="Weap 400 System" />
+		<property name="CustomIcon" value="Class - Wildcard" />
+		<!--		<property name="CustomIcon" value="suitcase" /> -->
+		<property name="Material" value="wood+wood" />
+		<property name="Shape" value="Ext3dModel" />
+		<property name="Mesh" value="models" />
+		<property name="Model" value="LootContainers/suitcase" param1="main_mesh" />
+		<property name="Place" value="TowardsPlacer" />
+		<drop event="Destroy" count="0" prob="1" />
+		<property name="CanPickup" value="true" />
+		<property name="DowngradeBlock" value="Weap 400 - gunAK47Silenced" />
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="Weap 400 - gunAK47Silenced" />
+			<property name="Item" value="weap400Key" />
+			<property name="ItemCount" value="1" />
+			<property name="UpgradeHitCount" value="1" />
+		</property>
+	</block>
+	<block id="584" name="Weap 400 - gunAK47Silenced">
+		<property name="Class" value="Loot" />
+		<property name="Group" value="Survival" />
+		<property name="Material" value="wood+wood" />
+		<!--		<property name="CustomIcon" value="suitcase" /> -->
+		<property name="Shape" value="Ext3dModel" />
+		<property name="Mesh" value="models" />
+		<property name="Model" value="LootContainers/suitcase" param1="main_mesh" />
+		<property name="Place" value="TowardsPlacer" />
+		<property name="LootList" value="142" /> <!-- LOOTLIST WARNING -->
+		<drop event="Destroy" count="0" />
+		<drop event="Fall" name="woodDebris" count="1" prob="1.0"  stick_chance=".75" />
+		<property name="LPHardnessScale" value="8" />
+	</block>
+	<!-- Weap 400 - gunSniperRifleHPScope id : 1704-1705-->
+	<block id="1704" name="Weap 400 - gunSniperRifleHPScope (Locked)">
+		<property name="DescriptionKey" value="weap400Desc"/>
+		<property name="Group" value="Weap 400 System" />
+		<property name="CustomIcon" value="Class - Wildcard" />
+		<!--		<property name="CustomIcon" value="suitcase" /> -->
+		<property name="Material" value="wood+wood" />
+		<property name="Shape" value="Ext3dModel" />
+		<property name="Mesh" value="models" />
+		<property name="Model" value="LootContainers/suitcase" param1="main_mesh" />
+		<property name="Place" value="TowardsPlacer" />
+		<drop event="Destroy" count="0" prob="1" />
+		<property name="CanPickup" value="true" />
+		<property name="DowngradeBlock" value="Weap 400 - gunSniperRifleHPScope" />
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="Weap 400 - gunSniperRifleHPScope" />
+			<property name="Item" value="weap400Key" />
+			<property name="ItemCount" value="1" />
+			<property name="UpgradeHitCount" value="1" />
+		</property>
+	</block>
+	<block id="1705" name="Weap 400 - gunSniperRifleHPScope">
+		<property name="Class" value="Loot" />
+		<property name="Group" value="Survival" />
+		<property name="Material" value="wood+wood" />
+		<!--		<property name="CustomIcon" value="suitcase" /> -->
+		<property name="Shape" value="Ext3dModel" />
+		<property name="Mesh" value="models" />
+		<property name="Model" value="LootContainers/suitcase" param1="main_mesh" />
+		<property name="Place" value="TowardsPlacer" />
+		<property name="LootList" value="143" /> <!-- LOOTLIST WARNING -->
+		<drop event="Destroy" count="0" />
+		<drop event="Fall" name="woodDebris" count="1" prob="1.0"  stick_chance=".75" />
+		<property name="LPHardnessScale" value="8" />
+	</block>
+	<!-- Weap 400 - gunSniperRifleHPScopeSilenced id : 1706-1707-->
+	<block id="1706" name="Weap 400 - gunSniperRifleHPScopeSilenced (Locked)">
+		<property name="DescriptionKey" value="weap400Desc"/>
+		<property name="Group" value="Weap 400 System" />
+		<property name="CustomIcon" value="Class - Wildcard" />
+		<!--		<property name="CustomIcon" value="suitcase" /> -->
+		<property name="Material" value="wood+wood" />
+		<property name="Shape" value="Ext3dModel" />
+		<property name="Mesh" value="models" />
+		<property name="Model" value="LootContainers/suitcase" param1="main_mesh" />
+		<property name="Place" value="TowardsPlacer" />
+		<drop event="Destroy" count="0" prob="1" />
+		<property name="CanPickup" value="true" />
+		<property name="DowngradeBlock" value="Weap 400 - gunSniperRifleHPScopeSilenced" />
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="Weap 400 - gunSniperRifleHPScopeSilenced" />
+			<property name="Item" value="weap400Key" />
+			<property name="ItemCount" value="1" />
+			<property name="UpgradeHitCount" value="1" />
+		</property>
+	</block>
+	<block id="1707" name="Weap 400 - gunSniperRifleHPScopeSilenced">
+		<property name="Class" value="Loot" />
+		<property name="Group" value="Survival" />
+		<property name="Material" value="wood+wood" />
+		<!--		<property name="CustomIcon" value="suitcase" /> -->
+		<property name="Shape" value="Ext3dModel" />
+		<property name="Mesh" value="models" />
+		<property name="Model" value="LootContainers/suitcase" param1="main_mesh" />
+		<property name="Place" value="TowardsPlacer" />
+		<property name="LootList" value="144" /> <!-- LOOTLIST WARNING -->
+		<drop event="Destroy" count="0" />
+		<drop event="Fall" name="woodDebris" count="1" prob="1.0"  stick_chance=".75" />
+		<property name="LPHardnessScale" value="8" />
+	</block>
+	<!-- Weap 500 - gunPistolSilenced id : 1708-1709-->
+	<block id="1708" name="Weap 500 - gunPistolSilenced (Locked)">
+		<property name="DescriptionKey" value="weap500Desc"/>
+		<property name="Group" value="Weap 500 System" />
+		<property name="CustomIcon" value="Class - Wildcard" />
+		<!--		<property name="CustomIcon" value="suitcase" /> -->
+		<property name="Material" value="wood+wood" />
+		<property name="Shape" value="Ext3dModel" />
+		<property name="Mesh" value="models" />
+		<property name="Model" value="LootContainers/suitcase" param1="main_mesh" />
+		<property name="Place" value="TowardsPlacer" />
+		<drop event="Destroy" count="0" prob="1" />
+		<property name="CanPickup" value="true" />
+		<property name="DowngradeBlock" value="Weap 500 - gunPistolSilenced" />
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="Weap 500 - gunPistolSilenced" />
+			<property name="Item" value="weap500Key" />
+			<property name="ItemCount" value="1" />
+			<property name="UpgradeHitCount" value="1" />
+		</property>
+	</block>
+	<block id="1709" name="Weap 500 - gunPistolSilenced">
+		<property name="Class" value="Loot" />
+		<property name="Group" value="Survival" />
+		<property name="Material" value="wood+wood" />
+		<!--		<property name="CustomIcon" value="suitcase" /> -->
+		<property name="Shape" value="Ext3dModel" />
+		<property name="Mesh" value="models" />
+		<property name="Model" value="LootContainers/suitcase" param1="main_mesh" />
+		<property name="Place" value="TowardsPlacer" />
+		<property name="LootList" value="145" /> <!-- LOOTLIST WARNING -->
+		<drop event="Destroy" count="0" />
+		<drop event="Fall" name="woodDebris" count="1" prob="1.0"  stick_chance=".75" />
+		<property name="LPHardnessScale" value="8" />
+	</block>
+	<!-- Weap 500 - gun44MagnumSilenced id : 1710-1711-->
+	<block id="1710" name="Weap 500 - gun44MagnumSilenced (Locked)">
+		<property name="DescriptionKey" value="weap500Desc"/>
+		<property name="Group" value="Weap 500 System" />
+		<property name="CustomIcon" value="Class - Wildcard" />
+		<!--		<property name="CustomIcon" value="suitcase" /> -->
+		<property name="Material" value="wood+wood" />
+		<property name="Shape" value="Ext3dModel" />
+		<property name="Mesh" value="models" />
+		<property name="Model" value="LootContainers/suitcase" param1="main_mesh" />
+		<property name="Place" value="TowardsPlacer" />
+		<drop event="Destroy" count="0" prob="1" />
+		<property name="CanPickup" value="true" />
+		<property name="DowngradeBlock" value="Weap 500 - gun44MagnumSilenced" />
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="Weap 500 - gun44MagnumSilenced" />
+			<property name="Item" value="weap500Key" />
+			<property name="ItemCount" value="1" />
+			<property name="UpgradeHitCount" value="1" />
+		</property>
+	</block>
+	<block id="1711" name="Weap 500 - gun44MagnumSilenced">
+		<property name="Class" value="Loot" />
+		<property name="Group" value="Survival" />
+		<property name="Material" value="wood+wood" />
+		<!--		<property name="CustomIcon" value="suitcase" /> -->
+		<property name="Shape" value="Ext3dModel" />
+		<property name="Mesh" value="models" />
+		<property name="Model" value="LootContainers/suitcase" param1="main_mesh" />
+		<property name="Place" value="TowardsPlacer" />
+		<property name="LootList" value="146" /> <!-- LOOTLIST WARNING -->
+		<drop event="Destroy" count="0" />
+		<drop event="Fall" name="woodDebris" count="1" prob="1.0"  stick_chance=".75" />
+		<property name="LPHardnessScale" value="8" />
+	</block>
+	<!-- Weap 500 - gunBoomstick id : 1712-585-->
+	<block id="1712" name="Weap 500 - gunBoomstick (Locked)">
+		<property name="DescriptionKey" value="weap500Desc"/>
+		<property name="Group" value="Weap 500 System" />
+		<property name="CustomIcon" value="Class - Wildcard" />
+		<!--		<property name="CustomIcon" value="suitcase" /> -->
+		<property name="Material" value="wood+wood" />
+		<property name="Shape" value="Ext3dModel" />
+		<property name="Mesh" value="models" />
+		<property name="Model" value="LootContainers/suitcase" param1="main_mesh" />
+		<property name="Place" value="TowardsPlacer" />
+		<drop event="Destroy" count="0" prob="1" />
+		<property name="CanPickup" value="true" />
+		<property name="DowngradeBlock" value="Weap 500 - gunBoomstick" />
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="Weap 500 - gunBoomstick" />
+			<property name="Item" value="weap500Key" />
+			<property name="ItemCount" value="1" />
+			<property name="UpgradeHitCount" value="1" />
+		</property>
+	</block>
+	<block id="585" name="Weap 500 - gunBoomstick">
+		<property name="Class" value="Loot" />
+		<property name="Group" value="Survival" />
+		<property name="Material" value="wood+wood" />
+		<!--		<property name="CustomIcon" value="suitcase" /> -->
+		<property name="Shape" value="Ext3dModel" />
+		<property name="Mesh" value="models" />
+		<property name="Model" value="LootContainers/suitcase" param1="main_mesh" />
+		<property name="Place" value="TowardsPlacer" />
+		<property name="LootList" value="147" /> <!-- LOOTLIST WARNING -->
+		<drop event="Destroy" count="0" />
+		<drop event="Fall" name="woodDebris" count="1" prob="1.0"  stick_chance=".75" />
+		<property name="LPHardnessScale" value="8" />
+	</block>
+	<!-- Weap 500 - gunMP5Silenced id : 659-660-->
+	<block id="659" name="Weap 500 - gunMP5Silenced (Locked)">
+		<property name="DescriptionKey" value="weap500Desc"/>
+		<property name="Group" value="Weap 500 System" />
+		<property name="CustomIcon" value="Class - Wildcard" />
+		<!--		<property name="CustomIcon" value="suitcase" /> -->
+		<property name="Material" value="wood+wood" />
+		<property name="Shape" value="Ext3dModel" />
+		<property name="Mesh" value="models" />
+		<property name="Model" value="LootContainers/suitcase" param1="main_mesh" />
+		<property name="Place" value="TowardsPlacer" />
+		<drop event="Destroy" count="0" prob="1" />
+		<property name="CanPickup" value="true" />
+		<property name="DowngradeBlock" value="Weap 500 - gunMP5Silenced" />
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="Weap 500 - gunMP5Silenced" />
+			<property name="Item" value="weap500Key" />
+			<property name="ItemCount" value="1" />
+			<property name="UpgradeHitCount" value="1" />
+		</property>
+	</block>
+	<block id="660" name="Weap 500 - gunMP5Silenced">
+		<property name="Class" value="Loot" />
+		<property name="Group" value="Survival" />
+		<property name="Material" value="wood+wood" />
+		<!--		<property name="CustomIcon" value="suitcase" /> -->
+		<property name="Shape" value="Ext3dModel" />
+		<property name="Mesh" value="models" />
+		<property name="Model" value="LootContainers/suitcase" param1="main_mesh" />
+		<property name="Place" value="TowardsPlacer" />
+		<property name="LootList" value="148" /> <!-- LOOTLIST WARNING -->
+		<drop event="Destroy" count="0" />
+		<drop event="Fall" name="woodDebris" count="1" prob="1.0"  stick_chance=".75" />
+		<property name="LPHardnessScale" value="8" />
+	</block>
+	<!-- Weap 500 - gunSniperSilenced id : 661-700-->
+	<block id="661" name="Weap 500 - gunSniperSilenced (Locked)">
+		<property name="DescriptionKey" value="weap500Desc"/>
+		<property name="Group" value="Weap 500 System" />
+		<property name="CustomIcon" value="Class - Wildcard" />
+		<!--		<property name="CustomIcon" value="suitcase" /> -->
+		<property name="Material" value="wood+wood" />
+		<property name="Shape" value="Ext3dModel" />
+		<property name="Mesh" value="models" />
+		<property name="Model" value="LootContainers/suitcase" param1="main_mesh" />
+		<property name="Place" value="TowardsPlacer" />
+		<drop event="Destroy" count="0" prob="1" />
+		<property name="CanPickup" value="true" />
+		<property name="DowngradeBlock" value="Weap 500 - gunSniperSilenced" />
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="Weap 500 - gunSniperSilenced" />
+			<property name="Item" value="weap500Key" />
+			<property name="ItemCount" value="1" />
+			<property name="UpgradeHitCount" value="1" />
+		</property>
+	</block>
+	<block id="700" name="Weap 500 - gunSniperSilenced">
+		<property name="Class" value="Loot" />
+		<property name="Group" value="Survival" />
+		<property name="Material" value="wood+wood" />
+		<!--		<property name="CustomIcon" value="suitcase" /> -->
+		<property name="Shape" value="Ext3dModel" />
+		<property name="Mesh" value="models" />
+		<property name="Model" value="LootContainers/suitcase" param1="main_mesh" />
+		<property name="Place" value="TowardsPlacer" />
+		<property name="LootList" value="149" /> <!-- LOOTLIST WARNING -->
+		<drop event="Destroy" count="0" />
+		<drop event="Fall" name="woodDebris" count="1" prob="1.0"  stick_chance=".75" />
+		<property name="LPHardnessScale" value="8" />
+	</block>
+	<!-- Weap 500 - gunPumpShotgunChoked id : 805-827-->
+	<block id="805" name="Weap 500 - gunPumpShotgunChoked (Locked)">
+		<property name="DescriptionKey" value="weap500Desc"/>
+		<property name="Group" value="Weap 500 System" />
+		<property name="CustomIcon" value="Class - Wildcard" />
+		<!--		<property name="CustomIcon" value="suitcase" /> -->
+		<property name="Material" value="wood+wood" />
+		<property name="Shape" value="Ext3dModel" />
+		<property name="Mesh" value="models" />
+		<property name="Model" value="LootContainers/suitcase" param1="main_mesh" />
+		<property name="Place" value="TowardsPlacer" />
+		<drop event="Destroy" count="0" prob="1" />
+		<property name="CanPickup" value="true" />
+		<property name="DowngradeBlock" value="Weap 500 - gunPumpShotgunChoked" />
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="Weap 500 - gunPumpShotgunChoked" />
+			<property name="Item" value="weap500Key" />
+			<property name="ItemCount" value="1" />
+			<property name="UpgradeHitCount" value="1" />
+		</property>
+	</block>
+	<block id="827" name="Weap 500 - gunPumpShotgunChoked">
+		<property name="Class" value="Loot" />
+		<property name="Group" value="Survival" />
+		<property name="Material" value="wood+wood" />
+		<!--		<property name="CustomIcon" value="suitcase" /> -->
+		<property name="Shape" value="Ext3dModel" />
+		<property name="Mesh" value="models" />
+		<property name="Model" value="LootContainers/suitcase" param1="main_mesh" />
+		<property name="Place" value="TowardsPlacer" />
+		<property name="LootList" value="150" /> <!-- LOOTLIST WARNING -->
+		<drop event="Destroy" count="0" />
+		<drop event="Fall" name="woodDebris" count="1" prob="1.0"  stick_chance=".75" />
+		<property name="LPHardnessScale" value="8" />
+	</block>
+	<!-- Weap 500 - gunHuntingRifleSilenced id : 865-866-->
+	<block id="865" name="Weap 500 - gunHuntingRifleSilenced (Locked)">
+		<property name="DescriptionKey" value="weap500Desc"/>
+		<property name="Group" value="Weap 500 System" />
+		<property name="CustomIcon" value="Class - Wildcard" />
+		<!--		<property name="CustomIcon" value="suitcase" /> -->
+		<property name="Material" value="wood+wood" />
+		<property name="Shape" value="Ext3dModel" />
+		<property name="Mesh" value="models" />
+		<property name="Model" value="LootContainers/suitcase" param1="main_mesh" />
+		<property name="Place" value="TowardsPlacer" />
+		<drop event="Destroy" count="0" prob="1" />
+		<property name="CanPickup" value="true" />
+		<property name="DowngradeBlock" value="Weap 500 - gunHuntingRifleSilenced" />
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="Weap 500 - gunHuntingRifleSilenced" />
+			<property name="Item" value="weap500Key" />
+			<property name="ItemCount" value="1" />
+			<property name="UpgradeHitCount" value="1" />
+		</property>
+	</block>
+	<block id="866" name="Weap 500 - gunHuntingRifleSilenced">
+		<property name="Class" value="Loot" />
+		<property name="Group" value="Survival" />
+		<property name="Material" value="wood+wood" />
+		<!--		<property name="CustomIcon" value="suitcase" /> -->
+		<property name="Shape" value="Ext3dModel" />
+		<property name="Mesh" value="models" />
+		<property name="Model" value="LootContainers/suitcase" param1="main_mesh" />
+		<property name="Place" value="TowardsPlacer" />
+		<property name="LootList" value="151" /> <!-- LOOTLIST WARNING -->
+		<drop event="Destroy" count="0" />
+		<drop event="Fall" name="woodDebris" count="1" prob="1.0"  stick_chance=".75" />
+		<property name="LPHardnessScale" value="8" />
+	</block>
+	<!-- Weap 500 - gunBoltRifle id : 867-1723-->
+	<block id="867" name="Weap 500 - gunBoltRifle (Locked)">
+		<property name="DescriptionKey" value="weap500Desc"/>
+		<property name="Group" value="Weap 500 System" />
+		<property name="CustomIcon" value="Class - Wildcard" />
+		<!--		<property name="CustomIcon" value="suitcase" /> -->
+		<property name="Material" value="wood+wood" />
+		<property name="Shape" value="Ext3dModel" />
+		<property name="Mesh" value="models" />
+		<property name="Model" value="LootContainers/suitcase" param1="main_mesh" />
+		<property name="Place" value="TowardsPlacer" />
+		<drop event="Destroy" count="0" prob="1" />
+		<property name="CanPickup" value="true" />
+		<property name="DowngradeBlock" value="Weap 500 - gunBoltRifle" />
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="Weap 500 - gunBoltRifle" />
+			<property name="Item" value="weap500Key" />
+			<property name="ItemCount" value="1" />
+			<property name="UpgradeHitCount" value="1" />
+		</property>
+	</block>
+	<block id="1723" name="Weap 500 - gunBoltRifle">
+		<property name="Class" value="Loot" />
+		<property name="Group" value="Survival" />
+		<property name="Material" value="wood+wood" />
+		<!--		<property name="CustomIcon" value="suitcase" /> -->
+		<property name="Shape" value="Ext3dModel" />
+		<property name="Mesh" value="models" />
+		<property name="Model" value="LootContainers/suitcase" param1="main_mesh" />
+		<property name="Place" value="TowardsPlacer" />
+		<property name="LootList" value="152" /> <!-- LOOTLIST WARNING -->
+		<drop event="Destroy" count="0" />
+		<drop event="Fall" name="woodDebris" count="1" prob="1.0"  stick_chance=".75" />
+		<property name="LPHardnessScale" value="8" />
+	</block>
+	<!-- Weap 500 - gunBoltRifleSilenced id : 868-904-->
+	<block id="868" name="Weap 500 - gunBoltRifleSilenced (Locked)">
+		<property name="DescriptionKey" value="weap500Desc"/>
+		<property name="Group" value="Weap 500 System" />
+		<property name="CustomIcon" value="Class - Wildcard" />
+		<!--		<property name="CustomIcon" value="suitcase" /> -->
+		<property name="Material" value="wood+wood" />
+		<property name="Shape" value="Ext3dModel" />
+		<property name="Mesh" value="models" />
+		<property name="Model" value="LootContainers/suitcase" param1="main_mesh" />
+		<property name="Place" value="TowardsPlacer" />
+		<drop event="Destroy" count="0" prob="1" />
+		<property name="CanPickup" value="true" />
+		<property name="DowngradeBlock" value="Weap 500 - gunBoltRifleSilenced" />
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="Weap 500 - gunBoltRifleSilenced" />
+			<property name="Item" value="weap500Key" />
+			<property name="ItemCount" value="1" />
+			<property name="UpgradeHitCount" value="1" />
+		</property>
+	</block>
+	<block id="904" name="Weap 500 - gunBoltRifleSilenced">
+		<property name="Class" value="Loot" />
+		<property name="Group" value="Survival" />
+		<property name="Material" value="wood+wood" />
+		<!--		<property name="CustomIcon" value="suitcase" /> -->
+		<property name="Shape" value="Ext3dModel" />
+		<property name="Mesh" value="models" />
+		<property name="Model" value="LootContainers/suitcase" param1="main_mesh" />
+		<property name="Place" value="TowardsPlacer" />
+		<property name="LootList" value="153" /> <!-- LOOTLIST WARNING -->
+		<drop event="Destroy" count="0" />
+		<drop event="Fall" name="woodDebris" count="1" prob="1.0"  stick_chance=".75" />
+		<property name="LPHardnessScale" value="8" />
+	</block>
+	<!-- Weap 500 - gunAK47Silenced id : 905-906-->
+	<block id="905" name="Weap 500 - gunAK47Silenced (Locked)">
+		<property name="DescriptionKey" value="weap500Desc"/>
+		<property name="Group" value="Weap 500 System" />
+		<property name="CustomIcon" value="Class - Wildcard" />
+		<!--		<property name="CustomIcon" value="suitcase" /> -->
+		<property name="Material" value="wood+wood" />
+		<property name="Shape" value="Ext3dModel" />
+		<property name="Mesh" value="models" />
+		<property name="Model" value="LootContainers/suitcase" param1="main_mesh" />
+		<property name="Place" value="TowardsPlacer" />
+		<drop event="Destroy" count="0" prob="1" />
+		<property name="CanPickup" value="true" />
+		<property name="DowngradeBlock" value="Weap 500 - gunAK47Silenced" />
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="Weap 500 - gunAK47Silenced" />
+			<property name="Item" value="weap500Key" />
+			<property name="ItemCount" value="1" />
+			<property name="UpgradeHitCount" value="1" />
+		</property>
+	</block>
+	<block id="906" name="Weap 500 - gunAK47Silenced">
+		<property name="Class" value="Loot" />
+		<property name="Group" value="Survival" />
+		<property name="Material" value="wood+wood" />
+		<!--		<property name="CustomIcon" value="suitcase" /> -->
+		<property name="Shape" value="Ext3dModel" />
+		<property name="Mesh" value="models" />
+		<property name="Model" value="LootContainers/suitcase" param1="main_mesh" />
+		<property name="Place" value="TowardsPlacer" />
+		<property name="LootList" value="154" /> <!-- LOOTLIST WARNING -->
+		<drop event="Destroy" count="0" />
+		<drop event="Fall" name="woodDebris" count="1" prob="1.0"  stick_chance=".75" />
+		<property name="LPHardnessScale" value="8" />
+	</block>
+	<!-- Weap 500 - gunSniperRifleHPScope id : 1010-1011-->
+	<block id="1010" name="Weap 500 - gunSniperRifleHPScope (Locked)">
+		<property name="DescriptionKey" value="weap500Desc"/>
+		<property name="Group" value="Weap 500 System" />
+		<property name="CustomIcon" value="Class - Wildcard" />
+		<!--		<property name="CustomIcon" value="suitcase" /> -->
+		<property name="Material" value="wood+wood" />
+		<property name="Shape" value="Ext3dModel" />
+		<property name="Mesh" value="models" />
+		<property name="Model" value="LootContainers/suitcase" param1="main_mesh" />
+		<property name="Place" value="TowardsPlacer" />
+		<drop event="Destroy" count="0" prob="1" />
+		<property name="CanPickup" value="true" />
+		<property name="DowngradeBlock" value="Weap 500 - gunSniperRifleHPScope" />
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="Weap 500 - gunSniperRifleHPScope" />
+			<property name="Item" value="weap500Key" />
+			<property name="ItemCount" value="1" />
+			<property name="UpgradeHitCount" value="1" />
+		</property>
+	</block>
+	<block id="1011" name="Weap 500 - gunSniperRifleHPScope">
+		<property name="Class" value="Loot" />
+		<property name="Group" value="Survival" />
+		<property name="Material" value="wood+wood" />
+		<!--		<property name="CustomIcon" value="suitcase" /> -->
+		<property name="Shape" value="Ext3dModel" />
+		<property name="Mesh" value="models" />
+		<property name="Model" value="LootContainers/suitcase" param1="main_mesh" />
+		<property name="Place" value="TowardsPlacer" />
+		<property name="LootList" value="155" /> <!-- LOOTLIST WARNING -->
+		<drop event="Destroy" count="0" />
+		<drop event="Fall" name="woodDebris" count="1" prob="1.0"  stick_chance=".75" />
+		<property name="LPHardnessScale" value="8" />
+	</block>
+	<!-- Weap 500 - gunSniperRifleHPScopeSilenced id : 1012-1013-->
+	<block id="1012" name="Weap 500 - gunSniperRifleHPScopeSilenced (Locked)">
+		<property name="DescriptionKey" value="weap500Desc"/>
+		<property name="Group" value="Weap 500 System" />
+		<property name="CustomIcon" value="Class - Wildcard" />
+		<!--		<property name="CustomIcon" value="suitcase" /> -->
+		<property name="Material" value="wood+wood" />
+		<property name="Shape" value="Ext3dModel" />
+		<property name="Mesh" value="models" />
+		<property name="Model" value="LootContainers/suitcase" param1="main_mesh" />
+		<property name="Place" value="TowardsPlacer" />
+		<drop event="Destroy" count="0" prob="1" />
+		<property name="CanPickup" value="true" />
+		<property name="DowngradeBlock" value="Weap 500 - gunSniperRifleHPScopeSilenced" />
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="Weap 500 - gunSniperRifleHPScopeSilenced" />
+			<property name="Item" value="weap500Key" />
+			<property name="ItemCount" value="1" />
+			<property name="UpgradeHitCount" value="1" />
+		</property>
+	</block>
+	<block id="1013" name="Weap 500 - gunSniperRifleHPScopeSilenced">
+		<property name="Class" value="Loot" />
+		<property name="Group" value="Survival" />
+		<property name="Material" value="wood+wood" />
+		<!--		<property name="CustomIcon" value="suitcase" /> -->
+		<property name="Shape" value="Ext3dModel" />
+		<property name="Mesh" value="models" />
+		<property name="Model" value="LootContainers/suitcase" param1="main_mesh" />
+		<property name="Place" value="TowardsPlacer" />
+		<property name="LootList" value="156" /> <!-- LOOTLIST WARNING -->
+		<drop event="Destroy" count="0" />
+		<drop event="Fall" name="woodDebris" count="1" prob="1.0"  stick_chance=".75" />
+		<property name="LPHardnessScale" value="8" />
+	</block>
+	<!-- Weap 600 - gunPistolSilenced id : 1014-1015-->
+	<block id="1014" name="Weap 600 - gunPistolSilenced (Locked)">
+		<property name="DescriptionKey" value="weap600Desc"/>
+		<property name="Group" value="Weap 600 System" />
+		<property name="CustomIcon" value="Class - Wildcard" />
+		<!--		<property name="CustomIcon" value="suitcase" /> -->
+		<property name="Material" value="wood+wood" />
+		<property name="Shape" value="Ext3dModel" />
+		<property name="Mesh" value="models" />
+		<property name="Model" value="LootContainers/suitcase" param1="main_mesh" />
+		<property name="Place" value="TowardsPlacer" />
+		<drop event="Destroy" count="0" prob="1" />
+		<property name="CanPickup" value="true" />
+		<property name="DowngradeBlock" value="Weap 600 - gunPistolSilenced" />
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="Weap 600 - gunPistolSilenced" />
+			<property name="Item" value="weap600Key" />
+			<property name="ItemCount" value="1" />
+			<property name="UpgradeHitCount" value="1" />
+		</property>
+	</block>
+	<block id="1015" name="Weap 600 - gunPistolSilenced">
+		<property name="Class" value="Loot" />
+		<property name="Group" value="Survival" />
+		<property name="Material" value="wood+wood" />
+		<!--		<property name="CustomIcon" value="suitcase" /> -->
+		<property name="Shape" value="Ext3dModel" />
+		<property name="Mesh" value="models" />
+		<property name="Model" value="LootContainers/suitcase" param1="main_mesh" />
+		<property name="Place" value="TowardsPlacer" />
+		<property name="LootList" value="157" /> <!-- LOOTLIST WARNING -->
+		<drop event="Destroy" count="0" />
+		<drop event="Fall" name="woodDebris" count="1" prob="1.0"  stick_chance=".75" />
+		<property name="LPHardnessScale" value="8" />
+	</block>
+	<!-- Weap 600 - gun44MagnumSilenced id : 1016-1017-->
+	<block id="1016" name="Weap 600 - gun44MagnumSilenced (Locked)">
+		<property name="DescriptionKey" value="weap600Desc"/>
+		<property name="Group" value="Weap 600 System" />
+		<property name="CustomIcon" value="Class - Wildcard" />
+		<!--		<property name="CustomIcon" value="suitcase" /> -->
+		<property name="Material" value="wood+wood" />
+		<property name="Shape" value="Ext3dModel" />
+		<property name="Mesh" value="models" />
+		<property name="Model" value="LootContainers/suitcase" param1="main_mesh" />
+		<property name="Place" value="TowardsPlacer" />
+		<drop event="Destroy" count="0" prob="1" />
+		<property name="CanPickup" value="true" />
+		<property name="DowngradeBlock" value="Weap 600 - gun44MagnumSilenced" />
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="Weap 600 - gun44MagnumSilenced" />
+			<property name="Item" value="weap600Key" />
+			<property name="ItemCount" value="1" />
+			<property name="UpgradeHitCount" value="1" />
+		</property>
+	</block>
+	<block id="1017" name="Weap 600 - gun44MagnumSilenced">
+		<property name="Class" value="Loot" />
+		<property name="Group" value="Survival" />
+		<property name="Material" value="wood+wood" />
+		<!--		<property name="CustomIcon" value="suitcase" /> -->
+		<property name="Shape" value="Ext3dModel" />
+		<property name="Mesh" value="models" />
+		<property name="Model" value="LootContainers/suitcase" param1="main_mesh" />
+		<property name="Place" value="TowardsPlacer" />
+		<property name="LootList" value="158" /> <!-- LOOTLIST WARNING -->
+		<drop event="Destroy" count="0" />
+		<drop event="Fall" name="woodDebris" count="1" prob="1.0"  stick_chance=".75" />
+		<property name="LPHardnessScale" value="8" />
+	</block>
+	<!-- Weap 600 - gunBoomstick id : 1018-1019-->
+	<block id="1018" name="Weap 600 - gunBoomstick (Locked)">
+		<property name="DescriptionKey" value="weap600Desc"/>
+		<property name="Group" value="Weap 600 System" />
+		<property name="CustomIcon" value="Class - Wildcard" />
+		<!--		<property name="CustomIcon" value="suitcase" /> -->
+		<property name="Material" value="wood+wood" />
+		<property name="Shape" value="Ext3dModel" />
+		<property name="Mesh" value="models" />
+		<property name="Model" value="LootContainers/suitcase" param1="main_mesh" />
+		<property name="Place" value="TowardsPlacer" />
+		<drop event="Destroy" count="0" prob="1" />
+		<property name="CanPickup" value="true" />
+		<property name="DowngradeBlock" value="Weap 600 - gunBoomstick" />
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="Weap 600 - gunBoomstick" />
+			<property name="Item" value="weap600Key" />
+			<property name="ItemCount" value="1" />
+			<property name="UpgradeHitCount" value="1" />
+		</property>
+	</block>
+	<block id="1019" name="Weap 600 - gunBoomstick">
+		<property name="Class" value="Loot" />
+		<property name="Group" value="Survival" />
+		<property name="Material" value="wood+wood" />
+		<!--		<property name="CustomIcon" value="suitcase" /> -->
+		<property name="Shape" value="Ext3dModel" />
+		<property name="Mesh" value="models" />
+		<property name="Model" value="LootContainers/suitcase" param1="main_mesh" />
+		<property name="Place" value="TowardsPlacer" />
+		<property name="LootList" value="159" /> <!-- LOOTLIST WARNING -->
+		<drop event="Destroy" count="0" />
+		<drop event="Fall" name="woodDebris" count="1" prob="1.0"  stick_chance=".75" />
+		<property name="LPHardnessScale" value="8" />
+	</block>
+	<!-- Weap 600 - gunMP5Silenced id : 1020-1021-->
+	<block id="1020" name="Weap 600 - gunMP5Silenced (Locked)">
+		<property name="DescriptionKey" value="weap600Desc"/>
+		<property name="Group" value="Weap 600 System" />
+		<property name="CustomIcon" value="Class - Wildcard" />
+		<!--		<property name="CustomIcon" value="suitcase" /> -->
+		<property name="Material" value="wood+wood" />
+		<property name="Shape" value="Ext3dModel" />
+		<property name="Mesh" value="models" />
+		<property name="Model" value="LootContainers/suitcase" param1="main_mesh" />
+		<property name="Place" value="TowardsPlacer" />
+		<drop event="Destroy" count="0" prob="1" />
+		<property name="CanPickup" value="true" />
+		<property name="DowngradeBlock" value="Weap 600 - gunMP5Silenced" />
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="Weap 600 - gunMP5Silenced" />
+			<property name="Item" value="weap600Key" />
+			<property name="ItemCount" value="1" />
+			<property name="UpgradeHitCount" value="1" />
+		</property>
+	</block>
+	<block id="1021" name="Weap 600 - gunMP5Silenced">
+		<property name="Class" value="Loot" />
+		<property name="Group" value="Survival" />
+		<property name="Material" value="wood+wood" />
+		<!--		<property name="CustomIcon" value="suitcase" /> -->
+		<property name="Shape" value="Ext3dModel" />
+		<property name="Mesh" value="models" />
+		<property name="Model" value="LootContainers/suitcase" param1="main_mesh" />
+		<property name="Place" value="TowardsPlacer" />
+		<property name="LootList" value="160" /> <!-- LOOTLIST WARNING -->
+		<drop event="Destroy" count="0" />
+		<drop event="Fall" name="woodDebris" count="1" prob="1.0"  stick_chance=".75" />
+		<property name="LPHardnessScale" value="8" />
+	</block>
+	<!-- Weap 600 - gunSniperSilenced id : 1022-1023-->
+	<block id="1022" name="Weap 600 - gunSniperSilenced (Locked)">
+		<property name="DescriptionKey" value="weap600Desc"/>
+		<property name="Group" value="Weap 600 System" />
+		<property name="CustomIcon" value="Class - Wildcard" />
+		<!--		<property name="CustomIcon" value="suitcase" /> -->
+		<property name="Material" value="wood+wood" />
+		<property name="Shape" value="Ext3dModel" />
+		<property name="Mesh" value="models" />
+		<property name="Model" value="LootContainers/suitcase" param1="main_mesh" />
+		<property name="Place" value="TowardsPlacer" />
+		<drop event="Destroy" count="0" prob="1" />
+		<property name="CanPickup" value="true" />
+		<property name="DowngradeBlock" value="Weap 600 - gunSniperSilenced" />
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="Weap 600 - gunSniperSilenced" />
+			<property name="Item" value="weap600Key" />
+			<property name="ItemCount" value="1" />
+			<property name="UpgradeHitCount" value="1" />
+		</property>
+	</block>
+	<block id="1023" name="Weap 600 - gunSniperSilenced">
+		<property name="Class" value="Loot" />
+		<property name="Group" value="Survival" />
+		<property name="Material" value="wood+wood" />
+		<!--		<property name="CustomIcon" value="suitcase" /> -->
+		<property name="Shape" value="Ext3dModel" />
+		<property name="Mesh" value="models" />
+		<property name="Model" value="LootContainers/suitcase" param1="main_mesh" />
+		<property name="Place" value="TowardsPlacer" />
+		<property name="LootList" value="161" /> <!-- LOOTLIST WARNING -->
+		<drop event="Destroy" count="0" />
+		<drop event="Fall" name="woodDebris" count="1" prob="1.0"  stick_chance=".75" />
+		<property name="LPHardnessScale" value="8" />
+	</block>
+	<!-- Weap 600 - gunPumpShotgunChoked id : 1024-1025-->
+	<block id="1024" name="Weap 600 - gunPumpShotgunChoked (Locked)">
+		<property name="DescriptionKey" value="weap600Desc"/>
+		<property name="Group" value="Weap 600 System" />
+		<property name="CustomIcon" value="Class - Wildcard" />
+		<!--		<property name="CustomIcon" value="suitcase" /> -->
+		<property name="Material" value="wood+wood" />
+		<property name="Shape" value="Ext3dModel" />
+		<property name="Mesh" value="models" />
+		<property name="Model" value="LootContainers/suitcase" param1="main_mesh" />
+		<property name="Place" value="TowardsPlacer" />
+		<drop event="Destroy" count="0" prob="1" />
+		<property name="CanPickup" value="true" />
+		<property name="DowngradeBlock" value="Weap 600 - gunPumpShotgunChoked" />
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="Weap 600 - gunPumpShotgunChoked" />
+			<property name="Item" value="weap600Key" />
+			<property name="ItemCount" value="1" />
+			<property name="UpgradeHitCount" value="1" />
+		</property>
+	</block>
+	<block id="1025" name="Weap 600 - gunPumpShotgunChoked">
+		<property name="Class" value="Loot" />
+		<property name="Group" value="Survival" />
+		<property name="Material" value="wood+wood" />
+		<!--		<property name="CustomIcon" value="suitcase" /> -->
+		<property name="Shape" value="Ext3dModel" />
+		<property name="Mesh" value="models" />
+		<property name="Model" value="LootContainers/suitcase" param1="main_mesh" />
+		<property name="Place" value="TowardsPlacer" />
+		<property name="LootList" value="162" /> <!-- LOOTLIST WARNING -->
+		<drop event="Destroy" count="0" />
+		<drop event="Fall" name="woodDebris" count="1" prob="1.0"  stick_chance=".75" />
+		<property name="LPHardnessScale" value="8" />
+	</block>
+	<!-- Weap 600 - gunHuntingRifleSilenced id : 1026-1027-->
+	<block id="1026" name="Weap 600 - gunHuntingRifleSilenced (Locked)">
+		<property name="DescriptionKey" value="weap600Desc"/>
+		<property name="Group" value="Weap 600 System" />
+		<property name="CustomIcon" value="Class - Wildcard" />
+		<!--		<property name="CustomIcon" value="suitcase" /> -->
+		<property name="Material" value="wood+wood" />
+		<property name="Shape" value="Ext3dModel" />
+		<property name="Mesh" value="models" />
+		<property name="Model" value="LootContainers/suitcase" param1="main_mesh" />
+		<property name="Place" value="TowardsPlacer" />
+		<drop event="Destroy" count="0" prob="1" />
+		<property name="CanPickup" value="true" />
+		<property name="DowngradeBlock" value="Weap 600 - gunHuntingRifleSilenced" />
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="Weap 600 - gunHuntingRifleSilenced" />
+			<property name="Item" value="weap600Key" />
+			<property name="ItemCount" value="1" />
+			<property name="UpgradeHitCount" value="1" />
+		</property>
+	</block>
+	<block id="1027" name="Weap 600 - gunHuntingRifleSilenced">
+		<property name="Class" value="Loot" />
+		<property name="Group" value="Survival" />
+		<property name="Material" value="wood+wood" />
+		<!--		<property name="CustomIcon" value="suitcase" /> -->
+		<property name="Shape" value="Ext3dModel" />
+		<property name="Mesh" value="models" />
+		<property name="Model" value="LootContainers/suitcase" param1="main_mesh" />
+		<property name="Place" value="TowardsPlacer" />
+		<property name="LootList" value="163" /> <!-- LOOTLIST WARNING -->
+		<drop event="Destroy" count="0" />
+		<drop event="Fall" name="woodDebris" count="1" prob="1.0"  stick_chance=".75" />
+		<property name="LPHardnessScale" value="8" />
+	</block>
+	<!-- Weap 600 - gunBoltRifle id : 1028-1045-->
+	<block id="1028" name="Weap 600 - gunBoltRifle (Locked)">
+		<property name="DescriptionKey" value="weap600Desc"/>
+		<property name="Group" value="Weap 600 System" />
+		<property name="CustomIcon" value="Class - Wildcard" />
+		<!--		<property name="CustomIcon" value="suitcase" /> -->
+		<property name="Material" value="wood+wood" />
+		<property name="Shape" value="Ext3dModel" />
+		<property name="Mesh" value="models" />
+		<property name="Model" value="LootContainers/suitcase" param1="main_mesh" />
+		<property name="Place" value="TowardsPlacer" />
+		<drop event="Destroy" count="0" prob="1" />
+		<property name="CanPickup" value="true" />
+		<property name="DowngradeBlock" value="Weap 600 - gunBoltRifle" />
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="Weap 600 - gunBoltRifle" />
+			<property name="Item" value="weap600Key" />
+			<property name="ItemCount" value="1" />
+			<property name="UpgradeHitCount" value="1" />
+		</property>
+	</block>
+	<block id="1045" name="Weap 600 - gunBoltRifle">
+		<property name="Class" value="Loot" />
+		<property name="Group" value="Survival" />
+		<property name="Material" value="wood+wood" />
+		<!--		<property name="CustomIcon" value="suitcase" /> -->
+		<property name="Shape" value="Ext3dModel" />
+		<property name="Mesh" value="models" />
+		<property name="Model" value="LootContainers/suitcase" param1="main_mesh" />
+		<property name="Place" value="TowardsPlacer" />
+		<property name="LootList" value="164" /> <!-- LOOTLIST WARNING -->
+		<drop event="Destroy" count="0" />
+		<drop event="Fall" name="woodDebris" count="1" prob="1.0"  stick_chance=".75" />
+		<property name="LPHardnessScale" value="8" />
+	</block>
+	<!-- Weap 600 - gunBoltRifleSilenced id : 1046-1047-->
+	<block id="1046" name="Weap 600 - gunBoltRifleSilenced (Locked)">
+		<property name="DescriptionKey" value="weap600Desc"/>
+		<property name="Group" value="Weap 600 System" />
+		<property name="CustomIcon" value="Class - Wildcard" />
+		<!--		<property name="CustomIcon" value="suitcase" /> -->
+		<property name="Material" value="wood+wood" />
+		<property name="Shape" value="Ext3dModel" />
+		<property name="Mesh" value="models" />
+		<property name="Model" value="LootContainers/suitcase" param1="main_mesh" />
+		<property name="Place" value="TowardsPlacer" />
+		<drop event="Destroy" count="0" prob="1" />
+		<property name="CanPickup" value="true" />
+		<property name="DowngradeBlock" value="Weap 600 - gunBoltRifleSilenced" />
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="Weap 600 - gunBoltRifleSilenced" />
+			<property name="Item" value="weap600Key" />
+			<property name="ItemCount" value="1" />
+			<property name="UpgradeHitCount" value="1" />
+		</property>
+	</block>
+	<block id="1047" name="Weap 600 - gunBoltRifleSilenced">
+		<property name="Class" value="Loot" />
+		<property name="Group" value="Survival" />
+		<property name="Material" value="wood+wood" />
+		<!--		<property name="CustomIcon" value="suitcase" /> -->
+		<property name="Shape" value="Ext3dModel" />
+		<property name="Mesh" value="models" />
+		<property name="Model" value="LootContainers/suitcase" param1="main_mesh" />
+		<property name="Place" value="TowardsPlacer" />
+		<property name="LootList" value="165" /> <!-- LOOTLIST WARNING -->
+		<drop event="Destroy" count="0" />
+		<drop event="Fall" name="woodDebris" count="1" prob="1.0"  stick_chance=".75" />
+		<property name="LPHardnessScale" value="8" />
+	</block>
+	<!-- Weap 600 - gunAK47Silenced id : 1048-1049-->
+	<block id="1048" name="Weap 600 - gunAK47Silenced (Locked)">
+		<property name="DescriptionKey" value="weap600Desc"/>
+		<property name="Group" value="Weap 600 System" />
+		<property name="CustomIcon" value="Class - Wildcard" />
+		<!--		<property name="CustomIcon" value="suitcase" /> -->
+		<property name="Material" value="wood+wood" />
+		<property name="Shape" value="Ext3dModel" />
+		<property name="Mesh" value="models" />
+		<property name="Model" value="LootContainers/suitcase" param1="main_mesh" />
+		<property name="Place" value="TowardsPlacer" />
+		<drop event="Destroy" count="0" prob="1" />
+		<property name="CanPickup" value="true" />
+		<property name="DowngradeBlock" value="Weap 600 - gunAK47Silenced" />
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="Weap 600 - gunAK47Silenced" />
+			<property name="Item" value="weap600Key" />
+			<property name="ItemCount" value="1" />
+			<property name="UpgradeHitCount" value="1" />
+		</property>
+	</block>
+	<block id="1049" name="Weap 600 - gunAK47Silenced">
+		<property name="Class" value="Loot" />
+		<property name="Group" value="Survival" />
+		<property name="Material" value="wood+wood" />
+		<!--		<property name="CustomIcon" value="suitcase" /> -->
+		<property name="Shape" value="Ext3dModel" />
+		<property name="Mesh" value="models" />
+		<property name="Model" value="LootContainers/suitcase" param1="main_mesh" />
+		<property name="Place" value="TowardsPlacer" />
+		<property name="LootList" value="166" /> <!-- LOOTLIST WARNING -->
+		<drop event="Destroy" count="0" />
+		<drop event="Fall" name="woodDebris" count="1" prob="1.0"  stick_chance=".75" />
+		<property name="LPHardnessScale" value="8" />
+	</block>
+	<!-- Weap 600 - gunSniperRifleHPScope id : 1050-1051-->
+	<block id="1050" name="Weap 600 - gunSniperRifleHPScope (Locked)">
+		<property name="DescriptionKey" value="weap600Desc"/>
+		<property name="Group" value="Weap 600 System" />
+		<property name="CustomIcon" value="Class - Wildcard" />
+		<!--		<property name="CustomIcon" value="suitcase" /> -->
+		<property name="Material" value="wood+wood" />
+		<property name="Shape" value="Ext3dModel" />
+		<property name="Mesh" value="models" />
+		<property name="Model" value="LootContainers/suitcase" param1="main_mesh" />
+		<property name="Place" value="TowardsPlacer" />
+		<drop event="Destroy" count="0" prob="1" />
+		<property name="CanPickup" value="true" />
+		<property name="DowngradeBlock" value="Weap 600 - gunSniperRifleHPScope" />
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="Weap 600 - gunSniperRifleHPScope" />
+			<property name="Item" value="weap600Key" />
+			<property name="ItemCount" value="1" />
+			<property name="UpgradeHitCount" value="1" />
+		</property>
+	</block>
+	<block id="1051" name="Weap 600 - gunSniperRifleHPScope">
+		<property name="Class" value="Loot" />
+		<property name="Group" value="Survival" />
+		<property name="Material" value="wood+wood" />
+		<!--		<property name="CustomIcon" value="suitcase" /> -->
+		<property name="Shape" value="Ext3dModel" />
+		<property name="Mesh" value="models" />
+		<property name="Model" value="LootContainers/suitcase" param1="main_mesh" />
+		<property name="Place" value="TowardsPlacer" />
+		<property name="LootList" value="167" /> <!-- LOOTLIST WARNING -->
+		<drop event="Destroy" count="0" />
+		<drop event="Fall" name="woodDebris" count="1" prob="1.0"  stick_chance=".75" />
+		<property name="LPHardnessScale" value="8" />
+	</block>
+	<!-- Weap 600 - gunSniperRifleHPScopeSilenced id : 1052-1053-->
+	<block id="1052" name="Weap 600 - gunSniperRifleHPScopeSilenced (Locked)">
+		<property name="DescriptionKey" value="weap600Desc"/>
+		<property name="Group" value="Weap 600 System" />
+		<property name="CustomIcon" value="Class - Wildcard" />
+		<!--		<property name="CustomIcon" value="suitcase" /> -->
+		<property name="Material" value="wood+wood" />
+		<property name="Shape" value="Ext3dModel" />
+		<property name="Mesh" value="models" />
+		<property name="Model" value="LootContainers/suitcase" param1="main_mesh" />
+		<property name="Place" value="TowardsPlacer" />
+		<drop event="Destroy" count="0" prob="1" />
+		<property name="CanPickup" value="true" />
+		<property name="DowngradeBlock" value="Weap 600 - gunSniperRifleHPScopeSilenced" />
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="Weap 600 - gunSniperRifleHPScopeSilenced" />
+			<property name="Item" value="weap600Key" />
+			<property name="ItemCount" value="1" />
+			<property name="UpgradeHitCount" value="1" />
+		</property>
+	</block>
+	<block id="1053" name="Weap 600 - gunSniperRifleHPScopeSilenced">
+		<property name="Class" value="Loot" />
+		<property name="Group" value="Survival" />
+		<property name="Material" value="wood+wood" />
+		<!--		<property name="CustomIcon" value="suitcase" /> -->
+		<property name="Shape" value="Ext3dModel" />
+		<property name="Mesh" value="models" />
+		<property name="Model" value="LootContainers/suitcase" param1="main_mesh" />
+		<property name="Place" value="TowardsPlacer" />
+		<property name="LootList" value="168" /> <!-- LOOTLIST WARNING -->
+		<drop event="Destroy" count="0" />
+		<drop event="Fall" name="woodDebris" count="1" prob="1.0"  stick_chance=".75" />
+		<property name="LPHardnessScale" value="8" />
+	</block>
 	<!-- crossbows : need 18 free id -->
-	<!-- Crossbow 400 - crossbow id : ??-??-->
-	<!-- Crossbow 400 - ironCrossbow id : ??-??-->
-	<!-- Crossbow 400 - crossbowRepeater id : ??-??-->
-	<!-- Crossbow 500 - crossbow id : ??-??-->
-	<!-- Crossbow 500 - ironCrossbow id : ??-??-->
-	<!-- Crossbow 500 - crossbowRepeater id : ??-??-->
-	<!-- Crossbow 600 - crossbow id : ??-??-->
-	<!-- Crossbow 600 - ironCrossbow id : ??-??-->
-	<!-- Crossbow 600 - crossbowRepeater id : ??-??-->
-	<!-- TOTAL : need 46 + 72 + 18 == 136 free id -->
+	<!-- Crossbow 400 - crossbow id : 1054-1078-->
+	<block id="1054" name="Crossbow 400 - crossbow (Locked)">
+		<property name="DescriptionKey" value="crossbow400Desc"/>
+		<property name="Group" value="Crossbow 400 System" />
+		<property name="CustomIcon" value="Class - Wildcard" />
+		<!--		<property name="CustomIcon" value="suitcase" /> -->
+		<property name="Material" value="wood+wood" />
+		<property name="Shape" value="Ext3dModel" />
+		<property name="Mesh" value="models" />
+		<property name="Model" value="LootContainers/suitcase" param1="main_mesh" />
+		<property name="Place" value="TowardsPlacer" />
+		<drop event="Destroy" count="0" prob="1" />
+		<property name="CanPickup" value="true" />
+		<property name="DowngradeBlock" value="Crossbow 400 - crossbow" />
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="Crossbow 400 - crossbow" />
+			<property name="Item" value="crossbow400Key" />
+			<property name="ItemCount" value="1" />
+			<property name="UpgradeHitCount" value="1" />
+		</property>
+	</block>
+	<block id="1078" name="Crossbow 400 - crossbow">
+		<property name="Class" value="Loot" />
+		<property name="Group" value="Survival" />
+		<property name="Material" value="wood+wood" />
+		<!--		<property name="CustomIcon" value="suitcase" /> -->
+		<property name="Shape" value="Ext3dModel" />
+		<property name="Mesh" value="models" />
+		<property name="Model" value="LootContainers/suitcase" param1="main_mesh" />
+		<property name="Place" value="TowardsPlacer" />
+		<property name="LootList" value="169" /> <!-- LOOTLIST WARNING -->
+		<drop event="Destroy" count="0" />
+		<drop event="Fall" name="woodDebris" count="1" prob="1.0"  stick_chance=".75" />
+		<property name="LPHardnessScale" value="8" />
+	</block>
+	<!-- Crossbow 400 - ironCrossbow id : 1079-1080-->
+	<block id="1079" name="Crossbow 400 - ironCrossbow (Locked)">
+		<property name="DescriptionKey" value="crossbow400Desc"/>
+		<property name="Group" value="Crossbow 400 System" />
+		<property name="CustomIcon" value="Class - Wildcard" />
+		<!--		<property name="CustomIcon" value="suitcase" /> -->
+		<property name="Material" value="wood+wood" />
+		<property name="Shape" value="Ext3dModel" />
+		<property name="Mesh" value="models" />
+		<property name="Model" value="LootContainers/suitcase" param1="main_mesh" />
+		<property name="Place" value="TowardsPlacer" />
+		<drop event="Destroy" count="0" prob="1" />
+		<property name="CanPickup" value="true" />
+		<property name="DowngradeBlock" value="Crossbow 400 - ironCrossbow" />
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="Crossbow 400 - ironCrossbow" />
+			<property name="Item" value="crossbow400Key" />
+			<property name="ItemCount" value="1" />
+			<property name="UpgradeHitCount" value="1" />
+		</property>
+	</block>
+	<block id="1080" name="Crossbow 400 - ironCrossbow">
+		<property name="Class" value="Loot" />
+		<property name="Group" value="Survival" />
+		<property name="Material" value="wood+wood" />
+		<!--		<property name="CustomIcon" value="suitcase" /> -->
+		<property name="Shape" value="Ext3dModel" />
+		<property name="Mesh" value="models" />
+		<property name="Model" value="LootContainers/suitcase" param1="main_mesh" />
+		<property name="Place" value="TowardsPlacer" />
+		<property name="LootList" value="170" /> <!-- LOOTLIST WARNING -->
+		<drop event="Destroy" count="0" />
+		<drop event="Fall" name="woodDebris" count="1" prob="1.0"  stick_chance=".75" />
+		<property name="LPHardnessScale" value="8" />
+	</block>
+	<!-- Crossbow 400 - crossbowRepeater id : 1081-1082-->
+	<block id="1081" name="Crossbow 400 - crossbowRepeater (Locked)">
+		<property name="DescriptionKey" value="crossbow400Desc"/>
+		<property name="Group" value="Crossbow 400 System" />
+		<property name="CustomIcon" value="Class - Wildcard" />
+		<!--		<property name="CustomIcon" value="suitcase" /> -->
+		<property name="Material" value="wood+wood" />
+		<property name="Shape" value="Ext3dModel" />
+		<property name="Mesh" value="models" />
+		<property name="Model" value="LootContainers/suitcase" param1="main_mesh" />
+		<property name="Place" value="TowardsPlacer" />
+		<drop event="Destroy" count="0" prob="1" />
+		<property name="CanPickup" value="true" />
+		<property name="DowngradeBlock" value="Crossbow 400 - crossbowRepeater" />
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="Crossbow 400 - crossbowRepeater" />
+			<property name="Item" value="crossbow400Key" />
+			<property name="ItemCount" value="1" />
+			<property name="UpgradeHitCount" value="1" />
+		</property>
+	</block>
+	<block id="1082" name="Crossbow 400 - crossbowRepeater">
+		<property name="Class" value="Loot" />
+		<property name="Group" value="Survival" />
+		<property name="Material" value="wood+wood" />
+		<!--		<property name="CustomIcon" value="suitcase" /> -->
+		<property name="Shape" value="Ext3dModel" />
+		<property name="Mesh" value="models" />
+		<property name="Model" value="LootContainers/suitcase" param1="main_mesh" />
+		<property name="Place" value="TowardsPlacer" />
+		<property name="LootList" value="171" /> <!-- LOOTLIST WARNING -->
+		<drop event="Destroy" count="0" />
+		<drop event="Fall" name="woodDebris" count="1" prob="1.0"  stick_chance=".75" />
+		<property name="LPHardnessScale" value="8" />
+	</block>
+	<!-- Crossbow 500 - crossbow id : 1083-1084-->
+	<block id="1083" name="Crossbow 500 - crossbow (Locked)">
+		<property name="DescriptionKey" value="crossbow500Desc"/>
+		<property name="Group" value="Crossbow 500 System" />
+		<property name="CustomIcon" value="Class - Wildcard" />
+		<!--		<property name="CustomIcon" value="suitcase" /> -->
+		<property name="Material" value="wood+wood" />
+		<property name="Shape" value="Ext3dModel" />
+		<property name="Mesh" value="models" />
+		<property name="Model" value="LootContainers/suitcase" param1="main_mesh" />
+		<property name="Place" value="TowardsPlacer" />
+		<drop event="Destroy" count="0" prob="1" />
+		<property name="CanPickup" value="true" />
+		<property name="DowngradeBlock" value="Crossbow 500 - crossbow" />
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="Crossbow 500 - crossbow" />
+			<property name="Item" value="crossbow500Key" />
+			<property name="ItemCount" value="1" />
+			<property name="UpgradeHitCount" value="1" />
+		</property>
+	</block>
+	<block id="1084" name="Crossbow 500 - crossbow">
+		<property name="Class" value="Loot" />
+		<property name="Group" value="Survival" />
+		<property name="Material" value="wood+wood" />
+		<!--		<property name="CustomIcon" value="suitcase" /> -->
+		<property name="Shape" value="Ext3dModel" />
+		<property name="Mesh" value="models" />
+		<property name="Model" value="LootContainers/suitcase" param1="main_mesh" />
+		<property name="Place" value="TowardsPlacer" />
+		<property name="LootList" value="172" /> <!-- LOOTLIST WARNING -->
+		<drop event="Destroy" count="0" />
+		<drop event="Fall" name="woodDebris" count="1" prob="1.0"  stick_chance=".75" />
+		<property name="LPHardnessScale" value="8" />
+	</block>
+	<!-- Crossbow 500 - ironCrossbow id : 1085-1086-->
+	<block id="1085" name="Crossbow 500 - ironCrossbow (Locked)">
+		<property name="DescriptionKey" value="crossbow500Desc"/>
+		<property name="Group" value="Crossbow 500 System" />
+		<property name="CustomIcon" value="Class - Wildcard" />
+		<!--		<property name="CustomIcon" value="suitcase" /> -->
+		<property name="Material" value="wood+wood" />
+		<property name="Shape" value="Ext3dModel" />
+		<property name="Mesh" value="models" />
+		<property name="Model" value="LootContainers/suitcase" param1="main_mesh" />
+		<property name="Place" value="TowardsPlacer" />
+		<drop event="Destroy" count="0" prob="1" />
+		<property name="CanPickup" value="true" />
+		<property name="DowngradeBlock" value="Crossbow 500 - ironCrossbow" />
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="Crossbow 500 - ironCrossbow" />
+			<property name="Item" value="crossbow500Key" />
+			<property name="ItemCount" value="1" />
+			<property name="UpgradeHitCount" value="1" />
+		</property>
+	</block>
+	<block id="1086" name="Crossbow 500 - ironCrossbow">
+		<property name="Class" value="Loot" />
+		<property name="Group" value="Survival" />
+		<property name="Material" value="wood+wood" />
+		<!--		<property name="CustomIcon" value="suitcase" /> -->
+		<property name="Shape" value="Ext3dModel" />
+		<property name="Mesh" value="models" />
+		<property name="Model" value="LootContainers/suitcase" param1="main_mesh" />
+		<property name="Place" value="TowardsPlacer" />
+		<property name="LootList" value="173" /> <!-- LOOTLIST WARNING -->
+		<drop event="Destroy" count="0" />
+		<drop event="Fall" name="woodDebris" count="1" prob="1.0"  stick_chance=".75" />
+		<property name="LPHardnessScale" value="8" />
+	</block>
+	<!-- Crossbow 500 - crossbowRepeater id : 1087-1088-->
+	<block id="1087" name="Crossbow 500 - crossbowRepeater (Locked)">
+		<property name="DescriptionKey" value="crossbow500Desc"/>
+		<property name="Group" value="Crossbow 500 System" />
+		<property name="CustomIcon" value="Class - Wildcard" />
+		<!--		<property name="CustomIcon" value="suitcase" /> -->
+		<property name="Material" value="wood+wood" />
+		<property name="Shape" value="Ext3dModel" />
+		<property name="Mesh" value="models" />
+		<property name="Model" value="LootContainers/suitcase" param1="main_mesh" />
+		<property name="Place" value="TowardsPlacer" />
+		<drop event="Destroy" count="0" prob="1" />
+		<property name="CanPickup" value="true" />
+		<property name="DowngradeBlock" value="Crossbow 500 - crossbowRepeater" />
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="Crossbow 500 - crossbowRepeater" />
+			<property name="Item" value="crossbow500Key" />
+			<property name="ItemCount" value="1" />
+			<property name="UpgradeHitCount" value="1" />
+		</property>
+	</block>
+	<block id="1088" name="Crossbow 500 - crossbowRepeater">
+		<property name="Class" value="Loot" />
+		<property name="Group" value="Survival" />
+		<property name="Material" value="wood+wood" />
+		<!--		<property name="CustomIcon" value="suitcase" /> -->
+		<property name="Shape" value="Ext3dModel" />
+		<property name="Mesh" value="models" />
+		<property name="Model" value="LootContainers/suitcase" param1="main_mesh" />
+		<property name="Place" value="TowardsPlacer" />
+		<property name="LootList" value="174" /> <!-- LOOTLIST WARNING -->
+		<drop event="Destroy" count="0" />
+		<drop event="Fall" name="woodDebris" count="1" prob="1.0"  stick_chance=".75" />
+		<property name="LPHardnessScale" value="8" />
+	</block>
+	<!-- Crossbow 600 - crossbow id : 1089-1090-->
+	<block id="1089" name="Crossbow 600 - crossbow (Locked)">
+		<property name="DescriptionKey" value="crossbow600Desc"/>
+		<property name="Group" value="Crossbow 600 System" />
+		<property name="CustomIcon" value="Class - Wildcard" />
+		<!--		<property name="CustomIcon" value="suitcase" /> -->
+		<property name="Material" value="wood+wood" />
+		<property name="Shape" value="Ext3dModel" />
+		<property name="Mesh" value="models" />
+		<property name="Model" value="LootContainers/suitcase" param1="main_mesh" />
+		<property name="Place" value="TowardsPlacer" />
+		<drop event="Destroy" count="0" prob="1" />
+		<property name="CanPickup" value="true" />
+		<property name="DowngradeBlock" value="Crossbow 600 - crossbow" />
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="Crossbow 600 - crossbow" />
+			<property name="Item" value="crossbow600Key" />
+			<property name="ItemCount" value="1" />
+			<property name="UpgradeHitCount" value="1" />
+		</property>
+	</block>
+	<block id="1090" name="Crossbow 600 - crossbow">
+		<property name="Class" value="Loot" />
+		<property name="Group" value="Survival" />
+		<property name="Material" value="wood+wood" />
+		<!--		<property name="CustomIcon" value="suitcase" /> -->
+		<property name="Shape" value="Ext3dModel" />
+		<property name="Mesh" value="models" />
+		<property name="Model" value="LootContainers/suitcase" param1="main_mesh" />
+		<property name="Place" value="TowardsPlacer" />
+		<property name="LootList" value="175" /> <!-- LOOTLIST WARNING -->
+		<drop event="Destroy" count="0" />
+		<drop event="Fall" name="woodDebris" count="1" prob="1.0"  stick_chance=".75" />
+		<property name="LPHardnessScale" value="8" />
+	</block>
+	<!-- Crossbow 600 - ironCrossbow id : 1091-1147-->
+	<block id="1091" name="Crossbow 600 - ironCrossbow (Locked)">
+		<property name="DescriptionKey" value="crossbow600Desc"/>
+		<property name="Group" value="Crossbow 600 System" />
+		<property name="CustomIcon" value="Class - Wildcard" />
+		<!--		<property name="CustomIcon" value="suitcase" /> -->
+		<property name="Material" value="wood+wood" />
+		<property name="Shape" value="Ext3dModel" />
+		<property name="Mesh" value="models" />
+		<property name="Model" value="LootContainers/suitcase" param1="main_mesh" />
+		<property name="Place" value="TowardsPlacer" />
+		<drop event="Destroy" count="0" prob="1" />
+		<property name="CanPickup" value="true" />
+		<property name="DowngradeBlock" value="Crossbow 600 - ironCrossbow" />
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="Crossbow 600 - ironCrossbow" />
+			<property name="Item" value="crossbow600Key" />
+			<property name="ItemCount" value="1" />
+			<property name="UpgradeHitCount" value="1" />
+		</property>
+	</block>
+	<block id="1147" name="Crossbow 600 - ironCrossbow">
+		<property name="Class" value="Loot" />
+		<property name="Group" value="Survival" />
+		<property name="Material" value="wood+wood" />
+		<!--		<property name="CustomIcon" value="suitcase" /> -->
+		<property name="Shape" value="Ext3dModel" />
+		<property name="Mesh" value="models" />
+		<property name="Model" value="LootContainers/suitcase" param1="main_mesh" />
+		<property name="Place" value="TowardsPlacer" />
+		<property name="LootList" value="176" /> <!-- LOOTLIST WARNING -->
+		<drop event="Destroy" count="0" />
+		<drop event="Fall" name="woodDebris" count="1" prob="1.0"  stick_chance=".75" />
+		<property name="LPHardnessScale" value="8" />
+	</block>
+	<!-- Crossbow 600 - crossbowRepeater id : 1148-1149-->
+	<block id="1148" name="Crossbow 600 - crossbowRepeater (Locked)">
+		<property name="DescriptionKey" value="crossbow600Desc"/>
+		<property name="Group" value="Crossbow 600 System" />
+		<property name="CustomIcon" value="Class - Wildcard" />
+		<!--		<property name="CustomIcon" value="suitcase" /> -->
+		<property name="Material" value="wood+wood" />
+		<property name="Shape" value="Ext3dModel" />
+		<property name="Mesh" value="models" />
+		<property name="Model" value="LootContainers/suitcase" param1="main_mesh" />
+		<property name="Place" value="TowardsPlacer" />
+		<drop event="Destroy" count="0" prob="1" />
+		<property name="CanPickup" value="true" />
+		<property name="DowngradeBlock" value="Crossbow 600 - crossbowRepeater" />
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="Crossbow 600 - crossbowRepeater" />
+			<property name="Item" value="crossbow600Key" />
+			<property name="ItemCount" value="1" />
+			<property name="UpgradeHitCount" value="1" />
+		</property>
+	</block>
+	<block id="1149" name="Crossbow 600 - crossbowRepeater">
+		<property name="Class" value="Loot" />
+		<property name="Group" value="Survival" />
+		<property name="Material" value="wood+wood" />
+		<!--		<property name="CustomIcon" value="suitcase" /> -->
+		<property name="Shape" value="Ext3dModel" />
+		<property name="Mesh" value="models" />
+		<property name="Model" value="LootContainers/suitcase" param1="main_mesh" />
+		<property name="Place" value="TowardsPlacer" />
+		<property name="LootList" value="177" /> <!-- LOOTLIST WARNING -->
+		<drop event="Destroy" count="0" />
+		<drop event="Fall" name="woodDebris" count="1" prob="1.0"  stick_chance=".75" />
+		<property name="LPHardnessScale" value="8" />
+	</block>
+	<!-- forgotten items >< -->
+	<!-- Weap 600 - gunPumpShotgun id : 1446-1447-->
+	<block id="1446" name="Weap 600 - gunPumpShotgun (Locked)">
+		<property name="DescriptionKey" value="weap600Desc"/>
+		<property name="Group" value="Weap 600 System" />
+		<property name="CustomIcon" value="Class - Wildcard" />
+		<!--		<property name="CustomIcon" value="suitcase" /> -->
+		<property name="Material" value="wood+wood" />
+		<property name="Shape" value="Ext3dModel" />
+		<property name="Mesh" value="models" />
+		<property name="Model" value="LootContainers/suitcase" param1="main_mesh" />
+		<property name="Place" value="TowardsPlacer" />
+		<drop event="Destroy" count="0" prob="1" />
+		<property name="CanPickup" value="true" />
+		<property name="DowngradeBlock" value="Weap 600 - gunPumpShotgun" />
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="Weap 600 - gunPumpShotgun" />
+			<property name="Item" value="weap600Key" />
+			<property name="ItemCount" value="1" />
+			<property name="UpgradeHitCount" value="1" />
+		</property>
+	</block>
+	<block id="1447" name="Weap 600 - gunPumpShotgun">
+		<property name="Class" value="Loot" />
+		<property name="Group" value="Survival" />
+		<property name="Material" value="wood+wood" />
+		<!--		<property name="CustomIcon" value="suitcase" /> -->
+		<property name="Shape" value="Ext3dModel" />
+		<property name="Mesh" value="models" />
+		<property name="Model" value="LootContainers/suitcase" param1="main_mesh" />
+		<property name="Place" value="TowardsPlacer" />
+		<property name="LootList" value="178" /> <!-- LOOTLIST WARNING -->
+		<drop event="Destroy" count="0" />
+		<drop event="Fall" name="woodDebris" count="1" prob="1.0"  stick_chance=".75" />
+		<property name="LPHardnessScale" value="8" />
+	</block>	
 <!-- /frenchFrogMOD -->
-
 </blocks>
 <!-- Block limit: No block can have an ID greater 2047. -->
-<!-- frenchFrogMOD -->
-<!-- free id list :
-123						1 free id
-127						1 free id
-139						1 free id
-583->585				3 free id
-659->661				3 free id
-700						1 free id
-805						1 free id
-827						1 free id
-865->868				4 free id
-904->906				3 free id
-950->984 				35 free id
-1010->1028 				18 free id
-1045->1054 				10 free id
-1078->1091 				14 free id
-1147->1155 				9 free id
-1169->1172				3 free id
-1223->1225				3 free id
-1341->1345				5 free id
-1421					1 free id
-1423					1 free id
-1446->1447				2 free id
-1456->1462				7 free id
-1466					1 free id
-1476					1 free id
-1478->1479				2 free id
-1485->1499				15 free id
-1501->1502				2 free id
-1504					1 free id
-1506->1508				3 free id
-1533->1535				3 free id
-1543->1544				2 free id
-1555					1 free id
-1566					1 free id
-1570->1574				5 free id
-1588->1591				4 free id
-1594->1609				16 free id
-1614->1618				5 free id
-1621					1 free id
-1623->1627				5 free id
-1629->1639				11 free id
-1641					1 free id
-1643->1644				2 free id
-1646->1647				2 free id
-1649->1651				3 free id
-1654->1656				3 free id
-1660->1661				2 free id
-1664->1665				2 free id
-1667					1 free id
-1670->1671				2 free id
-1676->1677				2 free id
-1680->1773				94 free id
-1779->1799				21 free id
-1930					1 free id
-1954->1956				3 free id
-1959->1962				4 free id
-1972->1973				2 free id
-1987->1998				12 free id
-2003					1 free id
-2013					1 free id
-2018->2019				2 free id
-2027					1 free id
-2031->2040				10 free id
-2042->2047				6 free id
---------------------------------------
-TOTAL : 384 FUCK YEAH !!!!!!!!!!!!!!!!
--->
-<!-- /frenchFrogMOD -->
+<!-- LootList/lootcontainer limit: No LootList/lootcontainer can have an ID greater 255. -->

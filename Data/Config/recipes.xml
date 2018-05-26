@@ -3508,7 +3508,279 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	<!-- Weap 400 - gunPistol (Locked) -->
 	<recipe name="Weap 400 - gunPistol (Locked)" count="1">
   <ingredient name="weap400Selection" count="1" />
-	</recipe>	
+	</recipe>
+	<!-- Weap 400 - gun44Magnum (Locked) -->
+	<recipe name="Weap 400 - gun44Magnum (Locked)" count="1">
+  <ingredient name="weap400Selection" count="1" />
+	</recipe>
+	<!-- Weap 400 - gunSawedOffPumpShotgun (Locked) -->
+	<recipe name="Weap 400 - gunSawedOffPumpShotgun (Locked)" count="1">
+  <ingredient name="weap400Selection" count="1" />
+	</recipe>
+	<!-- Weap 400 - gunPumpShotgun (Locked) -->
+	<recipe name="Weap 400 - gunPumpShotgun (Locked)" count="1">
+  <ingredient name="weap400Selection" count="1" />
+	</recipe>
+	<!-- Weap 400 - gunMP5 (Locked) -->
+	<recipe name="Weap 400 - gunMP5 (Locked)" count="1">
+  <ingredient name="weap400Selection" count="1" />
+	</recipe>
+	<!-- Weap 400 - gunAK47 (Locked) -->
+	<recipe name="Weap 400 - gunAK47 (Locked)" count="1">
+  <ingredient name="weap400Selection" count="1" />
+	</recipe>
+	<!-- Weap 400 - gunHuntingRifle (Locked) -->
+	<recipe name="Weap 400 - gunHuntingRifle (Locked)" count="1">
+  <ingredient name="weap400Selection" count="1" />
+	</recipe>
+	<!-- Weap 400 - gunSniperRifle (Locked) -->
+	<recipe name="Weap 400 - gunSniperRifle (Locked)" count="1">
+  <ingredient name="weap400Selection" count="1" />
+	</recipe>
+	<!-- Weap 400 - gunPistolSilenced (Locked) -->
+	<recipe name="Weap 400 - gunPistolSilenced (Locked)" count="1">
+  <ingredient name="weap400Selection" count="1" />
+	</recipe>
+	<!-- Weap 400 - gun44MagnumSilenced (Locked) -->
+	<recipe name="Weap 400 - gun44MagnumSilenced (Locked)" count="1">
+  <ingredient name="weap400Selection" count="1" />
+	</recipe>
+	<!-- Weap 400 - gunBoomstick (Locked) -->
+	<recipe name="Weap 400 - gunBoomstick (Locked)" count="1">
+  <ingredient name="weap400Selection" count="1" />
+	</recipe>
+	<!-- Weap 400 - gunMP5Silenced (Locked) -->
+	<recipe name="Weap 400 - gunMP5Silenced (Locked)" count="1">
+  <ingredient name="weap400Selection" count="1" />
+	</recipe>
+	<!-- Weap 400 - gunSniperSilenced (Locked) -->
+	<recipe name="Weap 400 - gunSniperSilenced (Locked)" count="1">
+  <ingredient name="weap400Selection" count="1" />
+	</recipe>
+	<!-- Weap 400 - gunPumpShotgunChoked (Locked) -->
+	<recipe name="Weap 400 - gunPumpShotgunChoked (Locked)" count="1">
+  <ingredient name="weap400Selection" count="1" />
+	</recipe>
+	<!-- Weap 400 - gunHuntingRifleSilenced (Locked) -->
+	<recipe name="Weap 400 - gunHuntingRifleSilenced (Locked)" count="1">
+  <ingredient name="weap400Selection" count="1" />
+	</recipe>
+	<!-- Weap 400 - gunBoltRifle (Locked) -->
+	<recipe name="Weap 400 - gunBoltRifle (Locked)" count="1">
+  <ingredient name="weap400Selection" count="1" />
+	</recipe>
+	<!-- Weap 400 - gunBoltRifleSilenced (Locked) -->
+	<recipe name="Weap 400 - gunBoltRifleSilenced (Locked)" count="1">
+  <ingredient name="weap400Selection" count="1" />
+	</recipe>
+	<!-- Weap 400 - gunAK47Silenced (Locked) -->
+	<recipe name="Weap 400 - gunAK47Silenced (Locked)" count="1">
+  <ingredient name="weap400Selection" count="1" />
+	</recipe>
+	<!-- Weap 400 - gunSniperRifleHPScope (Locked) -->
+	<recipe name="Weap 400 - gunSniperRifleHPScope (Locked)" count="1">
+  <ingredient name="weap400Selection" count="1" />
+	</recipe>
+	<!-- Weap 400 - gunSniperRifleHPScopeSilenced (Locked) -->
+	<recipe name="Weap 400 - gunSniperRifleHPScopeSilenced (Locked)" count="1">
+  <ingredient name="weap400Selection" count="1" />
+	</recipe>
+	<!-- Crossbow 400 - crossbow (Locked) -->
+	<recipe name="Crossbow 400 - crossbow (Locked)" count="1">
+  <ingredient name="crossbow400Selection" count="1" />
+	</recipe>
+	<!-- Crossbow 400 - ironCrossbow (Locked) -->
+	<recipe name="Crossbow 400 - ironCrossbow (Locked)" count="1">
+  <ingredient name="crossbow400Selection" count="1" />
+	</recipe>
+	<!-- Crossbow 400 - crossbowRepeater (Locked) -->
+	<recipe name="Crossbow 400 - crossbowRepeater (Locked)" count="1">
+  <ingredient name="crossbow400Selection" count="1" />
+	</recipe>
+	<!-- Weap 500 - gunPistol (Locked) -->
+	<recipe name="Weap 500 - gunPistol (Locked)" count="1">
+  <ingredient name="weap500Selection" count="1" />
+	</recipe>
+	<!-- Weap 500 - gun44Magnum (Locked) -->
+	<recipe name="Weap 500 - gun44Magnum (Locked)" count="1">
+  <ingredient name="weap500Selection" count="1" />
+	</recipe>
+	<!-- Weap 500 - gunSawedOffPumpShotgun (Locked) -->
+	<recipe name="Weap 500 - gunSawedOffPumpShotgun (Locked)" count="1">
+  <ingredient name="weap500Selection" count="1" />
+	</recipe>
+	<!-- Weap 500 - gunPumpShotgun (Locked) -->
+	<recipe name="Weap 500 - gunPumpShotgun (Locked)" count="1">
+  <ingredient name="weap500Selection" count="1" />
+	</recipe>
+	<!-- Weap 500 - gunMP5 (Locked) -->
+	<recipe name="Weap 500 - gunMP5 (Locked)" count="1">
+  <ingredient name="weap500Selection" count="1" />
+	</recipe>
+	<!-- Weap 500 - gunAK47 (Locked) -->
+	<recipe name="Weap 500 - gunAK47 (Locked)" count="1">
+  <ingredient name="weap500Selection" count="1" />
+	</recipe>
+	<!-- Weap 500 - gunHuntingRifle (Locked) -->
+	<recipe name="Weap 500 - gunHuntingRifle (Locked)" count="1">
+  <ingredient name="weap500Selection" count="1" />
+	</recipe>
+	<!-- Weap 500 - gunSniperRifle (Locked) -->
+	<recipe name="Weap 500 - gunSniperRifle (Locked)" count="1">
+  <ingredient name="weap500Selection" count="1" />
+	</recipe>
+	<!-- Weap 500 - gunPistolSilenced (Locked) -->
+	<recipe name="Weap 500 - gunPistolSilenced (Locked)" count="1">
+  <ingredient name="weap500Selection" count="1" />
+	</recipe>
+	<!-- Weap 500 - gun44MagnumSilenced (Locked) -->
+	<recipe name="Weap 500 - gun44MagnumSilenced (Locked)" count="1">
+  <ingredient name="weap500Selection" count="1" />
+	</recipe>
+	<!-- Weap 500 - gunBoomstick (Locked) -->
+	<recipe name="Weap 500 - gunBoomstick (Locked)" count="1">
+  <ingredient name="weap500Selection" count="1" />
+	</recipe>
+	<!-- Weap 500 - gunMP5Silenced (Locked) -->
+	<recipe name="Weap 500 - gunMP5Silenced (Locked)" count="1">
+  <ingredient name="weap500Selection" count="1" />
+	</recipe>
+	<!-- Weap 500 - gunSniperSilenced (Locked) -->
+	<recipe name="Weap 500 - gunSniperSilenced (Locked)" count="1">
+  <ingredient name="weap500Selection" count="1" />
+	</recipe>
+	<!-- Weap 500 - gunPumpShotgunChoked (Locked) -->
+	<recipe name="Weap 500 - gunPumpShotgunChoked (Locked)" count="1">
+  <ingredient name="weap500Selection" count="1" />
+	</recipe>
+	<!-- Weap 500 - gunHuntingRifleSilenced (Locked) -->
+	<recipe name="Weap 500 - gunHuntingRifleSilenced (Locked)" count="1">
+  <ingredient name="weap500Selection" count="1" />
+	</recipe>
+	<!-- Weap 500 - gunBoltRifle (Locked) -->
+	<recipe name="Weap 500 - gunBoltRifle (Locked)" count="1">
+  <ingredient name="weap500Selection" count="1" />
+	</recipe>
+	<!-- Weap 500 - gunBoltRifleSilenced (Locked) -->
+	<recipe name="Weap 500 - gunBoltRifleSilenced (Locked)" count="1">
+  <ingredient name="weap500Selection" count="1" />
+	</recipe>
+	<!-- Weap 500 - gunAK47Silenced (Locked) -->
+	<recipe name="Weap 500 - gunAK47Silenced (Locked)" count="1">
+  <ingredient name="weap500Selection" count="1" />
+	</recipe>
+	<!-- Weap 500 - gunSniperRifleHPScope (Locked) -->
+	<recipe name="Weap 500 - gunSniperRifleHPScope (Locked)" count="1">
+  <ingredient name="weap500Selection" count="1" />
+	</recipe>
+	<!-- Weap 500 - gunSniperRifleHPScopeSilenced (Locked) -->
+	<recipe name="Weap 500 - gunSniperRifleHPScopeSilenced (Locked)" count="1">
+  <ingredient name="weap500Selection" count="1" />
+	</recipe>
+	<!-- Crossbow 500 - crossbow (Locked) -->
+	<recipe name="Crossbow 500 - crossbow (Locked)" count="1">
+  <ingredient name="crossbow500Selection" count="1" />
+	</recipe>
+	<!-- Crossbow 500 - ironCrossbow (Locked) -->
+	<recipe name="Crossbow 500 - ironCrossbow (Locked)" count="1">
+  <ingredient name="crossbow500Selection" count="1" />
+	</recipe>
+	<!-- Crossbow 500 - crossbowRepeater (Locked) -->
+	<recipe name="Crossbow 500 - crossbowRepeater (Locked)" count="1">
+  <ingredient name="crossbow500Selection" count="1" />
+	</recipe>
+	<!-- Weap 600 - gunPistol (Locked) -->
+	<recipe name="Weap 600 - gunPistol (Locked)" count="1">
+  <ingredient name="weap600Selection" count="1" />
+	</recipe>
+	<!-- Weap 600 - gun44Magnum (Locked) -->
+	<recipe name="Weap 600 - gun44Magnum (Locked)" count="1">
+  <ingredient name="weap600Selection" count="1" />
+	</recipe>
+	<!-- Weap 600 - gunSawedOffPumpShotgun (Locked) -->
+	<recipe name="Weap 600 - gunSawedOffPumpShotgun (Locked)" count="1">
+  <ingredient name="weap600Selection" count="1" />
+	</recipe>
+	<!-- Weap 600 - gunPumpShotgun (Locked) -->
+	<recipe name="Weap 600 - gunPumpShotgun (Locked)" count="1">
+  <ingredient name="weap600Selection" count="1" />
+	</recipe>
+	<!-- Weap 600 - gunMP5 (Locked) -->
+	<recipe name="Weap 600 - gunMP5 (Locked)" count="1">
+  <ingredient name="weap600Selection" count="1" />
+	</recipe>
+	<!-- Weap 600 - gunAK47 (Locked) -->
+	<recipe name="Weap 600 - gunAK47 (Locked)" count="1">
+  <ingredient name="weap600Selection" count="1" />
+	</recipe>
+	<!-- Weap 600 - gunHuntingRifle (Locked) -->
+	<recipe name="Weap 600 - gunHuntingRifle (Locked)" count="1">
+  <ingredient name="weap600Selection" count="1" />
+	</recipe>
+	<!-- Weap 600 - gunSniperRifle (Locked) -->
+	<recipe name="Weap 600 - gunSniperRifle (Locked)" count="1">
+  <ingredient name="weap600Selection" count="1" />
+	</recipe>
+	<!-- Weap 600 - gunPistolSilenced (Locked) -->
+	<recipe name="Weap 600 - gunPistolSilenced (Locked)" count="1">
+  <ingredient name="weap600Selection" count="1" />
+	</recipe>
+	<!-- Weap 600 - gun44MagnumSilenced (Locked) -->
+	<recipe name="Weap 600 - gun44MagnumSilenced (Locked)" count="1">
+  <ingredient name="weap600Selection" count="1" />
+	</recipe>
+	<!-- Weap 600 - gunBoomstick (Locked) -->
+	<recipe name="Weap 600 - gunBoomstick (Locked)" count="1">
+  <ingredient name="weap600Selection" count="1" />
+	</recipe>
+	<!-- Weap 600 - gunMP5Silenced (Locked) -->
+	<recipe name="Weap 600 - gunMP5Silenced (Locked)" count="1">
+  <ingredient name="weap600Selection" count="1" />
+	</recipe>
+	<!-- Weap 600 - gunSniperSilenced (Locked) -->
+	<recipe name="Weap 600 - gunSniperSilenced (Locked)" count="1">
+  <ingredient name="weap600Selection" count="1" />
+	</recipe>
+	<!-- Weap 600 - gunPumpShotgunChoked (Locked) -->
+	<recipe name="Weap 600 - gunPumpShotgunChoked (Locked)" count="1">
+  <ingredient name="weap600Selection" count="1" />
+	</recipe>
+	<!-- Weap 600 - gunHuntingRifleSilenced (Locked) -->
+	<recipe name="Weap 600 - gunHuntingRifleSilenced (Locked)" count="1">
+  <ingredient name="weap600Selection" count="1" />
+	</recipe>
+	<!-- Weap 600 - gunBoltRifle (Locked) -->
+	<recipe name="Weap 600 - gunBoltRifle (Locked)" count="1">
+  <ingredient name="weap600Selection" count="1" />
+	</recipe>
+	<!-- Weap 600 - gunBoltRifleSilenced (Locked) -->
+	<recipe name="Weap 600 - gunBoltRifleSilenced (Locked)" count="1">
+  <ingredient name="weap600Selection" count="1" />
+	</recipe>
+	<!-- Weap 600 - gunAK47Silenced (Locked) -->
+	<recipe name="Weap 600 - gunAK47Silenced (Locked)" count="1">
+  <ingredient name="weap600Selection" count="1" />
+	</recipe>
+	<!-- Weap 600 - gunSniperRifleHPScope (Locked) -->
+	<recipe name="Weap 600 - gunSniperRifleHPScope (Locked)" count="1">
+  <ingredient name="weap600Selection" count="1" />
+	</recipe>
+	<!-- Weap 600 - gunSniperRifleHPScopeSilenced (Locked) -->
+	<recipe name="Weap 600 - gunSniperRifleHPScopeSilenced (Locked)" count="1">
+  <ingredient name="weap600Selection" count="1" />
+	</recipe>
+	<!-- Crossbow 600 - crossbow (Locked) -->
+	<recipe name="Crossbow 600 - crossbow (Locked)" count="1">
+  <ingredient name="crossbow600Selection" count="1" />
+	</recipe>
+	<!-- Crossbow 600 - ironCrossbow (Locked) -->
+	<recipe name="Crossbow 600 - ironCrossbow (Locked)" count="1">
+  <ingredient name="crossbow600Selection" count="1" />
+	</recipe>
+	<!-- Crossbow 600 - crossbowRepeater (Locked) -->
+	<recipe name="Crossbow 600 - crossbowRepeater (Locked)" count="1">
+  <ingredient name="crossbow600Selection" count="1" />
+	</recipe>
 <!-- /frenchFrogMOD -->
 
 		<!-- Workstations Mod -->

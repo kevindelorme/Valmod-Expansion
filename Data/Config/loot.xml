@@ -394,6 +394,16 @@
 			<loot quality="400" prob="1"/>
 		</qualitytemplate>
 	</lootqualitytemplate>
+	<lootqualitytemplate name="weap500Template">
+		<qualitytemplate default_quality="500">
+			<loot quality="500" prob="1"/>
+		</qualitytemplate>
+	</lootqualitytemplate>
+	<lootqualitytemplate name="weap600Template">
+		<qualitytemplate default_quality="600">
+			<loot quality="600" prob="1"/>
+		</qualitytemplate>
+	</lootqualitytemplate>
 	<!-- /frenchFrogMOD -->
 	
 	<lootqualitytemplate name="legendaryTemplate">
@@ -3680,8 +3690,279 @@
 	<lootgroup name="400gunPistol" count="all">
 		<item name="gunPistol" count="1" quality="400"/>
 	</lootgroup>
+	<!-- Weap 400 - gun44Magnum -->
+	<lootgroup name="400gun44Magnum" count="all">
+		<item name="gun44Magnum" count="1" quality="400"/>
+	</lootgroup>
+	<!-- Weap 400 - gunSawedOffPumpShotgun -->
+	<lootgroup name="400gunSawedOffPumpShotgun" count="all">
+		<item name="gunSawedOffPumpShotgun" count="1" quality="400"/>
+	</lootgroup>
+	<!-- Weap 400 - gunPumpShotgun -->
+	<lootgroup name="400gunPumpShotgun" count="all">
+		<item name="gunPumpShotgun" count="1" quality="400"/>
+	</lootgroup>
+	<!-- Weap 400 - gunMP5 -->
+	<lootgroup name="400gunMP5" count="all">
+		<item name="gunMP5" count="1" quality="400"/>
+	</lootgroup>
+	<!-- Weap 400 - gunAK47 -->
+	<lootgroup name="400gunAK47" count="all">
+		<item name="gunAK47" count="1" quality="400"/>
+	</lootgroup>
+	<!-- Weap 400 - gunHuntingRifle -->
+	<lootgroup name="400gunHuntingRifle" count="all">
+		<item name="gunHuntingRifle" count="1" quality="400"/>
+	</lootgroup>
+	<!-- Weap 400 - gunSniperRifle -->
+	<lootgroup name="400gunSniperRifle" count="all">
+		<item name="gunSniperRifle" count="1" quality="400"/>
+	</lootgroup>
+	<!-- Weap 400 - gunPistolSilenced -->
+	<lootgroup name="400gunPistolSilenced" count="all">
+		<item name="gunPistolSilenced" count="1" quality="400"/>
+	</lootgroup>
+	<!-- Weap 400 - gun44MagnumSilenced -->
+	<lootgroup name="400gun44MagnumSilenced" count="all">
+		<item name="gun44MagnumSilenced" count="1" quality="400"/>
+	</lootgroup>
+	<!-- Weap 400 - gunBoomstick -->
+	<lootgroup name="400gunBoomstick" count="all">
+		<item name="gunBoomstick" count="1" quality="400"/>
+	</lootgroup>
+	<!-- Weap 400 - gunMP5Silenced -->
+	<lootgroup name="400gunMP5Silenced" count="all">
+		<item name="gunMP5Silenced" count="1" quality="400"/>
+	</lootgroup>
+	<!-- Weap 400 - gunSniperSilenced -->
+	<lootgroup name="400gunSniperSilenced" count="all">
+		<item name="gunSniperSilenced" count="1" quality="400"/>
+	</lootgroup>
+	<!-- Weap 400 - gunPumpShotgunChoked -->
+	<lootgroup name="400gunPumpShotgunChoked" count="all">
+		<item name="gunPumpShotgunChoked" count="1" quality="400"/>
+	</lootgroup>
+	<!-- Weap 400 - gunHuntingRifleSilenced -->
+	<lootgroup name="400gunHuntingRifleSilenced" count="all">
+		<item name="gunHuntingRifleSilenced" count="1" quality="400"/>
+	</lootgroup>
+	<!-- Weap 400 - gunBoltRifle -->
+	<lootgroup name="400gunBoltRifle" count="all">
+		<item name="gunBoltRifle" count="1" quality="400"/>
+	</lootgroup>
+	<!-- Weap 400 - gunBoltRifleSilenced -->
+	<lootgroup name="400gunBoltRifleSilenced" count="all">
+		<item name="gunBoltRifleSilenced" count="1" quality="400"/>
+	</lootgroup>
+	<!-- Weap 400 - gunAK47Silenced -->
+	<lootgroup name="400gunAK47Silenced" count="all">
+		<item name="gunAK47Silenced" count="1" quality="400"/>
+	</lootgroup>
+	<!-- Weap 400 - gunSniperRifleHPScope -->
+	<lootgroup name="400gunSniperRifleHPScope" count="all">
+		<item name="gunSniperRifleHPScope" count="1" quality="400"/>
+	</lootgroup>
+	<!-- Weap 400 - gunSniperRifleHPScopeSilenced -->
+	<lootgroup name="400gunSniperRifleHPScopeSilenced" count="all">
+		<item name="gunSniperRifleHPScopeSilenced" count="1" quality="400"/>
+	</lootgroup>
+	<!-- Weap 400 - crossbow -->
+	<lootgroup name="400crossbow" count="all">
+		<item name="crossbow" count="1" quality="400"/>
+	</lootgroup>
+	<!-- Weap 400 - ironCrossbow -->
+	<lootgroup name="400ironCrossbow" count="all">
+		<item name="ironCrossbow" count="1" quality="400"/>
+	</lootgroup>
+	<!-- Weap 400 - crossbowRepeater -->
+	<lootgroup name="400crossbowRepeater" count="all">
+		<item name="crossbowRepeater" count="1" quality="400"/>
+	</lootgroup>
+	<!-- Weap 500 - gunPistol -->
+	<lootgroup name="500gunPistol" count="all">
+		<item name="gunPistol" count="1" quality="500"/>
+	</lootgroup>
+	<!-- Weap 500 - gun44Magnum -->
+	<lootgroup name="500gun44Magnum" count="all">
+		<item name="gun44Magnum" count="1" quality="500"/>
+	</lootgroup>
+	<!-- Weap 500 - gunSawedOffPumpShotgun -->
+	<lootgroup name="500gunSawedOffPumpShotgun" count="all">
+		<item name="gunSawedOffPumpShotgun" count="1" quality="500"/>
+	</lootgroup>
+	<!-- Weap 500 - gunPumpShotgun -->
+	<lootgroup name="500gunPumpShotgun" count="all">
+		<item name="gunPumpShotgun" count="1" quality="500"/>
+	</lootgroup>
+	<!-- Weap 500 - gunMP5 -->
+	<lootgroup name="500gunMP5" count="all">
+		<item name="gunMP5" count="1" quality="500"/>
+	</lootgroup>
+	<!-- Weap 500 - gunAK47 -->
+	<lootgroup name="500gunAK47" count="all">
+		<item name="gunAK47" count="1" quality="500"/>
+	</lootgroup>
+	<!-- Weap 500 - gunHuntingRifle -->
+	<lootgroup name="500gunHuntingRifle" count="all">
+		<item name="gunHuntingRifle" count="1" quality="500"/>
+	</lootgroup>
+	<!-- Weap 500 - gunSniperRifle -->
+	<lootgroup name="500gunSniperRifle" count="all">
+		<item name="gunSniperRifle" count="1" quality="500"/>
+	</lootgroup>
+	<!-- Weap 500 - gunPistolSilenced -->
+	<lootgroup name="500gunPistolSilenced" count="all">
+		<item name="gunPistolSilenced" count="1" quality="500"/>
+	</lootgroup>
+	<!-- Weap 500 - gun44MagnumSilenced -->
+	<lootgroup name="500gun44MagnumSilenced" count="all">
+		<item name="gun44MagnumSilenced" count="1" quality="500"/>
+	</lootgroup>
+	<!-- Weap 500 - gunBoomstick -->
+	<lootgroup name="500gunBoomstick" count="all">
+		<item name="gunBoomstick" count="1" quality="500"/>
+	</lootgroup>
+	<!-- Weap 500 - gunMP5Silenced -->
+	<lootgroup name="500gunMP5Silenced" count="all">
+		<item name="gunMP5Silenced" count="1" quality="500"/>
+	</lootgroup>
+	<!-- Weap 500 - gunSniperSilenced -->
+	<lootgroup name="500gunSniperSilenced" count="all">
+		<item name="gunSniperSilenced" count="1" quality="500"/>
+	</lootgroup>
+	<!-- Weap 500 - gunPumpShotgunChoked -->
+	<lootgroup name="500gunPumpShotgunChoked" count="all">
+		<item name="gunPumpShotgunChoked" count="1" quality="500"/>
+	</lootgroup>
+	<!-- Weap 500 - gunHuntingRifleSilenced -->
+	<lootgroup name="500gunHuntingRifleSilenced" count="all">
+		<item name="gunHuntingRifleSilenced" count="1" quality="500"/>
+	</lootgroup>
+	<!-- Weap 500 - gunBoltRifle -->
+	<lootgroup name="500gunBoltRifle" count="all">
+		<item name="gunBoltRifle" count="1" quality="500"/>
+	</lootgroup>
+	<!-- Weap 500 - gunBoltRifleSilenced -->
+	<lootgroup name="500gunBoltRifleSilenced" count="all">
+		<item name="gunBoltRifleSilenced" count="1" quality="500"/>
+	</lootgroup>
+	<!-- Weap 500 - gunAK47Silenced -->
+	<lootgroup name="500gunAK47Silenced" count="all">
+		<item name="gunAK47Silenced" count="1" quality="500"/>
+	</lootgroup>
+	<!-- Weap 500 - gunSniperRifleHPScope -->
+	<lootgroup name="500gunSniperRifleHPScope" count="all">
+		<item name="gunSniperRifleHPScope" count="1" quality="500"/>
+	</lootgroup>
+	<!-- Weap 500 - gunSniperRifleHPScopeSilenced -->
+	<lootgroup name="500gunSniperRifleHPScopeSilenced" count="all">
+		<item name="gunSniperRifleHPScopeSilenced" count="1" quality="500"/>
+	</lootgroup>
+	<!-- Weap 500 - crossbow -->
+	<lootgroup name="500crossbow" count="all">
+		<item name="crossbow" count="1" quality="500"/>
+	</lootgroup>
+	<!-- Weap 500 - ironCrossbow -->
+	<lootgroup name="500ironCrossbow" count="all">
+		<item name="ironCrossbow" count="1" quality="500"/>
+	</lootgroup>
+	<!-- Weap 500 - crossbowRepeater -->
+	<lootgroup name="500crossbowRepeater" count="all">
+		<item name="crossbowRepeater" count="1" quality="500"/>
+	</lootgroup>
+	<!-- Weap 600 - gunPistol -->
+	<lootgroup name="600gunPistol" count="all">
+		<item name="gunPistol" count="1" quality="600"/>
+	</lootgroup>
+	<!-- Weap 600 - gun44Magnum -->
+	<lootgroup name="600gun44Magnum" count="all">
+		<item name="gun44Magnum" count="1" quality="600"/>
+	</lootgroup>
+	<!-- Weap 600 - gunSawedOffPumpShotgun -->
+	<lootgroup name="600gunSawedOffPumpShotgun" count="all">
+		<item name="gunSawedOffPumpShotgun" count="1" quality="600"/>
+	</lootgroup>
+	<!-- Weap 600 - gunPumpShotgun -->
+	<lootgroup name="600gunPumpShotgun" count="all">
+		<item name="gunPumpShotgun" count="1" quality="600"/>
+	</lootgroup>
+	<!-- Weap 600 - gunMP5 -->
+	<lootgroup name="600gunMP5" count="all">
+		<item name="gunMP5" count="1" quality="600"/>
+	</lootgroup>
+	<!-- Weap 600 - gunAK47 -->
+	<lootgroup name="600gunAK47" count="all">
+		<item name="gunAK47" count="1" quality="600"/>
+	</lootgroup>
+	<!-- Weap 600 - gunHuntingRifle -->
+	<lootgroup name="600gunHuntingRifle" count="all">
+		<item name="gunHuntingRifle" count="1" quality="600"/>
+	</lootgroup>
+	<!-- Weap 600 - gunSniperRifle -->
+	<lootgroup name="600gunSniperRifle" count="all">
+		<item name="gunSniperRifle" count="1" quality="600"/>
+	</lootgroup>
+	<!-- Weap 600 - gunPistolSilenced -->
+	<lootgroup name="600gunPistolSilenced" count="all">
+		<item name="gunPistolSilenced" count="1" quality="600"/>
+	</lootgroup>
+	<!-- Weap 600 - gun44MagnumSilenced -->
+	<lootgroup name="600gun44MagnumSilenced" count="all">
+		<item name="gun44MagnumSilenced" count="1" quality="600"/>
+	</lootgroup>
+	<!-- Weap 600 - gunBoomstick -->
+	<lootgroup name="600gunBoomstick" count="all">
+		<item name="gunBoomstick" count="1" quality="600"/>
+	</lootgroup>
+	<!-- Weap 600 - gunMP5Silenced -->
+	<lootgroup name="600gunMP5Silenced" count="all">
+		<item name="gunMP5Silenced" count="1" quality="600"/>
+	</lootgroup>
+	<!-- Weap 600 - gunSniperSilenced -->
+	<lootgroup name="600gunSniperSilenced" count="all">
+		<item name="gunSniperSilenced" count="1" quality="600"/>
+	</lootgroup>
+	<!-- Weap 600 - gunPumpShotgunChoked -->
+	<lootgroup name="600gunPumpShotgunChoked" count="all">
+		<item name="gunPumpShotgunChoked" count="1" quality="600"/>
+	</lootgroup>
+	<!-- Weap 600 - gunHuntingRifleSilenced -->
+	<lootgroup name="600gunHuntingRifleSilenced" count="all">
+		<item name="gunHuntingRifleSilenced" count="1" quality="600"/>
+	</lootgroup>
+	<!-- Weap 600 - gunBoltRifle -->
+	<lootgroup name="600gunBoltRifle" count="all">
+		<item name="gunBoltRifle" count="1" quality="600"/>
+	</lootgroup>
+	<!-- Weap 600 - gunBoltRifleSilenced -->
+	<lootgroup name="600gunBoltRifleSilenced" count="all">
+		<item name="gunBoltRifleSilenced" count="1" quality="600"/>
+	</lootgroup>
+	<!-- Weap 600 - gunAK47Silenced -->
+	<lootgroup name="600gunAK47Silenced" count="all">
+		<item name="gunAK47Silenced" count="1" quality="600"/>
+	</lootgroup>
+	<!-- Weap 600 - gunSniperRifleHPScope -->
+	<lootgroup name="600gunSniperRifleHPScope" count="all">
+		<item name="gunSniperRifleHPScope" count="1" quality="600"/>
+	</lootgroup>
+	<!-- Weap 600 - gunSniperRifleHPScopeSilenced -->
+	<lootgroup name="600gunSniperRifleHPScopeSilenced" count="all">
+		<item name="gunSniperRifleHPScopeSilenced" count="1" quality="600"/>
+	</lootgroup>
+	<!-- Weap 600 - crossbow -->
+	<lootgroup name="600crossbow" count="all">
+		<item name="crossbow" count="1" quality="600"/>
+	</lootgroup>
+	<!-- Weap 600 - ironCrossbow -->
+	<lootgroup name="600ironCrossbow" count="all">
+		<item name="ironCrossbow" count="1" quality="600"/>
+	</lootgroup>
+	<!-- Weap 600 - crossbowRepeater -->
+	<lootgroup name="600crossbowRepeater" count="all">
+		<item name="crossbowRepeater" count="1" quality="600"/>
+	</lootgroup>
 	<!-- /frenchFrogMOD -->
-
 			<!-- Hunter Class -->	
 	<lootcontainer id="251" count="1" size="8,4" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="classTemplate">
 	    <item group="HunterClass"/>
@@ -3734,6 +4015,278 @@
 		<!-- Weap 400 - gunPistol -->
 	<lootcontainer id="227" count="1" size="8,4" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="weap400Template">
 	    <item group="400gunPistol"/>
+		</lootcontainer>
+		<!-- Weap 400 - gun44Magnum -->
+	<lootcontainer id="228" count="1" size="8,4" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="weap400Template">
+	    <item group="400gun44Magnum"/>
+		</lootcontainer>
+		<!-- Weap 400 - gunSawedOffPumpShotgun -->
+	<lootcontainer id="229" count="1" size="8,4" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="weap400Template">
+	    <item group="400gunSawedOffPumpShotgun"/>
+		</lootcontainer>
+		<!-- Weap 400 - gunPumpShotgun -->
+	<lootcontainer id="230" count="1" size="8,4" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="weap400Template">
+	    <item group="400gunPumpShotgun"/>
+		</lootcontainer>
+		<!-- Weap 400 - gunMP5 -->
+	<lootcontainer id="231" count="1" size="8,4" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="weap400Template">
+	    <item group="400gunMP5"/>
+		</lootcontainer>
+		<!-- Weap 400 - gunAK47 -->
+	<lootcontainer id="232" count="1" size="8,4" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="weap400Template">
+	    <item group="400gunAK47"/>
+		</lootcontainer>
+		<!-- Weap 400 - gunHuntingRifle -->
+	<lootcontainer id="233" count="1" size="8,4" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="weap400Template">
+	    <item group="400gunHuntingRifle"/>
+		</lootcontainer>
+		<!-- Weap 400 - gunSniperRifle -->
+	<lootcontainer id="234" count="1" size="8,4" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="weap400Template">
+	    <item group="400gunSniperRifle"/>
+		</lootcontainer>
+		<!-- Weap 500 - gunPistol -->
+	<lootcontainer id="235" count="1" size="8,4" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="weap500Template">
+	    <item group="500gunPistol"/>
+		</lootcontainer>
+		<!-- Weap 500 - gun44Magnum -->
+	<lootcontainer id="236" count="1" size="8,4" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="weap500Template">
+	    <item group="500gun44Magnum"/>
+		</lootcontainer>
+		<!-- Weap 500 - gunSawedOffPumpShotgun -->
+	<lootcontainer id="237" count="1" size="8,4" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="weap500Template">
+	    <item group="500gunSawedOffPumpShotgun"/>
+		</lootcontainer>
+		<!-- Weap 500 - gunPumpShotgun -->
+	<lootcontainer id="238" count="1" size="8,4" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="weap500Template">
+	    <item group="500gunPumpShotgun"/>
+		</lootcontainer>
+		<!-- Weap 500 - gunMP5 -->
+	<lootcontainer id="239" count="1" size="8,4" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="weap500Template">
+	    <item group="500gunMP5"/>
+		</lootcontainer>
+		<!-- Weap 500 - gunAK47 -->
+	<lootcontainer id="240" count="1" size="8,4" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="weap500Template">
+	    <item group="500gunAK47"/>
+		</lootcontainer>
+		<!-- Weap 500 - gunHuntingRifle -->
+	<lootcontainer id="241" count="1" size="8,4" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="weap500Template">
+	    <item group="500gunHuntingRifle"/>
+		</lootcontainer>
+		<!-- Weap 500 - gunSniperRifle -->
+	<lootcontainer id="242" count="1" size="8,4" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="weap500Template">
+	    <item group="500gunSniperRifle"/>
+		</lootcontainer>
+		<!-- Weap 600 - gunPistol -->
+	<lootcontainer id="243" count="1" size="8,4" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="weap600Template">
+	    <item group="600gunPistol"/>
+		</lootcontainer>
+		<!-- Weap 600 - gun44Magnum -->
+	<lootcontainer id="244" count="1" size="8,4" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="weap600Template">
+	    <item group="600gun44Magnum"/>
+		</lootcontainer>
+		<!-- Weap 600 - gunSawedOffPumpShotgun -->
+	<lootcontainer id="245" count="1" size="8,4" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="weap600Template">
+	    <item group="600gunSawedOffPumpShotgun"/>
+		</lootcontainer>
+		<!-- Weap 600 - gunPumpShotgun -->
+	<lootcontainer id="178" count="1" size="8,4" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="weap600Template">
+	    <item group="600gunPumpShotgun"/>
+		</lootcontainer>
+		<!-- Weap 600 - gunMP5 -->
+	<lootcontainer id="246" count="1" size="8,4" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="weap600Template">
+	    <item group="600gunMP5"/>
+		</lootcontainer>
+		<!-- Weap 600 - gunAK47 -->
+	<lootcontainer id="247" count="1" size="8,4" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="weap600Template">
+	    <item group="600gunAK47"/>
+		</lootcontainer>
+		<!-- Weap 600 - gunHuntingRifle -->
+	<lootcontainer id="248" count="1" size="8,4" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="weap600Template">
+	    <item group="600gunHuntingRifle"/>
+		</lootcontainer>
+		<!-- Weap 600 - gunSniperRifle -->
+	<lootcontainer id="249" count="1" size="8,4" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="weap600Template">
+	    <item group="600gunSniperRifle"/>
+		</lootcontainer>
+		<!-- Weap 400 - gunPistolSilenced -->
+	<lootcontainer id="250" count="1" size="8,4" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="weap400Template">
+	    <item group="400gunPistolSilenced"/>
+		</lootcontainer>
+		<!-- Weap 400 - gun44MagnumSilenced -->
+	<lootcontainer id="134" count="1" size="8,4" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="weap400Template">
+	    <item group="400gun44MagnumSilenced"/>
+		</lootcontainer>
+		<!-- Weap 400 - gunBoomstick -->
+	<lootcontainer id="135" count="1" size="8,4" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="weap400Template">
+	    <item group="400gunBoomstick"/>
+		</lootcontainer>
+		<!-- Weap 400 - gunMP5Silenced -->
+	<lootcontainer id="136" count="1" size="8,4" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="weap400Template">
+	    <item group="400gunBoomstick"/>
+		</lootcontainer>
+		<!-- Weap 400 - gunSniperSilenced -->
+	<lootcontainer id="137" count="1" size="8,4" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="weap400Template">
+	    <item group="400gunSniperSilenced"/>
+		</lootcontainer>
+		<!-- Weap 400 - gunPumpShotgunChoked -->
+	<lootcontainer id="138" count="1" size="8,4" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="weap400Template">
+	    <item group="400gunPumpShotgunChoked"/>
+		</lootcontainer>
+		<!-- Weap 400 - gunHuntingRifleSilenced -->
+	<lootcontainer id="139" count="1" size="8,4" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="weap400Template">
+	    <item group="400gunHuntingRifleSilenced"/>
+		</lootcontainer>
+		<!-- Weap 400 - gunBoltRifle -->
+	<lootcontainer id="140" count="1" size="8,4" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="weap400Template">
+	    <item group="400gunBoltRifle"/>
+		</lootcontainer>
+		<!-- Weap 400 - gunBoltRifleSilenced -->
+	<lootcontainer id="141" count="1" size="8,4" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="weap400Template">
+	    <item group="400gunBoltRifleSilenced"/>
+		</lootcontainer>
+		<!-- Weap 400 - gunAK47Silenced -->
+	<lootcontainer id="142" count="1" size="8,4" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="weap400Template">
+	    <item group="400gunAK47Silenced"/>
+		</lootcontainer>
+		<!-- Weap 400 - gunSniperRifleHPScope -->
+	<lootcontainer id="143" count="1" size="8,4" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="weap400Template">
+	    <item group="400gunSniperRifleHPScope"/>
+		</lootcontainer>
+		<!-- Weap 400 - gunSniperRifleHPScopeSilenced -->
+	<lootcontainer id="144" count="1" size="8,4" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="weap400Template">
+	    <item group="400gunSniperRifleHPScopeSilenced"/>
+		</lootcontainer>
+		<!-- Weap 500 - gunPistolSilenced -->
+	<lootcontainer id="145" count="1" size="8,4" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="weap500Template">
+	    <item group="500gunPistolSilenced"/>
+		</lootcontainer>
+		<!-- Weap 500 - gun44MagnumSilenced -->
+	<lootcontainer id="146" count="1" size="8,4" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="weap500Template">
+	    <item group="500gun44MagnumSilenced"/>
+		</lootcontainer>
+		<!-- Weap 500 - gunBoomstick -->
+	<lootcontainer id="147" count="1" size="8,4" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="weap500Template">
+	    <item group="500gunBoomstick"/>
+		</lootcontainer>
+		<!-- Weap 500 - gunMP5Silenced -->
+	<lootcontainer id="148" count="1" size="8,4" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="weap500Template">
+	    <item group="500gunBoomstick"/>
+		</lootcontainer>
+		<!-- Weap 500 - gunSniperSilenced -->
+	<lootcontainer id="149" count="1" size="8,4" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="weap500Template">
+	    <item group="500gunSniperSilenced"/>
+		</lootcontainer>
+		<!-- Weap 500 - gunPumpShotgunChoked -->
+	<lootcontainer id="150" count="1" size="8,4" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="weap500Template">
+	    <item group="500gunPumpShotgunChoked"/>
+		</lootcontainer>
+		<!-- Weap 500 - gunHuntingRifleSilenced -->
+	<lootcontainer id="151" count="1" size="8,4" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="weap500Template">
+	    <item group="500gunHuntingRifleSilenced"/>
+		</lootcontainer>
+		<!-- Weap 500 - gunBoltRifle -->
+	<lootcontainer id="152" count="1" size="8,4" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="weap500Template">
+	    <item group="500gunBoltRifle"/>
+		</lootcontainer>
+		<!-- Weap 500 - gunBoltRifleSilenced -->
+	<lootcontainer id="153" count="1" size="8,4" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="weap500Template">
+	    <item group="500gunBoltRifleSilenced"/>
+		</lootcontainer>
+		<!-- Weap 500 - gunAK47Silenced -->
+	<lootcontainer id="154" count="1" size="8,4" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="weap500Template">
+	    <item group="500gunAK47Silenced"/>
+		</lootcontainer>
+		<!-- Weap 500 - gunSniperRifleHPScope -->
+	<lootcontainer id="155" count="1" size="8,4" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="weap500Template">
+	    <item group="500gunSniperRifleHPScope"/>
+		</lootcontainer>
+		<!-- Weap 500 - gunSniperRifleHPScopeSilenced -->
+	<lootcontainer id="156" count="1" size="8,4" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="weap500Template">
+	    <item group="500gunSniperRifleHPScopeSilenced"/>
+		</lootcontainer>
+		<!-- Weap 600 - gunPistolSilenced -->
+	<lootcontainer id="157" count="1" size="8,4" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="weap600Template">
+	    <item group="400gunPistolSilenced"/>
+		</lootcontainer>
+		<!-- Weap 600 - gun44MagnumSilenced -->
+	<lootcontainer id="158" count="1" size="8,4" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="weap600Template">
+	    <item group="600gun44MagnumSilenced"/>
+		</lootcontainer>
+		<!-- Weap 600 - gunBoomstick -->
+	<lootcontainer id="159" count="1" size="8,4" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="weap600Template">
+	    <item group="600gunBoomstick"/>
+		</lootcontainer>
+		<!-- Weap 600 - gunMP5Silenced -->
+	<lootcontainer id="160" count="1" size="8,4" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="weap600Template">
+	    <item group="600gunBoomstick"/>
+		</lootcontainer>
+		<!-- Weap 600 - gunSniperSilenced -->
+	<lootcontainer id="161" count="1" size="8,4" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="weap600Template">
+	    <item group="600gunSniperSilenced"/>
+		</lootcontainer>
+		<!-- Weap 600 - gunPumpShotgunChoked -->
+	<lootcontainer id="162" count="1" size="8,4" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="weap600Template">
+	    <item group="600gunPumpShotgunChoked"/>
+		</lootcontainer>
+		<!-- Weap 600 - gunHuntingRifleSilenced -->
+	<lootcontainer id="163" count="1" size="8,4" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="weap600Template">
+	    <item group="600gunHuntingRifleSilenced"/>
+		</lootcontainer>
+		<!-- Weap 600 - gunBoltRifle -->
+	<lootcontainer id="164" count="1" size="8,4" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="weap600Template">
+	    <item group="600gunBoltRifle"/>
+		</lootcontainer>
+		<!-- Weap 600 - gunBoltRifleSilenced -->
+	<lootcontainer id="165" count="1" size="8,4" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="weap600Template">
+	    <item group="600gunBoltRifleSilenced"/>
+		</lootcontainer>
+		<!-- Weap 600 - gunAK47Silenced -->
+	<lootcontainer id="166" count="1" size="8,4" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="weap600Template">
+	    <item group="600gunAK47Silenced"/>
+		</lootcontainer>
+		<!-- Weap 600 - gunSniperRifleHPScope -->
+	<lootcontainer id="167" count="1" size="8,4" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="weap600Template">
+	    <item group="600gunSniperRifleHPScope"/>
+		</lootcontainer>
+		<!-- Weap 600 - gunSniperRifleHPScopeSilenced -->
+	<lootcontainer id="168" count="1" size="8,4" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="weap600Template">
+	    <item group="600gunSniperRifleHPScopeSilenced"/>
+		</lootcontainer>
+		<!-- Weap 400 - crossbow -->
+	<lootcontainer id="169" count="1" size="8,4" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="weap400Template">
+	    <item group="400crossbow"/>
+		</lootcontainer>
+		<!-- Weap 400 - ironCrossbow -->
+	<lootcontainer id="170" count="1" size="8,4" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="weap400Template">
+	    <item group="400ironCrossbow"/>
+		</lootcontainer>
+		<!-- Weap 400 - crossbowRepeater -->
+	<lootcontainer id="171" count="1" size="8,4" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="weap400Template">
+	    <item group="400crossbowRepeater"/>
+		</lootcontainer>
+		<!-- Weap 500 - crossbow -->
+	<lootcontainer id="172" count="1" size="8,4" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="weap500Template">
+	    <item group="500crossbow"/>
+		</lootcontainer>
+		<!-- Weap 500 - ironCrossbow -->
+	<lootcontainer id="173" count="1" size="8,4" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="weap500Template">
+	    <item group="500ironCrossbow"/>
+		</lootcontainer>
+		<!-- Weap 500 - crossbowRepeater -->
+	<lootcontainer id="174" count="1" size="8,4" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="weap500Template">
+	    <item group="500crossbowRepeater"/>
+		</lootcontainer>
+		<!-- Weap 600 - crossbow -->
+	<lootcontainer id="175" count="1" size="8,4" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="weap600Template">
+	    <item group="600crossbow"/>
+		</lootcontainer>
+		<!-- Weap 600 - ironCrossbow -->
+	<lootcontainer id="176" count="1" size="8,4" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="weap600Template">
+	    <item group="600ironCrossbow"/>
+		</lootcontainer>
+		<!-- Weap 600 - crossbowRepeater -->
+	<lootcontainer id="177" count="1" size="8,4" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="weap600Template">
+	    <item group="600crossbowRepeater"/>
 		</lootcontainer>
 		<!-- /frenchFrogMOD -->
 </lootcontainers>

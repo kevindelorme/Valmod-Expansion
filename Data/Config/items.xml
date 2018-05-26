@@ -15952,25 +15952,155 @@ Mesh files no longer used:
 	</property>
 </item>
 <!-- TO DO -->
-<!-- <item id="3029" name="weap500Key"> -->
-<!-- </item> -->
-<!-- <item id="3030" name="weap500Selection"> -->
-<!-- </item> -->
-<!-- <item id="3031" name="weap600Key"> -->
-<!-- </item> -->
-<!-- <item id="3032" name="weap600Selection"> -->
-<!-- </item> -->
-<!-- <item id="3033" name="crossbow400Key"> -->
-<!-- </item> -->
-<!-- <item id="3034" name="crossbow400Selection"> -->
-<!-- </item> -->
-<!-- <item id="3033" name="crossbow500Key"> -->
-<!-- </item> -->
-<!-- <item id="3034" name="crossbow500Selection"> -->
-<!-- </item> -->
-<!-- <item id="3033" name="crossbow600Key"> -->
-<!-- </item> -->
-<!-- <item id="3034" name="crossbow5=600Selection"> -->
-<!-- </item> -->
+<item id="3029" name="weap500Key">
+	<property name="Degradation" value="125" param1="true" />
+	<property name="Meshfile" value="Items/Misc/paper" />
+	<property name="DescriptionKey" value="weap500KeyDesc"/> <!-- TO DO -->
+	<property name="Material" value="paper" />
+	<property name="HoldType" value="23" />
+	<property name="Stacknumber" value="1" />
+	<property class="Action1">
+		<property name="Class" value="Repair" />
+		<property name="Delay" value="0.4" />
+		<property name="Upgrade_hit_offset" value="-2" />
+		<property name="Sound_start" value="UseActions/repair_block" />
+		<property name="Allowed_upgrade_items" value="weap500Key" />
+	</property>
+	<!-- <property name="Group" value="Professions" /> -->
+</item>
+<item id="3030" name="weap500Selection">
+	<property name="DescriptionKey" value="weap500SelectionDesc"/> <!-- TO DO -->
+	<property name="Meshfile" value="Items/Misc/Book" />
+	<property name="Material" value="organic" />
+	<property name="HoldType" value="21" />
+	<property name="Stacknumber" value="1" />
+	<property name="FuelValue" value="20" />
+	<property name="Group" value="Special Items" />
+	<property class="Preview">
+		<property name="Zoom" value="10" />
+		<property name="Pos" value="0,-0.2" />
+		<property name="Rot" value="90,45,0" />
+	</property>
+</item>
+<item id="3031" name="weap600Key">
+	<property name="Degradation" value="125" param1="true" />
+	<property name="Meshfile" value="Items/Misc/paper" />
+	<property name="DescriptionKey" value="weap600KeyDesc"/> <!-- TO DO -->
+	<property name="Material" value="paper" />
+	<property name="HoldType" value="23" />
+	<property name="Stacknumber" value="1" />
+	<property class="Action1">
+		<property name="Class" value="Repair" />
+		<property name="Delay" value="0.4" />
+		<property name="Upgrade_hit_offset" value="-2" />
+		<property name="Sound_start" value="UseActions/repair_block" />
+		<property name="Allowed_upgrade_items" value="weap600Key" />
+	</property>
+	<!-- <property name="Group" value="Professions" /> -->
+</item>
+<item id="3032" name="weap600Selection">
+	<property name="DescriptionKey" value="weap600SelectionDesc"/> <!-- TO DO -->
+	<property name="Meshfile" value="Items/Misc/Book" />
+	<property name="Material" value="organic" />
+	<property name="HoldType" value="21" />
+	<property name="Stacknumber" value="1" />
+	<property name="FuelValue" value="20" />
+	<property name="Group" value="Special Items" />
+	<property class="Preview">
+		<property name="Zoom" value="10" />
+		<property name="Pos" value="0,-0.2" />
+		<property name="Rot" value="90,45,0" />
+	</property>
+</item>
+<item id="3033" name="crossbow400Key">
+	<property name="Degradation" value="125" param1="true" />
+	<property name="Meshfile" value="Items/Misc/paper" />
+	<property name="DescriptionKey" value="Crossbow400KeyDesc"/> <!-- TO DO -->
+	<property name="Material" value="paper" />
+	<property name="HoldType" value="23" />
+	<property name="Stacknumber" value="1" />
+	<property class="Action1">
+		<property name="Class" value="Repair" />
+		<property name="Delay" value="0.4" />
+		<property name="Upgrade_hit_offset" value="-2" />
+		<property name="Sound_start" value="UseActions/repair_block" />
+		<property name="Allowed_upgrade_items" value="crossbow400Key" />
+	</property>
+	<!-- <property name="Group" value="Professions" /> -->
+</item>
+<item id="3034" name="crossbow400Selection">
+	<property name="DescriptionKey" value="crossbow400SelectionDesc"/> <!-- TO DO -->
+	<property name="Meshfile" value="Items/Misc/Book" />
+	<property name="Material" value="organic" />
+	<property name="HoldType" value="21" />
+	<property name="Stacknumber" value="1" />
+	<property name="FuelValue" value="20" />
+	<property name="Group" value="Special Items" />
+	<property class="Preview">
+		<property name="Zoom" value="10" />
+		<property name="Pos" value="0,-0.2" />
+		<property name="Rot" value="90,45,0" />
+	</property>
+</item>
+<item id="3035" name="crossbow500Key">
+	<property name="Degradation" value="125" param1="true" />
+	<property name="Meshfile" value="Items/Misc/paper" />
+	<property name="DescriptionKey" value="Crossbow500KeyDesc"/> <!-- TO DO -->
+	<property name="Material" value="paper" />
+	<property name="HoldType" value="23" />
+	<property name="Stacknumber" value="1" />
+	<property class="Action1">
+		<property name="Class" value="Repair" />
+		<property name="Delay" value="0.4" />
+		<property name="Upgrade_hit_offset" value="-2" />
+		<property name="Sound_start" value="UseActions/repair_block" />
+		<property name="Allowed_upgrade_items" value="crossbow500Key" />
+	</property>
+	<!-- <property name="Group" value="Professions" /> -->
+</item>
+<item id="3036" name="crossbow500Selection">
+	<property name="DescriptionKey" value="crossbow500SelectionDesc"/> <!-- TO DO -->
+	<property name="Meshfile" value="Items/Misc/Book" />
+	<property name="Material" value="organic" />
+	<property name="HoldType" value="21" />
+	<property name="Stacknumber" value="1" />
+	<property name="FuelValue" value="20" />
+	<property name="Group" value="Special Items" />
+	<property class="Preview">
+		<property name="Zoom" value="10" />
+		<property name="Pos" value="0,-0.2" />
+		<property name="Rot" value="90,45,0" />
+	</property>
+</item>
+<item id="3037" name="crossbow600Key">
+	<property name="Degradation" value="125" param1="true" />
+	<property name="Meshfile" value="Items/Misc/paper" />
+	<property name="DescriptionKey" value="Crossbow600KeyDesc"/> <!-- TO DO -->
+	<property name="Material" value="paper" />
+	<property name="HoldType" value="23" />
+	<property name="Stacknumber" value="1" />
+	<property class="Action1">
+		<property name="Class" value="Repair" />
+		<property name="Delay" value="0.4" />
+		<property name="Upgrade_hit_offset" value="-2" />
+		<property name="Sound_start" value="UseActions/repair_block" />
+		<property name="Allowed_upgrade_items" value="crossbow600Key" />
+	</property>
+	<!-- <property name="Group" value="Professions" /> -->
+</item>
+<item id="3038" name="crossbow600Selection">
+	<property name="DescriptionKey" value="crossbow600SelectionDesc"/> <!-- TO DO -->
+	<property name="Meshfile" value="Items/Misc/Book" />
+	<property name="Material" value="organic" />
+	<property name="HoldType" value="21" />
+	<property name="Stacknumber" value="1" />
+	<property name="FuelValue" value="20" />
+	<property name="Group" value="Special Items" />
+	<property class="Preview">
+		<property name="Zoom" value="10" />
+		<property name="Pos" value="0,-0.2" />
+		<property name="Rot" value="90,45,0" />
+	</property>
+</item>
 <!-- /frenchFrogMOD -->
 </items>
