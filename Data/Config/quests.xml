@@ -596,9 +596,11 @@
 			<requirement type="Holding" id="ironCrossbow" />
 			<requirement type="Holding" id="crossbowRepeater" />
 		</requirement>
-		<objective type="ZombieKill" value="30" />
+		<!-- <objective type="ZombieKill" value="30" /> -->
+		<objective type="ZombieKill" value="1" />
 		<reward type="Item" id="ironCrossbowBolt" value="50" />
 		<reward type="Skill" id="Archery" value="2" />
+		<reward type="Quest" id="challenge_survivor2" />
 	</quest>
 	
 	<quest id="challenge_survivor2" group_name_key="quest_survivor" name="Survivor Quest 2/3" subtitle="Survivor Challenge 2" description="Thin out some zombies." icon="ui_game_symbol_campfire" 
@@ -611,7 +613,8 @@
 			<requirement type="Holding" id="ironCrossbow" />
 			<requirement type="Holding" id="crossbowRepeater" />
 		</requirement>
-		<objective type="ZombieKill" value="50" />
+		<!-- <objective type="ZombieKill" value="50" /> -->
+		<objective type="ZombieKill" value="1" />
 		
 		<reward type="Skill" id="Archery" value="3" />
 		<reward type="Item" id="ironCrossbowBolt" value="70" />
@@ -628,9 +631,11 @@
 			<requirement type="Holding" id="ironCrossbow" />
 			<requirement type="Holding" id="crossbowRepeater" />
 		</requirement>
-		<objective type="ZombieKill" value="100" />
+		<!-- <objective type="ZombieKill" value="100" /> -->
+		<objective type="ZombieKill" value="1" />
 		<reward type="Item" id="ironCrossbowBolt" value="170" />
 		<reward type="Skill" id="Archery" value="5" />
+		<reward type="Quest" id="allClasses_2survivor1" />
 	</quest>
 	<!-- Bruiser -->
 	<quest id="challenge_bruiser1" group_name_key="quest_bruiser" name="Bruiser Quest" subtitle="Bruiser Challenge" description="Bust zombie skulls" icon="ui_game_symbol_club" 
@@ -755,27 +760,30 @@
 	<quest id="challenge_farmer1" group_name_key="quest_farmer" name="Farmer Quest" subtitle="Farmer Challenge" description="You are a farmer" icon="ui_game_symbol_rifle" 
 		repeatable="false" category_key="challenge" offer="Farm some zombies !" difficulty="easy">
 		<requirement type="Holding" id="gunHuntingRifle" />
-		<objective type="ZombieKill" value="20" />
+		<objective type="ZombieKill" value="1" />
 		<reward type="Item" id="762mmBullet" value="32" />
 		<reward type="Skill" id="Rifles" value="1" />
+		<reward type="Quest" id="challenge_farmer2" />
 	</quest>
 	
 	<quest id="challenge_farmer2" group_name_key="quest_farmer" name="Farmer Quest 2/3" subtitle="Farmer Challenge 2" description="Plant some 762mm seeds :) / " icon="ui_game_symbol_rifle" 
 		repeatable="false" category_key="challenge" offer="Farm some zombies !" difficulty="Medium">
 		<requirement type="Holding" id="gunHuntingRifle" />
-		<objective type="ZombieKill" value="40" />
+		<objective type="ZombieKill" value="1" />
 		<reward type="Skill" id="Rifles" value="3" />
 		<reward type="Item" id="762mmBullet" value="72" />
-		<reward type="Quest" id="challenge_spy3" />
+		<reward type="Quest" id="challenge_farmer3" />
 	</quest>
 	<quest id="challenge_farmer3" group_name_key="quest_farmer" name="Farmer Quest 3/3" subtitle="Farmer Challenge 3" description="Farm them !" icon="ui_game_symbol_rifle" 
 		repeatable="false" category_key="challenge" offer="Farm some zombies !" difficulty="Hard">
 		<requirement type="Holding" id="gunHuntingRifle" />
-		<objective type="ZombieKill" value="80" />
+		<objective type="ZombieKill" value="1" />
 		<reward type="Item" id="762mmBullet" value="152" />
 		<reward type="Skill" id="Rifles" value="5" />
 		<reward type="Item" id="firstAidBandage" value="5" />
 		<reward type="Item" id="fertilizer" value="10" />
+		<reward type="Item" id="beerBook" value="1" />
+		<reward type="Quest" id="allClasses_challengeINC1" />
 	</quest>
 	<!-- Pvp Test. -->
 	<!-- Not working, the ObjectiveClass "PlayerKill" is missing. -> SDX ? -->
@@ -922,6 +930,138 @@
 		<objective type="ZombieKill" value="1" />
 		<reward type="Item" id="weap600Selection" value="1" />
 		<reward type="Item" id="weap600Key" value="1" />
+	</quest>
+	<!-- New Survivor challenges -->
+	<!-- allClasses_2survivor -->
+	<quest id="allClasses_2survivor1" group_name_key="allClasses_2survivor" name="Survivor rampage Quest 1/3" subtitle="Survivor rampage Challenge 1/3" description="Waste more zombies" icon="ui_game_symbol_rifle" 
+		repeatable="false" category_key="challenge" offer="You will not gain inc bullets..." difficulty="easy">
+		<objective type="ZombieKill" value="1" />
+		<reward type="Item" id="explodingCrossbowBolt" value="30" />
+		<reward type="Skill" id="Archery" value="1" />	<!-- All weapon skills +3 -->
+		<reward type="Quest" id="allClasses_2survivor2" />
+	</quest>
+	
+	<quest id="allClasses_2survivor2" group_name_key="allClasses_2survivor" name="Survivor rampage Quest 2/3" subtitle="Survivor rampage Challenge 2/3" description="Waste more zombies" icon="ui_game_symbol_rifle" 
+		repeatable="false" category_key="challenge" offer="You will not gain inc bullets..." difficulty="easy">
+		<objective type="ZombieKill" value="1" />
+		<reward type="Item" id="explodingCrossbowBolt" value="60" />
+		<reward type="Skill" id="Archery" value="1" />	<!-- All weapon skills +5 -->
+		<reward type="Quest" id="allClasses_2survivor3" />
+	</quest>
+	
+	<quest id="allClasses_2survivor3" group_name_key="allClasses_2survivor" name="Survivor rampage Quest 3/3" subtitle="Survivor rampage Challenge 3/3" description="Waste more zombies" icon="ui_game_symbol_rifle" 
+		repeatable="false" category_key="challenge" offer="You will not gain inc bullets..." difficulty="easy">
+		<objective type="ZombieKill" value="1" />
+		<reward type="Item" id="explodingCrossbowBolt" value="90" />
+		<reward type="Skill" id="Archery" value="1" />	<!-- All weapon skills +7 -->
+		<reward type="Quest" id="allClasses_3survivor1" />
+	</quest>
+	<!-- allClasses_3survivor -->
+	<quest id="allClasses_3survivor1" group_name_key="allClasses_3survivor" name="Survivor rampage Quest 4/3" subtitle="Survivor rampage Challenge 4/3" description="Waste more zombies" icon="ui_game_symbol_rifle" 
+		repeatable="false" category_key="challenge" offer="You will not gain inc bullets..." difficulty="easy">
+		<objective type="ZombieKill" value="1" />
+		<reward type="Item" id="explodingCrossbowBolt" value="60" />
+		<reward type="Skill" id="Archery" value="1" />	<!-- All weapon skills +9 -->
+		<reward type="Quest" id="allClasses_3survivor2" />
+	</quest>
+	
+	<quest id="allClasses_3survivor2" group_name_key="allClasses_3survivor" name="Survivor rampage Quest 5/3" subtitle="Survivor rampage Challenge 5/3" description="Waste more zombies" icon="ui_game_symbol_rifle" 
+		repeatable="false" category_key="challenge" offer="You will not gain inc bullets..." difficulty="easy">
+		<objective type="ZombieKill" value="1" />
+		<reward type="Item" id="explodingCrossbowBolt" value="90" />
+		<reward type="Skill" id="Archery" value="1" />	<!-- All weapon skills +11 -->
+		<reward type="Quest" id="allClasses_3survivor3" />
+	</quest>
+	
+	<quest id="allClasses_3survivor3" group_name_key="allClasses_3survivor" name="Survivor rampage Quest 6/3" subtitle="Survivor rampage Challenge 6/3" description="Waste more zombies" icon="ui_game_symbol_rifle" 
+		repeatable="false" category_key="challenge" offer="You will not gain inc bullets..." difficulty="easy">
+		<objective type="ZombieKill" value="1" />
+		<reward type="Item" id="explodingCrossbowBolt" value="120" />
+		<reward type="Skill" id="Archery" value="1" />	<!-- All weapon skills +13 -->
+		<reward type="Quest" id="allClasses_4survivor1" />
+	</quest>
+	
+	<!-- allClasses_4survivor -->
+	<quest id="allClasses_4survivor1" group_name_key="allClasses_4survivor" name="Survivor bomb Quest 7/3" subtitle="Survivor bomb Challenge 7/3" description="Waste more zombies" icon="ui_game_symbol_rifle" 
+		repeatable="false" category_key="challenge" offer="Did you know about explosives ?" difficulty="easy">
+		<objective type="ZombieKill" value="1" />
+		<reward type="Item" id="genericExplBox" value="1" />
+		<reward type="Skill" id="Archery" value="1" />	<!-- All weapon skills +9 -->
+		<reward type="Quest" id="allClasses_4survivor2" />
+	</quest>
+	
+	<quest id="allClasses_4survivor2" group_name_key="allClasses_4survivor" name="Survivor bomb Quest 8/3" subtitle="Survivor bomb Challenge 8/3" description="Waste more zombies" icon="ui_game_symbol_rifle" 
+		repeatable="false" category_key="challenge" offer="Did you know about explosives ?" difficulty="easy">
+		<objective type="ZombieKill" value="1" />
+		<reward type="Item" id="genericExplBox" value="3" />
+		<reward type="Skill" id="Archery" value="1" />	<!-- All weapon skills +11 -->
+		<reward type="Quest" id="allClasses_4survivor3" />
+	</quest>
+	
+	<quest id="allClasses_4survivor3" group_name_key="allClasses_4survivor" name="Survivor bomb Quest 9/3" subtitle="Survivor bomb Challenge 9/3" description="Waste more zombies" icon="ui_game_symbol_rifle" 
+		repeatable="false" category_key="challenge" offer="Did you know about explosives ?" difficulty="easy">
+		<objective type="ZombieKill" value="1" />
+		<reward type="Item" id="genericExplBox" value="5" />
+		<reward type="Skill" id="Archery" value="1" />	<!-- All weapon skills +13 -->
+		<reward type="Quest" id="allClasses_5survivor1" />
+	</quest>
+	
+	<!-- allClasses_5survivor -->
+	<quest id="allClasses_5survivor1" group_name_key="allClasses_5survivor" name="Survivor DLX Quest 10/3" subtitle="Survivor DLX Challenge 10/3" description="Waste more zombies" icon="ui_game_symbol_rifle" 
+		repeatable="false" category_key="challenge" offer="Did you know about royal deluxe ?" difficulty="easy">
+		<objective type="ZombieKill" value="1" />
+		<reward type="Item" id="explodingCrossbowBolt" value="30" />
+		<reward type="Item" id="explodingCrossbowBolt" value="60" />
+		<reward type="Item" id="genericExplBox" value="1" />
+		<reward type="Item" id="firstAidKit" value="1" />
+		<reward type="Skill" id="Archery" value="1" />	<!-- All weapon skills +9 -->
+		<reward type="Quest" id="allClasses_5survivor2" />
+	</quest>
+	
+	<quest id="allClasses_5survivor2" group_name_key="allClasses_5survivor" name="Survivor DLX Quest 11/3" subtitle="Survivor DLX Challenge 11/3" description="Waste more zombies" icon="ui_game_symbol_rifle" 
+		repeatable="false" category_key="challenge" offer="Did you know about royal deluxe ?" difficulty="easy">
+		<objective type="ZombieKill" value="1" />
+		<reward type="Item" id="explodingCrossbowBolt" value="60" />
+		<reward type="Item" id="explodingCrossbowBolt" value="90" />
+		<reward type="Item" id="genericExplBox" value="3" />
+		<reward type="Item" id="firstAidKit" value="3" />
+		<reward type="Skill" id="Archery" value="1" />	<!-- All weapon skills +11 -->
+		<reward type="Quest" id="allClasses_5survivor3" />
+	</quest>
+	
+	<quest id="allClasses_5survivor3" group_name_key="allClasses_5survivor" name="Survivor DLX Quest 12/3" subtitle="Survivor DLX Challenge 12/3" description="Waste more zombies" icon="ui_game_symbol_rifle" 
+		repeatable="false" category_key="challenge" offer="Did you know about royal deluxe ?" difficulty="easy">
+		<objective type="ZombieKill" value="1" />
+		<reward type="Item" id="explodingCrossbowBolt" value="90" />
+		<reward type="Item" id="explodingCrossbowBolt" value="120" />
+		<reward type="Item" id="genericExplBox" value="5" />
+		<reward type="Item" id="firstAidKit" value="5" />
+		<reward type="Skill" id="Archery" value="1" />	<!-- All weapon skills +13 -->
+		<reward type="Quest" id="allClasses_6survivor1" />
+	</quest>
+	
+	<!-- allClasses_6survivor -->
+	<quest id="allClasses_6survivor1" group_name_key="allClasses_6survivor" name="Survivor WEAP Quest 13/3" subtitle="Survivor WEAP Challenge 13/3" description="Waste more zombies" icon="ui_game_symbol_rifle" 
+		repeatable="false" category_key="challenge" offer="Did you know about 400 ?" difficulty="easy">
+		<objective type="ZombieKill" value="1" />
+		<reward type="Item" id="weap400Selection" value="1" />
+		<reward type="Item" id="weap400Key" value="1" />
+		<reward type="Quest" id="allClasses_6survivor2" />
+	</quest>
+	
+	<quest id="allClasses_6survivor2" group_name_key="allClasses_6survivor" name="Survivor WEAP Quest 14/3" subtitle="Survivor WEAP Challenge 14/3" description="Waste more zombies" icon="ui_game_symbol_rifle" 
+		repeatable="false" category_key="challenge" offer="Did you know about 500 ?" difficulty="easy">
+		<objective type="ZombieKill" value="1" />
+		<reward type="Item" id="crossbow500Selection" value="1" />
+		<reward type="Item" id="crossbow500Key" value="1" />
+		<reward type="Quest" id="allClasses_6survivor3" />
+	</quest>
+	
+	<quest id="allClasses_6survivor3" group_name_key="allClasses_6survivor" name="Survivor WEAP Quest 15/3" subtitle="Survivor WEAP Challenge 15/3" description="Waste more zombies" icon="ui_game_symbol_rifle" 
+		repeatable="false" category_key="challenge" offer="Did you know about 600 ?" difficulty="easy">
+		<objective type="ZombieKill" value="1" />
+		<reward type="Item" id="crossbow600Selection" value="1" />
+		<reward type="Item" id="crossbow600Key" value="1" />
 	</quest>
 	<!-- /frenchFrogMOD -->
 	

@@ -10,7 +10,7 @@
 	<!-- A15: 8000 XP for level 1 and 134k for level 199, total cumulative of 9MXP; XPRequired = exp_to_level * experience_multiplier ^ level -->
 	<!-- A16: 8300 XP for level 1, total cumulative of 11MXP -->
 	<!-- valmod - kevin : 8300 XP for level 1, total cumulative of more power, please bitch :p -->
-	<!-- MCO : max_level : 200 -> 400 20180515 kdelorme -->
+	<!--  max_level : 200 -> 400 20180515 frenchFrogMOD -->
 
 <skills
 	max_level="200"
@@ -20,7 +20,7 @@
 	skill_point_cost_per_level="1" >
 	<!-- these are defaults and can be used to modify individual skills as needed -->
 	<!-- if skill_point_cost_multiplier > 0 then PointCostPerLevel = int(SkillPointCostMultiplier ^ currentTier) * SkillPointCostPerLevel -->
-	<!-- MCO : max_level : 100 -> 200 20180515 kdelorme -->
+	<!--  max_level : 100 -> 200 20180515 frenchFrogMOD -->
 
 	<!-- Player Skills -->
 	<player_skill name="Athletics" icon="run" description_key="athleticsDesc" title_key="athletics" exp_to_level="500" group="health" >
@@ -33,8 +33,8 @@
 			<multiply skill_level="32,49" value="0.82,0.77"/>
 			<multiply skill_level="49,70" value="0.77,0.72"/>
 			<multiply skill_level="70,100" value="0.72,0.66"/>
-			<multiply skill_level="100,140" value="0.66,0.50"/> <!-- MCO : added 20180515 kdelorme -->
-			<multiply skill_level="140,200" value="0.50,0.30"/> <!-- MCO : added 20180515 | corrected 20180516 kdelorme -->
+			<multiply skill_level="100,140" value="0.66,0.50"/> <!-- added 20180515 frenchFrogMOD -->
+			<multiply skill_level="140,200" value="0.50,0.30"/> <!-- added 20180515 | corrected 20180516 frenchFrogMOD -->
 		</effect>
 		<effect name="BreathHoldDuration">
 			<setvalue skill_level="1,10" value="20,27"/>
@@ -47,16 +47,16 @@
 			<setvalue skill_level="70,80" value="51,54"/>
 			<setvalue skill_level="80,90" value="54,57"/>
 			<setvalue skill_level="90,100" value="57,60"/>
-			<setvalue skill_level="100,110" value="60,64"/> <!-- MCO : added 20180515 kdelorme -->
-			<setvalue skill_level="110,120" value="64,67"/> <!-- MCO : added 20180515 kdelorme -->
-			<setvalue skill_level="120,130" value="67,71"/> <!-- MCO : added 20180515 kdelorme -->
-			<setvalue skill_level="130,140" value="71,74"/> <!-- MCO : added 20180515 kdelorme -->
-			<setvalue skill_level="140,150" value="74,77"/> <!-- MCO : added 20180515 kdelorme -->
-			<setvalue skill_level="150,160" value="77,80"/> <!-- MCO : added 20180515 kdelorme -->
-			<setvalue skill_level="160,170" value="80,84"/> <!-- MCO : added 20180515 kdelorme -->
-			<setvalue skill_level="170,180" value="84,87"/> <!-- MCO : added 20180515 kdelorme -->
-			<setvalue skill_level="180,190" value="87,92"/> <!-- MCO : added 20180515 kdelorme -->
-			<setvalue skill_level="190,200" value="92,96"/> <!-- MCO : added 20180515 kdelorme -->
+			<setvalue skill_level="100,110" value="60,64"/> <!-- added 20180515 frenchFrogMOD -->
+			<setvalue skill_level="110,120" value="64,67"/> <!-- added 20180515 frenchFrogMOD -->
+			<setvalue skill_level="120,130" value="67,71"/> <!-- added 20180515 frenchFrogMOD -->
+			<setvalue skill_level="130,140" value="71,74"/> <!-- added 20180515 frenchFrogMOD -->
+			<setvalue skill_level="140,150" value="74,77"/> <!-- added 20180515 frenchFrogMOD -->
+			<setvalue skill_level="150,160" value="77,80"/> <!-- added 20180515 frenchFrogMOD -->
+			<setvalue skill_level="160,170" value="80,84"/> <!-- added 20180515 frenchFrogMOD -->
+			<setvalue skill_level="170,180" value="84,87"/> <!-- added 20180515 frenchFrogMOD -->
+			<setvalue skill_level="180,190" value="87,92"/> <!-- added 20180515 frenchFrogMOD -->
+			<setvalue skill_level="190,200" value="92,96"/> <!-- added 20180515 frenchFrogMOD -->
 		</effect>
 	</player_skill>
 <!-- always_fire="true" : If a perk has requirements then it MAY not always fire correctly if/when/because it's not called in conjunction with a skill. This flag skips the particular bit of code. -->
@@ -111,16 +111,16 @@
 			<multiply skill_level="70,80" value="0.37,0.33"/>
 			<multiply skill_level="80,90" value="0.33,0.29"/>
 			<multiply skill_level="90,100" value="0.29,0.25"/>
-			<multiply skill_level="100,110" value="0.25,0.22"/> <!-- MCO : added 20180516 kdelorme -->
-			<multiply skill_level="110,120" value="0.22,0.19"/> <!-- MCO : added 20180516 kdelorme -->
-			<multiply skill_level="120,130" value="0.19,0.16"/> <!-- MCO : added 20180516 kdelorme -->
-			<multiply skill_level="130,140" value="0.16,0.14"/> <!-- MCO : added 20180516 kdelorme -->
-			<multiply skill_level="140,150" value="0.14,0.12"/> <!-- MCO : added 20180516 kdelorme -->
-			<multiply skill_level="150,160" value="0.12,0.10"/> <!-- MCO : added 20180516 kdelorme -->
-			<multiply skill_level="160,170" value="0.10,0.09"/> <!-- MCO : added 20180516 kdelorme -->
-			<multiply skill_level="170,180" value="0.09,0.08"/> <!-- MCO : added 20180516 kdelorme -->
-			<multiply skill_level="180,190" value="0.08,0.07"/> <!-- MCO : added 20180516 kdelorme -->
-			<multiply skill_level="190,200" value="0.07,0.06"/> <!-- MCO : added 20180516 kdelorme -->
+			<multiply skill_level="100,110" value="0.25,0.22"/> <!-- added 20180516 frenchFrogMOD -->
+			<multiply skill_level="110,120" value="0.22,0.19"/> <!-- added 20180516 frenchFrogMOD -->
+			<multiply skill_level="120,130" value="0.19,0.16"/> <!-- added 20180516 frenchFrogMOD -->
+			<multiply skill_level="130,140" value="0.16,0.14"/> <!-- added 20180516 frenchFrogMOD -->
+			<multiply skill_level="140,150" value="0.14,0.12"/> <!-- added 20180516 frenchFrogMOD -->
+			<multiply skill_level="150,160" value="0.12,0.10"/> <!-- added 20180516 frenchFrogMOD -->
+			<multiply skill_level="160,170" value="0.10,0.09"/> <!-- added 20180516 frenchFrogMOD -->
+			<multiply skill_level="170,180" value="0.09,0.08"/> <!-- added 20180516 frenchFrogMOD -->
+			<multiply skill_level="180,190" value="0.08,0.07"/> <!-- added 20180516 frenchFrogMOD -->
+			<multiply skill_level="190,200" value="0.07,0.06"/> <!-- added 20180516 frenchFrogMOD -->
 		</effect>
 		<effect name="LootQuality">
 			<add skill_level="1,5" value="1,8"/>
@@ -130,8 +130,8 @@
 			<add skill_level="32,49" value="26,34"/>
 			<add skill_level="49,70" value="34,41"/>
 			<add skill_level="70,100" value="41,50"/>
-			<add skill_level="100,140" value="50,59"/> <!-- MCO : added 20180516 kdelorme -->
-			<add skill_level="140,200" value="59,70"/> <!-- MCO : added 20180516 kdelorme -->
+			<add skill_level="100,140" value="50,59"/> <!-- added 20180516 frenchFrogMOD -->
+			<add skill_level="140,200" value="59,70"/> <!-- added 20180516 frenchFrogMOD -->
 		</effect>
 	</player_skill>
 
@@ -180,8 +180,8 @@
 			<add skill_level="32,49" value="0.1,0.13"/>
 			<add skill_level="49,70" value="0.13,0.16"/>
 			<add skill_level="70,100" value="0.16,0.2"/>
-			<add skill_level="100,140" value="0.2,0.25"/> <!-- MCO : added 20180516 kdelorme -->
-			<add skill_level="140,200" value="0.25,0.31"/> <!-- MCO : added 20180516 kdelorme -->
+			<add skill_level="100,140" value="0.2,0.25"/> <!-- added 20180516 frenchFrogMOD -->
+			<add skill_level="140,200" value="0.25,0.31"/> <!-- added 20180516 frenchFrogMOD -->
 		</effect>
 		</action_skill>
 
@@ -195,12 +195,12 @@
 			<multiply skill_level="32,49" value="1.14,1.19"/>
 			<multiply skill_level="49,70" value="1.19,1.23"/>
 			<multiply skill_level="70,100" value="1.23,1.28"/>
-			<multiply skill_level="100,140" value="1.28,1.34"/> <!-- MCO : added 20180516 kdelorme -->
-			<multiply skill_level="140,200" value="1.34,1.41"/> <!-- MCO : added 20180516 kdelorme -->
+			<multiply skill_level="100,140" value="1.28,1.34"/> <!-- added 20180516 frenchFrogMOD -->
+			<multiply skill_level="140,200" value="1.34,1.41"/> <!-- added 20180516 frenchFrogMOD -->
 		</effect>
 		<effect name="HarvestCount">
 			<multiply skill_level="1,100" value="0,0"/>
-			<multiply skill_level="100,200" value="0,0"/> <!-- MCO : added 20180516 kdelorme -->
+			<multiply skill_level="100,200" value="0,0"/> <!-- added 20180516 frenchFrogMOD -->
 		</effect>
 	</action_skill>
 
@@ -254,8 +254,8 @@
 			<multiply skill_level="32,49" value="1.14,1.19"/>
 			<multiply skill_level="49,70" value="1.19,1.23"/>
 			<multiply skill_level="70,100" value="1.23,1.28"/>
-			<multiply skill_level="100,140" value="1.28,1.34"/> <!-- MCO : added 20180516 kdelorme -->
-			<multiply skill_level="140,200" value="1.34,1.41"/> <!-- MCO : added 20180516 kdelorme -->
+			<multiply skill_level="100,140" value="1.28,1.34"/> <!-- added 20180516 frenchFrogMOD -->
+			<multiply skill_level="140,200" value="1.34,1.41"/> <!-- added 20180516 frenchFrogMOD -->
 		</effect>
 		<recipe name="scythe" unlock_level="50"/>
 	</action_skill>
@@ -317,16 +317,16 @@
 			<multiply skill_level="70,80" value="1.84,1.89"/>
 			<multiply skill_level="80,90" value="1.89,1.95"/>
 			<multiply skill_level="90,100" value="1.95,2.00"/>
-			<multiply skill_level="100,110" value="2.00,2.05"/> <!-- MCO : added 20180516 kdelorme -->
-			<multiply skill_level="110,120" value="2.05,2.10"/> <!-- MCO : added 20180516 kdelorme -->
-			<multiply skill_level="120,130" value="2.10,2.14"/> <!-- MCO : added 20180516 kdelorme -->
-			<multiply skill_level="130,140" value="2.14,2.18"/> <!-- MCO : added 20180516 kdelorme -->
-			<multiply skill_level="140,150" value="2.18,2.21"/> <!-- MCO : added 20180516 kdelorme -->
-			<multiply skill_level="150,160" value="2.21,2.24"/> <!-- MCO : added 20180516 kdelorme -->
-			<multiply skill_level="160,170" value="2.24,2.26"/> <!-- MCO : added 20180516 kdelorme -->
-			<multiply skill_level="170,180" value="2.26,2.28"/> <!-- MCO : added 20180516 kdelorme -->
-			<multiply skill_level="180,190" value="2.28,2.29"/> <!-- MCO : added 20180516 kdelorme -->
-			<multiply skill_level="190,200" value="2.29,2.30"/> <!-- MCO : added 20180516 kdelorme -->
+			<multiply skill_level="100,110" value="2.00,2.05"/> <!-- added 20180516 frenchFrogMOD -->
+			<multiply skill_level="110,120" value="2.05,2.10"/> <!-- added 20180516 frenchFrogMOD -->
+			<multiply skill_level="120,130" value="2.10,2.14"/> <!-- added 20180516 frenchFrogMOD -->
+			<multiply skill_level="130,140" value="2.14,2.18"/> <!-- added 20180516 frenchFrogMOD -->
+			<multiply skill_level="140,150" value="2.18,2.21"/> <!-- added 20180516 frenchFrogMOD -->
+			<multiply skill_level="150,160" value="2.21,2.24"/> <!-- added 20180516 frenchFrogMOD -->
+			<multiply skill_level="160,170" value="2.24,2.26"/> <!-- added 20180516 frenchFrogMOD -->
+			<multiply skill_level="170,180" value="2.26,2.28"/> <!-- added 20180516 frenchFrogMOD -->
+			<multiply skill_level="180,190" value="2.28,2.29"/> <!-- added 20180516 frenchFrogMOD -->
+			<multiply skill_level="190,200" value="2.29,2.30"/> <!-- added 20180516 frenchFrogMOD -->
 		</effect>
 	</action_skill>
 
@@ -375,16 +375,16 @@
 			<multiply skill_level="70,80" value="1.84,1.89"/>
 			<multiply skill_level="80,90" value="1.89,1.95"/>
 			<multiply skill_level="90,100" value="1.95,2.00"/>
-			<multiply skill_level="100,110" value="2.00,2.05"/> <!-- MCO : added 20180516 kdelorme -->
-			<multiply skill_level="110,120" value="2.05,2.10"/> <!-- MCO : added 20180516 kdelorme -->
-			<multiply skill_level="120,130" value="2.10,2.14"/> <!-- MCO : added 20180516 kdelorme -->
-			<multiply skill_level="130,140" value="2.14,2.18"/> <!-- MCO : added 20180516 kdelorme -->
-			<multiply skill_level="140,150" value="2.18,2.21"/> <!-- MCO : added 20180516 kdelorme -->
-			<multiply skill_level="150,160" value="2.21,2.24"/> <!-- MCO : added 20180516 kdelorme -->
-			<multiply skill_level="160,170" value="2.24,2.26"/> <!-- MCO : added 20180516 kdelorme -->
-			<multiply skill_level="170,180" value="2.26,2.28"/> <!-- MCO : added 20180516 kdelorme -->
-			<multiply skill_level="180,190" value="2.28,2.29"/> <!-- MCO : added 20180516 kdelorme -->
-			<multiply skill_level="190,200" value="2.29,2.30"/> <!-- MCO : added 20180516 kdelorme -->
+			<multiply skill_level="100,110" value="2.00,2.05"/> <!-- added 20180516 frenchFrogMOD -->
+			<multiply skill_level="110,120" value="2.05,2.10"/> <!-- added 20180516 frenchFrogMOD -->
+			<multiply skill_level="120,130" value="2.10,2.14"/> <!-- added 20180516 frenchFrogMOD -->
+			<multiply skill_level="130,140" value="2.14,2.18"/> <!-- added 20180516 frenchFrogMOD -->
+			<multiply skill_level="140,150" value="2.18,2.21"/> <!-- added 20180516 frenchFrogMOD -->
+			<multiply skill_level="150,160" value="2.21,2.24"/> <!-- added 20180516 frenchFrogMOD -->
+			<multiply skill_level="160,170" value="2.24,2.26"/> <!-- added 20180516 frenchFrogMOD -->
+			<multiply skill_level="170,180" value="2.26,2.28"/> <!-- added 20180516 frenchFrogMOD -->
+			<multiply skill_level="180,190" value="2.28,2.29"/> <!-- added 20180516 frenchFrogMOD -->
+			<multiply skill_level="190,200" value="2.29,2.30"/> <!-- added 20180516 frenchFrogMOD -->
 		</effect>
 	</action_skill>
 	<perk name="Workbench" icon="resource" description_key="workbenchSkillDesc" title_key="workbench" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="tools">
@@ -446,8 +446,8 @@
 			<multiply skill_level="32,49" value="1.14,1.19"/>
 			<multiply skill_level="49,70" value="1.19,1.23"/>
 			<multiply skill_level="70,100" value="1.23,1.28"/>
-			<multiply skill_level="100,140" value="1.28,1.34"/> <!-- MCO : added 20180516 kdelorme -->
-			<multiply skill_level="140,200" value="1.34,1.41"/> <!-- MCO : added 20180516 kdelorme -->
+			<multiply skill_level="100,140" value="1.28,1.34"/> <!-- added 20180516 frenchFrogMOD -->
+			<multiply skill_level="140,200" value="1.34,1.41"/> <!-- added 20180516 frenchFrogMOD -->
 		</effect>
 	</action_skill>
 	<perk name="The Outlaw" icon="pistol" description_key="theOutlawDesc" title_key="theOutlaw" max_level="5" skill_point_cost_multiplier="1.43" skill_point_cost_per_level="5" group="firearms">
@@ -485,8 +485,8 @@
 			<multiply skill_level="32,49" value="1.14,1.19"/>
 			<multiply skill_level="49,70" value="1.19,1.23"/>
 			<multiply skill_level="70,100" value="1.23,1.28"/>
-			<multiply skill_level="100,140" value="1.28,1.34"/> <!-- MCO : added 20180516 kdelorme -->
-			<multiply skill_level="140,200" value="1.34,1.41"/> <!-- MCO : added 20180516 kdelorme -->
+			<multiply skill_level="100,140" value="1.28,1.34"/> <!-- added 20180516 frenchFrogMOD -->
+			<multiply skill_level="140,200" value="1.34,1.41"/> <!-- added 20180516 frenchFrogMOD -->
 		</effect>
 	</action_skill>
 	<perk name="Boom Stick" icon="shotgun" description_key="boomStickDesc" title_key="boomStick" max_level="5" skill_point_cost_multiplier="1.43" skill_point_cost_per_level="5" group="firearms">
@@ -526,8 +526,8 @@
 			<multiply skill_level="32,49" value="1.14,1.19"/>
 			<multiply skill_level="49,70" value="1.19,1.23"/>
 			<multiply skill_level="70,100" value="1.23,1.28"/>
-			<multiply skill_level="100,140" value="1.28,1.34"/> <!-- MCO : added 20180516 kdelorme -->
-			<multiply skill_level="140,200" value="1.34,1.41"/> <!-- MCO : added 20180516 kdelorme -->
+			<multiply skill_level="100,140" value="1.28,1.34"/> <!-- added 20180516 frenchFrogMOD -->
+			<multiply skill_level="140,200" value="1.34,1.41"/> <!-- added 20180516 frenchFrogMOD -->
 		</effect>
 	</action_skill>
 	<perk name="Better Lead Than Dead" icon="rifle" description_key="betterLeadThanDeadDesc" title_key="betterLeadThanDead" max_level="5" skill_point_cost_multiplier="1.43" skill_point_cost_per_level="5" group="firearms">
@@ -554,8 +554,8 @@
 			<multiply skill_level="32,49" value="1.14,1.19"/>
 			<multiply skill_level="49,70" value="1.19,1.23"/>
 			<multiply skill_level="70,100" value="1.23,1.28"/>
-			<multiply skill_level="100,140" value="1.28,1.34"/> <!-- MCO : added 20180516 kdelorme -->
-			<multiply skill_level="140,200" value="1.34,1.41"/> <!-- MCO : added 20180516 kdelorme -->
+			<multiply skill_level="100,140" value="1.28,1.34"/> <!-- added 20180516 frenchFrogMOD -->
+			<multiply skill_level="140,200" value="1.34,1.41"/> <!-- added 20180516 frenchFrogMOD -->
 		</effect>
 	</action_skill>
 
@@ -583,16 +583,16 @@
 			<multiply skill_level="70,80" value="1.84,1.89"/>
 			<multiply skill_level="80,90" value="1.89,1.95"/>
 			<multiply skill_level="90,100" value="1.95,2.00"/>
-			<multiply skill_level="100,110" value="2.00,2.05"/> <!-- MCO : added 20180516 kdelorme -->
-			<multiply skill_level="110,120" value="2.05,2.10"/> <!-- MCO : added 20180516 kdelorme -->
-			<multiply skill_level="120,130" value="2.10,2.14"/> <!-- MCO : added 20180516 kdelorme -->
-			<multiply skill_level="130,140" value="2.14,2.18"/> <!-- MCO : added 20180516 kdelorme -->
-			<multiply skill_level="140,150" value="2.18,2.21"/> <!-- MCO : added 20180516 kdelorme -->
-			<multiply skill_level="150,160" value="2.21,2.24"/> <!-- MCO : added 20180516 kdelorme -->
-			<multiply skill_level="160,170" value="2.24,2.26"/> <!-- MCO : added 20180516 kdelorme -->
-			<multiply skill_level="170,180" value="2.26,2.28"/> <!-- MCO : added 20180516 kdelorme -->
-			<multiply skill_level="180,190" value="2.28,2.29"/> <!-- MCO : added 20180516 kdelorme -->
-			<multiply skill_level="190,200" value="2.29,2.30"/> <!-- MCO : added 20180516 kdelorme -->
+			<multiply skill_level="100,110" value="2.00,2.05"/> <!-- added 20180516 frenchFrogMOD -->
+			<multiply skill_level="110,120" value="2.05,2.10"/> <!-- added 20180516 frenchFrogMOD -->
+			<multiply skill_level="120,130" value="2.10,2.14"/> <!-- added 20180516 frenchFrogMOD -->
+			<multiply skill_level="130,140" value="2.14,2.18"/> <!-- added 20180516 frenchFrogMOD -->
+			<multiply skill_level="140,150" value="2.18,2.21"/> <!-- added 20180516 frenchFrogMOD -->
+			<multiply skill_level="150,160" value="2.21,2.24"/> <!-- added 20180516 frenchFrogMOD -->
+			<multiply skill_level="160,170" value="2.24,2.26"/> <!-- added 20180516 frenchFrogMOD -->
+			<multiply skill_level="170,180" value="2.26,2.28"/> <!-- added 20180516 frenchFrogMOD -->
+			<multiply skill_level="180,190" value="2.28,2.29"/> <!-- added 20180516 frenchFrogMOD -->
+			<multiply skill_level="190,200" value="2.29,2.30"/> <!-- added 20180516 frenchFrogMOD -->
 		</effect>
 		<recipe name="healingAgent" unlock_level="15"/>
 		<recipe name="drinkHealth" unlock_level="15"/>
@@ -1203,16 +1203,16 @@
 			<add skill_level="70,80" value="0.48,0.52"/>
 			<add skill_level="80,90" value="0.52,0.56"/>
 			<add skill_level="90,100" value="0.56,0.60"/>
-			<add skill_level="100,110" value="0.60,0.64"/> <!-- MCO : added 20180516 kdelorme -->
-			<add skill_level="110,120" value="0.64,0.67"/> <!-- MCO : added 20180516 kdelorme -->
-			<add skill_level="120,130" value="0.67,0.70"/> <!-- MCO : added 20180516 kdelorme -->
-			<add skill_level="130,140" value="0.70,0.73"/> <!-- MCO : added 20180516 kdelorme -->
-			<add skill_level="140,150" value="0.73,0.75"/> <!-- MCO : added 20180516 kdelorme -->
-			<add skill_level="150,160" value="0.75,0.77"/> <!-- MCO : added 20180516 kdelorme -->
-			<add skill_level="160,170" value="0.77,0.79"/> <!-- MCO : added 20180516 kdelorme -->
-			<add skill_level="170,180" value="0.79,0.80"/> <!-- MCO : added 20180516 kdelorme -->
-			<add skill_level="180,190" value="0.80,0.81"/> <!-- MCO : added 20180516 kdelorme -->
-			<add skill_level="190,200" value="0.81,0.82"/> <!-- MCO : added 20180516 kdelorme -->
+			<add skill_level="100,110" value="0.60,0.64"/> <!-- added 20180516 frenchFrogMOD -->
+			<add skill_level="110,120" value="0.64,0.67"/> <!-- added 20180516 frenchFrogMOD -->
+			<add skill_level="120,130" value="0.67,0.70"/> <!-- added 20180516 frenchFrogMOD -->
+			<add skill_level="130,140" value="0.70,0.73"/> <!-- added 20180516 frenchFrogMOD -->
+			<add skill_level="140,150" value="0.73,0.75"/> <!-- added 20180516 frenchFrogMOD -->
+			<add skill_level="150,160" value="0.75,0.77"/> <!-- added 20180516 frenchFrogMOD -->
+			<add skill_level="160,170" value="0.77,0.79"/> <!-- added 20180516 frenchFrogMOD -->
+			<add skill_level="170,180" value="0.79,0.80"/> <!-- added 20180516 frenchFrogMOD -->
+			<add skill_level="180,190" value="0.80,0.81"/> <!-- added 20180516 frenchFrogMOD -->
+			<add skill_level="190,200" value="0.81,0.82"/> <!-- added 20180516 frenchFrogMOD -->
 		</effect>
 		<recipe name="workstationMerchant" unlock_level="20"/>
 		<recipe name="workstationQuest" unlock_level="20"/>

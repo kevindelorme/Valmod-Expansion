@@ -48,12 +48,16 @@ This is a fork of the Valmod Pack - Expansion Edition.
 
 2. New classes : (OK)
  - Spy (OK)
+	- suitcase (OK)
+	- challenges (NOK)
  - Farmer (OK)
-	- Farmer suitcase need a complete redesign (change fruits with seeds !)
- - Others (example : Thug, Nudist, etc...)
+	- suitcase (OK)
+	- challenges (NOK)
+ - Others (example : Thug, Nudist, etc...) (NOK)
 
 3. New challenges : (in progress, NOK)
  - Valmod Classes Callenges modifications (NOK)
+	- Survivor questline : ZombieKill set to 1 for testing purposes
  - New classes specifics challenges
 	- Spy (NOK)
 		- objectives : Lockpicking, ZombieKill (NOK)
@@ -89,46 +93,53 @@ This is a fork of the Valmod Pack - Expansion Edition.
 			2. weap500Key + weap500Selection (OK)
 			3. weap600Key + weap600Selection (OK)
 		- working but ZombieKill set to 1 for testing purposes
- - New Survivor challenges - ONLY GIVE THIS QUESTLINE TO SURVIVOR CLASS - (NOK)
-	- stage 2, 3 steps : allClasses_2survivor1->3 (NOK)
+ - New Survivor challenges - ONLY GIVE THIS QUESTLINE TO SURVIVOR CLASS - (in progress)
+	- stage 2, 3 steps : allClasses_2survivor1->3 (in progress)
 		- objectives : ZombieKill / survivor class crossbow only allowed 
 		- rewards : explodingCrossbowBolt (OK) *20 - *50 - *80 (NOK)
-		- not implemented yet
-	- stage 3, 3 steps : allClasses_3survivor1->3 (NOK)
+		- working but ZombieKill set to 1 for testing purposes
+	- stage 3, 3 steps : allClasses_3survivor1->3 (in progress)
 		- objectives : ZombieKill / survivor class crossbow only allowed 
 		- rewards : explodingCrossbowBolt (OK) *110 - *140 - *170 (NOK)
-		- not implemented yet
-	- stage 4, 3 steps : allClasses_4survivor1->3 (NOK)
+		- working but ZombieKill set to 1 for testing purposes
+	- stage 4, 3 steps : allClasses_4survivor1->3 (in progress)
 		- objectives : ZombieKill / survivor class crossbow only allowed 
 		- rewards : explodingCrossbowBolt (OK) *200 - *230 - *260 (NOK)
-		- not implemented yet
-	- stage 5, 3 steps : allClasses_5survivor1->3 (NOK)
+		- working but ZombieKill set to 1 for testing purposes
+	- stage 5, 3 steps : allClasses_5survivor1->3 (in progress)
 		- objectives : ZombieKill / survivor class crossbow only allowed 
 		- rewards : explodingCrossbowBolt (OK) *290 - *320 - *350 (NOK)
 		- rewards : genericExplBox (OK) *1 - *3 - *5 (NOK)
 		- rewards : firstAidKit (OK) *1 - *3 - *5 (NOK)
-		- not implemented yet
-	- stage 6, 3 steps : allClasses_6survivor1->3 (NOK)
+		- working but ZombieKill set to 1 for testing purposes
+	- stage 6, 3 steps : allClasses_6survivor1->3 (in progress)
 		- objectives : ZombieKill / survivor class crossbow only allowed 
-		- rewards : crossbowKey + crossbowSelection (OK)
+		- rewards : 
 			1. crossbow400Key + crossbow400Selection (OK)
 			2. crossbow500Key + crossbow500Selection (OK)
 			3. crossbow600Key + crossbow600Selection (OK)
 		- not implemented yet
  - PvP challenges. (NOK)
-	- did not find the "PlayerKill" objective equivalent of "ZombieKill"
+	- did not find a "PlayerKill" objective equivalent of "ZombieKill"
 	- this mod may involve reverse engineering, SDX, and DLL modifications
 		- EAC must be disabled in that case
+	- rewards : ammoBoxes, firstAidKit, repairKit
+	- objective : PlayerKill == 1 then PlayerKill == 2*PlayerKill :)
 
 
 4. Loot more bullets to create a more PvP flavoured mod. (NOK)
  - The game take's place inside an USA similar country you're supposed to loot a lot of firearms and bullets
 
-5. Edit the blood moon mechanics in order to modify the 7 days delay to 28 days. (NOK)
+5. Edit the blood moon mechanics in order to modify the 7 days delay to 28 days (later, nice movie). (NOK)
 6. Add an Haloween ultra hardcore h24 blood moon on day 666. (NOK)
 7. Add a "Baguette" (bread) weapon (and also a white flag lol) because I'm french. (NOK)
 8. Add a "Maple Syrup" item (similar with honey) because I do love Québec. (NOK)
 9. The blood moon white flag/baguette nude run survival challenge ! - floor level >= -1 (NOK)
+	- objective : you have to run 1 minute (in real life time) holding the white flag or the baguette item without armor or clothes at floor level >= -1 during a blood moon.
+	- reward : if you don't die you gain boxes.
+		- holding baguette : you also gain $$.
+		- holding white flag : if another player kills you, he does not gain "PlayerKill" +1.
+	- repeatable
 10. Misc : I also may translate the mod to french. (NOK)
 
  - I work with Notepad++, Gimp, Github Desktop and MobaXTerm on a MS Windows 10 x64 PC.

@@ -3673,15 +3673,12 @@
         <item name="gunHuntingRifle" count="1" quality="180,180"/>
         <item name="762mmBullet" count="32"/>
         <item name="repairKit" count="4"/>
-        <item name="foodYuccaFruit" count="4"/>
-        <item name="potato" count="4"/>
-        <item name="mushrooms" count="8"/>
-        <item name="dirtFragment" count="4"/>
-        <item name="hopsFlower" count="4"/>
-        <item name="coffeeBeans" count="4"/>
-        <item name="Wheat" count="4"/>
+        <item name="plantedYucca1" count="4"/>
+        <item name="plantedPotato1" count="4"/>
+        <item name="plantedMushroom1" count="4"/>
+        <item name="plantedHop1" count="4"/>
+        <item name="seedWheat" count="4"/>
         <item name="fertilizer" count="4"/>
-		<item name="beerBook" count="1"/>
 		<item name="challengeClassFarmer" count="1"/>
 		<!-- <item name="challengeClassPVP" count="1"/> -->
 		<item name="perkFarmer" count="1"/>
